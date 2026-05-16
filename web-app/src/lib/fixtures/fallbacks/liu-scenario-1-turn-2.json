@@ -1,0 +1,150 @@
+{
+  "conversation": {
+    "turn_type": "confirmation_request",
+    "body": "I've arranged pu-erh on your terrace at 8:15 — only if you wake to it. Approve?",
+    "consent_required": true,
+    "expected_response_shape": "yes_no"
+  },
+  "intake": {
+    "parsed_intents": [
+      {
+        "intent": "request_quiet_plan",
+        "detail": "Plan it. Quiet."
+      }
+    ],
+    "extracted_entities": {
+      "wants_proactive_plan": true,
+      "register_preference": "quiet"
+    },
+    "profile_gaps": [
+      "birth_date",
+      "origin"
+    ],
+    "routing_hint": [
+      "cultural_reasoning",
+      "composition",
+      "action_routing"
+    ]
+  },
+  "profile": {
+    "guest_id": "liu",
+    "cultural_lens": "East Asian contemplative",
+    "current_phase": "Water",
+    "family": [
+      {
+        "relation": "spouse",
+        "name": "Mr. Liu",
+        "notes": "Husband, Mandarin-preferred."
+      }
+    ],
+    "history_summary": "Mrs. Liu has now invited proactive planning, with explicit preference for a quiet register.",
+    "consent_state": {
+      "name": "given",
+      "stay_intent": "given",
+      "occasion": "given",
+      "family.spouse": "given",
+      "cultural_lens": "inferred",
+      "current_phase": "inferred",
+      "proactive_messages": "given",
+      "quiet_register": "given"
+    },
+    "pace_tag": "1 activity / half-day",
+    "occasion": "25th anniversary",
+    "prior_stay_count": 0
+  },
+  "property": {
+    "availability": [
+      {
+        "service": "In-room dining",
+        "status": "open",
+        "lead_time_minutes": 12,
+        "notes": "Aged pu-erh ready; setup window confirmed for 08:15."
+      },
+      {
+        "service": "Garden — main lawn and water feature",
+        "status": "open",
+        "notes": "Water feature scheduled clean 07:30; quietest 7–9am."
+      },
+      {
+        "service": "Madera (signature restaurant)",
+        "status": "open",
+        "lead_time_minutes": 30,
+        "notes": "Private terrace held Sunday PM pending confirmation."
+      }
+    ],
+    "seasonal_context": "Late-spring coastal fog; oak quiet at dawn; warming through midday.",
+    "cultural_resources": [
+      {
+        "label": "Aged pu-erh in stock",
+        "detail": "2018 raw and 2010 cooked; pot warmed at service."
+      },
+      {
+        "label": "Garden water feature",
+        "detail": "Cleaned 7:30; the quietest hour at the property."
+      }
+    ],
+    "known_gaps": [],
+    "window_note": "garden quiet 7–9am"
+  },
+  "cultural": {
+    "recommendation": "Saturday opens with aged pu-erh on the R412 terrace at 8:15, the fog still low, the garden waiting empty afterward. Madera private terrace held for Sunday evening — the anniversary itself, given its own quiet stage.",
+    "cultural_reasoning": "The guest has confirmed quiet as her register, which seals Water phase as the right read. The Hangzhou ↔ Sand Hill fog echo lets the pu-erh do the cultural work — no further explanation owed. Holding Madera for Sunday rather than Saturday lets the morning belong to the two of them on terrace, undivided. The 'when you wake to it' framing preserves consent and respects the long marriage at rest.",
+    "alternative_if_context_shifts": "If fog lifts unexpectedly fast, the garden walk slips earlier (8:30) and the tea waits on the terrace warm.",
+    "emotional_arc_note": "Long marriage at rest — the morning is not for us to fill.",
+    "avoidance_applied": [
+      "no celebrate / discover framing",
+      "no Western breakfast default",
+      "no probing follow-up question",
+      "no famous-sight chasing"
+    ]
+  },
+  "composition": {
+    "final_recommendation": "Saturday plan: aged pu-erh tea service on R412 private terrace at 08:15, doors open 08:00, garden water feature confirmed 07:30. Madera private terrace held for Sunday PM, time to be confirmed later. Companion asks Mrs. Liu's approval before any action goes live; on approval, tasks dispatch.",
+    "guest_facing_body": "I've arranged pu-erh on your terrace at 8:15 — only if you wake to it. Approve?",
+    "consent_required": true,
+    "is_welcome_gate_passed": true,
+    "gate_notes": "Guest explicitly requested quiet plan; offer is exactly the cultural ideal with availability confirmed."
+  },
+  "actions": {
+    "routed_tasks": [
+      {
+        "staff_team": "in_room_dining",
+        "task": "Stage aged pu-erh service for two on R412 private terrace at 08:15. Pot and gaiwan; second pot of hot water on stand.",
+        "cultural_context": "She is returning home together with him, not visiting California — pour the tea, leave them be.",
+        "due_by": "08:15",
+        "source_decision_id": "dec_liu_fallback_turn2"
+      },
+      {
+        "staff_team": "housekeeping",
+        "task": "Open R412 terrace doors at 08:00; set fog heater; lay tea linen and a small sprig of bay laurel.",
+        "cultural_context": "Quiet entry. Do not double-knock; if no response, return at 08:30.",
+        "due_by": "08:00",
+        "source_decision_id": "dec_liu_fallback_turn2"
+      },
+      {
+        "staff_team": "concierge",
+        "task": "Brief Saturday AM staff: R412 anniversary couple, garden-quiet preferred, no group offers. Hold Madera private terrace Sun PM pending confirmation.",
+        "cultural_context": "Mandarin-preferred household. Route Mei Tanaka if available.",
+        "due_by": "06:30",
+        "source_decision_id": "dec_liu_fallback_turn2"
+      },
+      {
+        "staff_team": "garden",
+        "task": "Confirm water feature cleaned and running by 07:30; check path R412 → main lawn for fog-slick stone.",
+        "cultural_context": "She may walk between 8:45 and 9:00; the empty garden is the entire point.",
+        "due_by": "07:30",
+        "source_decision_id": "dec_liu_fallback_turn2"
+      }
+    ]
+  },
+  "sequence": [
+    "intake",
+    "profile",
+    "property",
+    "cultural",
+    "composition",
+    "actions"
+  ],
+  "decision_id": "dec_liu_fallback_turn2",
+  "source": "fallback"
+}

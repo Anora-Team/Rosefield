@@ -1,0 +1,164 @@
+{
+  "conversation": {
+    "turn_type": "question",
+    "body": "How wonderful. Would you like me to plan a quiet morning for your first day, or wait until you arrive?",
+    "consent_required": false,
+    "expected_response_shape": "free_text"
+  },
+  "intake": {
+    "parsed_intents": [
+      {
+        "intent": "share_arrival",
+        "detail": "We arrive Friday evening for our 25th anniversary trip — first time in California."
+      },
+      {
+        "intent": "share_occasion",
+        "detail": "25th anniversary"
+      }
+    ],
+    "extracted_entities": {
+      "arrival": "Friday evening",
+      "occasion": "anniversary",
+      "milestone": "25th",
+      "party_size": 2,
+      "first_us_visit": true
+    },
+    "profile_gaps": [
+      "birth_date",
+      "origin",
+      "languages",
+      "stay_intent"
+    ],
+    "routing_hint": [
+      "profile_hub",
+      "cultural_reasoning"
+    ]
+  },
+  "profile": {
+    "guest_id": "liu",
+    "cultural_lens": "East Asian contemplative",
+    "current_phase": "Water",
+    "family": [
+      {
+        "relation": "spouse",
+        "name": "Mr. Liu",
+        "notes": "Husband, anniversary trip partner. Mandarin-preferred."
+      }
+    ],
+    "history_summary": "Mrs. Liu writes from Hangzhou ahead of her first California stay, marking a 25th anniversary together with her husband. The register is calm, declarative, family-anchored.",
+    "consent_state": {
+      "name": "given",
+      "stay_intent": "given",
+      "occasion": "given",
+      "family.spouse": "given",
+      "birth_date": "unset",
+      "origin": "unset",
+      "cultural_lens": "inferred",
+      "current_phase": "inferred",
+      "proactive_messages": "given"
+    },
+    "pace_tag": "1 activity / half-day",
+    "occasion": "25th anniversary",
+    "prior_stay_count": 0
+  },
+  "property": {
+    "availability": [
+      {
+        "service": "Madera (signature restaurant)",
+        "status": "open",
+        "lead_time_minutes": 30,
+        "notes": "Sun PM held for anniversary dinner option."
+      },
+      {
+        "service": "In-room dining",
+        "status": "open",
+        "lead_time_minutes": 12,
+        "notes": "Aged pu-erh in stock. Terrace tea service routine."
+      },
+      {
+        "service": "Garden — main lawn and water feature",
+        "status": "open",
+        "notes": "Quietest 7–9am; water feature cleaned daily 7:30."
+      }
+    ],
+    "seasonal_context": "Late-spring coastal fog typical through ~10am; oaks dripping quiet, garden cool, light layer needed.",
+    "cultural_resources": [
+      {
+        "label": "Aged pu-erh in stock",
+        "detail": "2018 raw and 2010 cooked pu-erh; gaiwan or pot service both available."
+      },
+      {
+        "label": "Longjing (West Lake green)",
+        "detail": "Pre-Qingming Longjing kept refrigerated — the most recognizable tea for a Hangzhou-origin guest."
+      },
+      {
+        "label": "Garden water feature",
+        "detail": "Cleaned 7:30, walkable from 7:45; the quietest hour at the property."
+      }
+    ],
+    "known_gaps": [],
+    "window_note": "garden quiet 7–9am"
+  },
+  "cultural": {
+    "recommendation": "Sand Hill suggests a slow first morning: aged pu-erh laid on your terrace at 8:15, while the fog is still low over the oaks, and the garden waiting empty for whenever you wish to walk. Madera's Sun PM is held for your anniversary dinner.",
+    "cultural_reasoning": "Hangzhou-rooted couple at a 25-year mark reads as 'returning home together' rather than discovery — Water phase, restoration. The late-spring coastal fog at Sand Hill mirrors Hangzhou's misty mornings; aged pu-erh carries something of West Lake across the Pacific. The garden is quietest 7–9am, which is the only public hour that respects this pace. We hold Madera for Sunday evening rather than crowding the first morning.",
+    "alternative_if_context_shifts": "If the fog lifts earlier than expected, the garden walk becomes the anchor and the tea folds in afterward on the terrace.",
+    "emotional_arc_note": "Returning home together — not exploring; do not narrate the trip back to them.",
+    "avoidance_applied": [
+      "no 'discover' framing",
+      "no Western breakfast default",
+      "no group activity",
+      "no celebrate / treat yourself language",
+      "no famous-sight chasing"
+    ]
+  },
+  "composition": {
+    "final_recommendation": "Saturday AM: aged pu-erh setup on the R412 private terrace at 8:15, with terrace doors opened by 08:00 and the garden water feature confirmed clean at 7:30 for an optional walk between 8:45 and 9:00. Madera Sunday PM held for the anniversary dinner. Companion will ask Mrs. Liu to approve the Saturday plan before tasks go live.",
+    "guest_facing_body": "If it would be welcome — aged pu-erh on your terrace at 8:15, while the fog is still low, and the garden quiet to walk if you wake to it.",
+    "consent_required": true,
+    "is_welcome_gate_passed": true,
+    "gate_notes": "Pre-arrival decision moment, guest explicitly invited planning ('we arrive…it's our 25th'). Cultural ideal and property availability align; no gaps."
+  },
+  "actions": {
+    "routed_tasks": [
+      {
+        "staff_team": "in_room_dining",
+        "task": "Prepare aged pu-erh service for two on R412 private terrace. Gaiwan setup with warmed pot; second pot of hot water on stand.",
+        "cultural_context": "She is returning home together with her husband, not visiting California — pour the tea, set the linen, leave them be.",
+        "due_by": "08:15",
+        "source_decision_id": "dec_liu_fallback_turn1"
+      },
+      {
+        "staff_team": "housekeeping",
+        "task": "Open R412 terrace doors at 08:00. Set fog heater. Lay tea linen and fresh bay laurel on the side table.",
+        "cultural_context": "Quiet entry — do not knock the second time if no response; assume they are still asleep and return at 08:30.",
+        "due_by": "08:00",
+        "source_decision_id": "dec_liu_fallback_turn1"
+      },
+      {
+        "staff_team": "concierge",
+        "task": "Brief Saturday AM concierge that R412 is Mrs. Liu / Mr. Liu, 25th anniversary, garden-quiet preferred. Hold Madera private terrace Sun PM for anniversary dinner pending confirmation.",
+        "cultural_context": "Mandarin-preferred household; route Mei Tanaka if available. Do not narrate the trip back to them.",
+        "due_by": "06:30",
+        "source_decision_id": "dec_liu_fallback_turn1"
+      },
+      {
+        "staff_team": "garden",
+        "task": "Confirm water feature cleaned and running by 07:30. Path between R412 and the main lawn checked for fog-slick stone.",
+        "cultural_context": "She may walk between 8:45 and 9:00; the garden being empty is the entire point.",
+        "due_by": "07:30",
+        "source_decision_id": "dec_liu_fallback_turn1"
+      }
+    ]
+  },
+  "sequence": [
+    "intake",
+    "profile",
+    "property",
+    "cultural",
+    "composition",
+    "actions"
+  ],
+  "decision_id": "dec_liu_fallback_turn1",
+  "source": "fallback"
+}

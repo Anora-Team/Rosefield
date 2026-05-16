@@ -25,7 +25,11 @@
       "Bash(npx playwright *)",
       "mcp__puppeteer__*",
       "mcp__playwright__*",
-      "mcp__browser__*"
+      "mcp__browser__*",
+      "Bash(pnpm lint *)",
+      "Skill(frontend-design:frontend-design)",
+      "Skill(frontend-design:frontend-design:*)",
+      "Bash(open /Users/zhiruifeng/Workspace/Anora-Team/Rosefield/demo/index.html)"
     ],
     "deny": [
       "Bash(rm -rf /)",

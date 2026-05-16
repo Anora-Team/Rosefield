@@ -1,0 +1,1436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cultural Resonance — Lightning Pitch · 2026-05-16</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap"
+  />
+
+  <style>
+    /* =========================================================================
+     * Cultural Resonance — Lightning Deck · v3
+     * Inherits design-pattern/tokens.css.
+     * v3 reweights toward product value + tech depth; positioning compressed
+     * into a single line; four diagrams (SVG, hairline-only) added.
+     * ========================================================================= */
+
+    :root {
+      --parchment-50:  #FBF8F1;
+      --parchment-100: #F5F1E8;
+      --parchment-200: #ECE6D6;
+      --sand-300:      #D8D2C1;
+      --sand-400:      #B8AE96;
+      --ink-900:       #1A1A1A;
+      --ink-800:       #2D2D2D;
+      --ink-600:       #4A4A48;
+      --ink-400:       #6E6B62;
+      --discovery-900: #1F362C;
+      --discovery-700: #2C4A3E;
+      --discovery-300: #7A968A;
+      --gilt-600:      #B5985A;
+      --gilt-300:      #D9C896;
+      --terracotta:    #A56A4C;
+
+      --canvas:        var(--parchment-100);
+      --raised:        var(--parchment-50);
+      --ink:           var(--ink-800);
+      --ink-soft:      var(--ink-600);
+      --ink-quiet:     var(--ink-400);
+      --line:          var(--sand-300);
+      --signature:     var(--discovery-700);
+      --gilt:          var(--gilt-600);
+
+      --serif:         "Cormorant Garamond", "EB Garamond", Georgia, "Times New Roman", serif;
+      --t-display-xxl: clamp(72px, 9.5vw, 168px);
+      --t-display-xl:  clamp(56px, 6.5vw, 116px);
+      --t-display:     clamp(40px, 4.4vw, 80px);
+      --t-heading:     clamp(28px, 2.6vw, 48px);
+      --t-body-xl:     clamp(22px, 1.9vw, 34px);
+      --t-body:        clamp(18px, 1.4vw, 24px);
+      --t-caption:     clamp(13px, 0.95vw, 16px);
+      --t-micro:       clamp(11px, 0.78vw, 13px);
+
+      --quick:   120ms;
+      --base:    200ms;
+      --settle:  400ms;
+      --ease:    cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      background: var(--canvas);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-feature-settings: "kern" 1, "liga" 1, "tnum" 1, "onum" 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      overflow: hidden;
+    }
+
+    body {
+      font-size: var(--t-body);
+      line-height: 1.5;
+      font-weight: 400;
+    }
+
+    ::selection { background: var(--parchment-200); color: var(--ink); }
+    :focus-visible { outline: 2px solid rgba(44, 74, 62, 0.35); outline-offset: 3px; }
+
+    /* — Deck chrome — */
+
+    .deck {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      background: var(--canvas);
+    }
+
+    .top-rule {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background: var(--line);
+      z-index: 90;
+      pointer-events: none;
+    }
+
+    .progress {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 2px;
+      width: 0%;
+      background: var(--signature);
+      z-index: 95;
+      transition: width var(--settle) var(--ease);
+      pointer-events: none;
+    }
+
+    .marginalia {
+      position: fixed;
+      top: 28px;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 56px;
+      z-index: 80;
+      pointer-events: none;
+      color: var(--ink-quiet);
+    }
+
+    .marginalia .left {
+      font-size: var(--t-micro);
+      font-weight: 500;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+    }
+
+    .marginalia .right {
+      font-size: var(--t-micro);
+      font-weight: 500;
+      letter-spacing: 0.22em;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .marginalia .right .current {
+      color: var(--ink);
+      font-weight: 600;
+    }
+
+    .footnote {
+      position: fixed;
+      bottom: 28px;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 56px;
+      z-index: 80;
+      pointer-events: none;
+    }
+
+    .footnote .section {
+      font-size: var(--t-micro);
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--ink-quiet);
+      font-weight: 500;
+    }
+
+    .footnote .timer {
+      font-size: var(--t-micro);
+      letter-spacing: 0.15em;
+      color: var(--ink-quiet);
+      font-variant-numeric: tabular-nums;
+      font-weight: 500;
+      pointer-events: auto;
+      transition: color var(--quick) var(--ease);
+      cursor: pointer;
+    }
+
+    .footnote .timer[data-state="running"] { color: var(--signature); }
+    .footnote .timer[data-state="overrun"] { color: var(--terracotta); }
+
+    /* — Slides — */
+
+    .slide {
+      position: absolute;
+      inset: 0;
+      display: none;
+      padding: 88px 8vw 96px;
+      flex-direction: column;
+      animation: settle var(--settle) var(--ease) both;
+    }
+
+    .slide.is-active { display: flex; }
+
+    @keyframes settle {
+      from { opacity: 0; transform: translateY(6px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* — Editorial atoms — */
+
+    .eyebrow-micro {
+      font-size: var(--t-micro);
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: var(--ink-quiet);
+      font-weight: 500;
+    }
+
+    .eyebrow-italic {
+      font-size: var(--t-body-xl);
+      font-style: italic;
+      color: var(--ink-soft);
+      font-weight: 300;
+      line-height: 1.3;
+    }
+
+    /* =========================================================================
+     * SLIDE I · COLD OPEN
+     * ========================================================================= */
+
+    .s1 {
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .s1 .wordmark {
+      font-size: var(--t-display-xxl);
+      font-weight: 300;
+      letter-spacing: -0.025em;
+      line-height: 1;
+    }
+    .s1 .wordmark em {
+      color: var(--signature);
+      font-style: italic;
+      font-weight: 400;
+    }
+    .s1 .tagline {
+      margin-top: 56px;
+      font-size: var(--t-display);
+      font-style: italic;
+      font-weight: 300;
+      color: var(--ink-soft);
+      line-height: 1.2;
+      max-width: 18ch;
+    }
+    .s1 .sig-rule {
+      width: 64px;
+      height: 1px;
+      background: var(--gilt);
+      margin-top: 72px;
+    }
+
+    /* =========================================================================
+     * SLIDE II · WHAT WE BUILT — value diagram
+     * ========================================================================= */
+
+    .s2 {
+      justify-content: center;
+      gap: 36px;
+    }
+    .s2 .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--line);
+    }
+    .s2 .top .title {
+      font-size: var(--t-display);
+      font-weight: 400;
+      letter-spacing: -0.015em;
+      line-height: 1.05;
+    }
+    .s2 .top .title em {
+      font-style: italic;
+      color: var(--ink-soft);
+      font-weight: 300;
+    }
+    .s2 .top .positioning {
+      font-size: var(--t-body);
+      font-style: italic;
+      color: var(--ink-quiet);
+      max-width: 36ch;
+      text-align: right;
+      line-height: 1.4;
+    }
+    .s2 .top .positioning .gen3 {
+      color: var(--ink-soft);
+      font-variant-caps: all-small-caps;
+      letter-spacing: 0.04em;
+      font-style: normal;
+    }
+    .s2 .diagram-wrap { flex: 1; display: flex; align-items: center; }
+    .s2 svg { width: 100%; height: 100%; max-height: 56vh; }
+
+    /* =========================================================================
+     * SLIDE III · HOW IT WORKS — architecture diagram
+     * ========================================================================= */
+
+    .s3 {
+      justify-content: center;
+      gap: 20px;
+    }
+    .s3 .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--line);
+    }
+    .s3 .top .title {
+      font-size: var(--t-display);
+      font-weight: 400;
+      letter-spacing: -0.015em;
+    }
+    .s3 .top .title em {
+      font-style: italic;
+      color: var(--signature);
+      font-weight: 500;
+    }
+    .s3 .top .caption {
+      font-size: var(--t-body);
+      font-style: italic;
+      color: var(--ink-quiet);
+      max-width: 38ch;
+      text-align: right;
+    }
+    .s3 .diagram-wrap { flex: 1; display: flex; align-items: center; }
+    .s3 svg { width: 100%; height: 100%; max-height: 64vh; }
+
+    /* =========================================================================
+     * SLIDE IV · DEMO HANDOFF
+     * ========================================================================= */
+
+    .s4 {
+      justify-content: center;
+      align-items: flex-start;
+      gap: 32px;
+      padding-left: 12vw;
+    }
+    .s4 .eyebrow {
+      font-size: var(--t-micro);
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: var(--ink-quiet);
+      font-weight: 500;
+    }
+    .s4 .persona {
+      font-size: var(--t-display-xl);
+      font-weight: 300;
+      letter-spacing: -0.02em;
+      line-height: 1.0;
+      max-width: 14ch;
+    }
+    .s4 .persona em {
+      font-style: italic;
+      font-weight: 400;
+    }
+    .s4 .arrival {
+      margin-top: 24px;
+      font-size: var(--t-display);
+      font-style: italic;
+      color: var(--signature);
+      font-weight: 400;
+      line-height: 1.2;
+    }
+    .s4 .cue {
+      margin-top: 64px;
+      font-size: var(--t-micro);
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: var(--ink-quiet);
+      font-weight: 500;
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+      max-width: 36ch;
+    }
+
+    /* =========================================================================
+     * SLIDE V · TWO SCALES — concrete outputs diagram
+     * ========================================================================= */
+
+    .s5 {
+      justify-content: center;
+      gap: 24px;
+    }
+    .s5 .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--line);
+    }
+    .s5 .top .title {
+      font-size: var(--t-display);
+      font-weight: 400;
+      letter-spacing: -0.015em;
+    }
+    .s5 .top .title em {
+      font-style: italic;
+      color: var(--signature);
+      font-weight: 500;
+    }
+    .s5 .top .caption {
+      font-size: var(--t-body);
+      font-style: italic;
+      color: var(--ink-quiet);
+      text-align: right;
+    }
+    .s5 .diagram-wrap { flex: 1; display: flex; align-items: center; }
+    .s5 svg { width: 100%; height: 100%; max-height: 62vh; }
+
+    /* =========================================================================
+     * SLIDE VI · REASONING SUBSTRATE — tech path + feedback loop
+     * ========================================================================= */
+
+    .s6 {
+      justify-content: center;
+      gap: 28px;
+    }
+    .s6 .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--line);
+    }
+    .s6 .top .title {
+      font-size: var(--t-display);
+      font-weight: 400;
+      letter-spacing: -0.015em;
+    }
+    .s6 .top .title em {
+      font-style: italic;
+      color: var(--ink-soft);
+      font-weight: 300;
+    }
+    .s6 .top .caption {
+      font-size: var(--t-body);
+      font-style: italic;
+      color: var(--ink-quiet);
+      max-width: 38ch;
+      text-align: right;
+    }
+    .s6 .diagram-wrap { flex: 1; display: flex; align-items: center; }
+    .s6 svg { width: 100%; height: 100%; max-height: 60vh; }
+
+    /* =========================================================================
+     * SLIDE VII · MOAT + ASK
+     * ========================================================================= */
+
+    .s7 {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 36px;
+    }
+    .s7 .quote {
+      font-size: var(--t-display);
+      font-weight: 400;
+      line-height: 1.15;
+      letter-spacing: -0.015em;
+      color: var(--ink);
+      max-width: 28ch;
+    }
+    .s7 .quote em {
+      font-style: italic;
+      color: var(--signature);
+      font-weight: 500;
+    }
+    .s7 .gilt-rule {
+      width: 80px;
+      height: 1px;
+      background: var(--gilt);
+      margin: 8px 0;
+    }
+    .s7 .ask {
+      font-size: var(--t-display);
+      font-weight: 300;
+      letter-spacing: -0.015em;
+      line-height: 1.1;
+      max-width: 18ch;
+    }
+    .s7 .ask em {
+      color: var(--signature);
+      font-style: italic;
+      font-weight: 400;
+    }
+    .s7 .pilot {
+      font-size: var(--t-body-xl);
+      color: var(--ink-soft);
+      font-style: italic;
+    }
+    .s7 .close {
+      margin-top: 8px;
+      font-size: var(--t-body-xl);
+      font-style: italic;
+      color: var(--ink-soft);
+      max-width: 36ch;
+      line-height: 1.4;
+    }
+
+    /* =========================================================================
+     * DIAGRAM PRIMITIVES — SVG-shared styles
+     * Hairlines, no fills, Cormorant text. Discovery Green is a class.
+     * ========================================================================= */
+
+    .diagram {
+      color: var(--ink-soft);
+      font-family: var(--serif);
+    }
+    .diagram .line {
+      stroke: var(--line);
+      stroke-width: 1;
+      fill: none;
+    }
+    .diagram .line-soft {
+      stroke: var(--line);
+      stroke-width: 1;
+      fill: none;
+      opacity: 0.55;
+    }
+    .diagram .line-emphasis {
+      stroke: var(--signature);
+      stroke-width: 1.5;
+      fill: none;
+    }
+    .diagram .fill-canvas { fill: var(--canvas); }
+    .diagram .node {
+      fill: var(--canvas);
+      stroke: var(--ink-soft);
+      stroke-width: 1;
+    }
+    .diagram .node-emphasis {
+      fill: var(--canvas);
+      stroke: var(--signature);
+      stroke-width: 2;
+    }
+    .diagram .label-eyebrow {
+      font-size: 13px;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      fill: var(--ink-quiet);
+      font-weight: 500;
+    }
+    .diagram .label-eyebrow-green {
+      fill: var(--signature);
+    }
+    .diagram .label-band {
+      font-size: 16px;
+      font-style: italic;
+      fill: var(--ink-soft);
+      font-weight: 400;
+    }
+    .diagram .label-band-emphasis {
+      font-size: 16px;
+      font-style: italic;
+      fill: var(--signature);
+      font-weight: 500;
+    }
+    .diagram .label-tag {
+      font-size: 11px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      fill: var(--ink);
+      font-weight: 600;
+    }
+    .diagram .label-tag-quiet {
+      font-size: 11px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      fill: var(--ink-quiet);
+      font-weight: 500;
+    }
+    .diagram .label-detail {
+      font-size: 14px;
+      fill: var(--ink-soft);
+      font-style: italic;
+    }
+    .diagram .label-node {
+      font-size: 13px;
+      fill: var(--ink);
+      font-weight: 500;
+      letter-spacing: 0.02em;
+    }
+    .diagram .label-hub {
+      font-size: 15px;
+      fill: var(--signature);
+      font-weight: 600;
+      letter-spacing: 0.05em;
+    }
+    .diagram .label-marker {
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      fill: var(--ink-quiet);
+      font-style: italic;
+      font-weight: 500;
+    }
+
+    /* =========================================================================
+     * NOTES OVERLAY
+     * ========================================================================= */
+
+    .notes {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      max-height: 62vh;
+      background: var(--raised);
+      border-top: 1px solid var(--line);
+      transform: translateY(100%);
+      transition: transform var(--settle) var(--ease);
+      z-index: 100;
+      overflow-y: auto;
+      padding: 36px 56px 48px;
+    }
+    .notes.is-open { transform: translateY(0); }
+
+    .notes .notes-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 28px;
+    }
+    .notes .notes-head .label {
+      font-size: var(--t-micro);
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+      color: var(--ink-quiet);
+      font-weight: 500;
+    }
+    .notes .notes-head .meta {
+      font-size: var(--t-micro);
+      letter-spacing: 0.18em;
+      color: var(--ink-quiet);
+      font-variant-numeric: tabular-nums;
+    }
+    .notes .note-block { display: none; }
+    .notes .note-block.is-active { display: block; }
+    .notes .note-block .speaker-label {
+      font-size: var(--t-micro);
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--signature);
+      font-weight: 600;
+      margin-bottom: 14px;
+    }
+    .notes .note-block .speaker-line {
+      font-size: var(--t-body);
+      font-style: italic;
+      color: var(--ink);
+      line-height: 1.55;
+      max-width: 64ch;
+      margin-bottom: 24px;
+    }
+    .notes .note-block .meta-row {
+      display: grid;
+      grid-template-columns: max-content 1fr;
+      column-gap: 32px;
+      row-gap: 10px;
+      font-size: var(--t-caption);
+      color: var(--ink-soft);
+    }
+    .notes .note-block .meta-row .key {
+      font-size: var(--t-micro);
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--ink-quiet);
+      font-weight: 500;
+    }
+
+    /* — Keyboard hint — */
+
+    .hint {
+      position: fixed;
+      bottom: 72px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--raised);
+      border: 1px solid var(--line);
+      padding: 14px 24px;
+      z-index: 70;
+      font-size: var(--t-caption);
+      color: var(--ink-soft);
+      display: flex;
+      gap: 24px;
+      letter-spacing: 0.04em;
+      transition: opacity var(--settle) var(--ease);
+    }
+    .hint kbd {
+      font-family: var(--serif);
+      font-style: italic;
+      color: var(--signature);
+      font-weight: 500;
+    }
+    .hint.fade-out { opacity: 0; pointer-events: none; }
+
+    @media print {
+      .slide { display: flex !important; page-break-after: always; height: 100vh; }
+      .marginalia, .footnote, .progress, .top-rule, .notes, .hint { display: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="top-rule"></div>
+  <div class="progress" id="progress"></div>
+
+  <div class="marginalia">
+    <div class="left">Cultural Resonance &nbsp; · &nbsp; Lightning Pitch</div>
+    <div class="right"><span class="current" id="counter-current">I</span> &nbsp;—&nbsp; <span id="counter-total">VII</span></div>
+  </div>
+
+  <div class="footnote">
+    <div class="section" id="section-label">Cold open</div>
+    <div class="timer" id="timer" data-state="idle">3 : 00</div>
+  </div>
+
+  <main class="deck">
+
+    <!-- =================================================================== -->
+    <!-- SLIDE I · COLD OPEN                                                 -->
+    <!-- =================================================================== -->
+    <section class="slide s1 is-active" data-slide="1" data-section="Cold open" data-time="5s">
+      <div class="wordmark">Cultural <em>Resonance</em></div>
+      <div class="tagline">The reasoning layer that prepares — humans, properties, openings.</div>
+      <div class="sig-rule"></div>
+    </section>
+
+    <!-- =================================================================== -->
+    <!-- SLIDE II · WHAT WE BUILT — value diagram                            -->
+    <!-- =================================================================== -->
+    <section class="slide s2" data-slide="2" data-section="What we built" data-time="12s">
+      <div class="top">
+        <div class="title">What we built. <em>Two clocks.</em></div>
+        <div class="positioning">
+          Every shipped AI concierge <span class="gen3">— Marriott, Hilton, Four Seasons, Mandarin Oriental —</span> answers <em>at</em> the moment of need. We prepare <em>before</em> it.
+        </div>
+      </div>
+
+      <div class="diagram-wrap">
+        <svg viewBox="0 0 1200 440" preserveAspectRatio="xMidYMid meet" class="diagram" role="img" aria-labelledby="d2-title">
+          <title id="d2-title">Two preparation clocks: per guest and per property</title>
+
+          <!-- ───────── LEFT PANEL · per guest ───────── -->
+          <g transform="translate(0, 0)">
+            <text x="270" y="32" text-anchor="middle" class="label-eyebrow">Per guest</text>
+            <text x="270" y="52" text-anchor="middle" class="label-marker">T &minus; 72 hours</text>
+
+            <!-- Profile node -->
+            <circle cx="270" cy="100" r="18" class="node"/>
+            <text x="270" y="140" text-anchor="middle" class="label-detail">one profile</text>
+
+            <!-- Arrow down -->
+            <line x1="270" y1="155" x2="270" y2="190" class="line"/>
+
+            <!-- Agent band -->
+            <rect x="120" y="195" width="300" height="48" class="line"/>
+            <text x="270" y="225" text-anchor="middle" class="label-band">agents prepare</text>
+
+            <!-- Arrow down -->
+            <line x1="270" y1="248" x2="270" y2="288" class="line"/>
+
+            <!-- 4 briefing cards -->
+            <g transform="translate(95, 295)">
+              <rect x="0"   y="0" width="78" height="80" class="line"/>
+              <text x="39"  y="32" text-anchor="middle" class="label-tag">Concierge</text>
+              <text x="39"  y="52" text-anchor="middle" class="label-detail" font-size="10" font-style="normal">briefed</text>
+
+              <rect x="92"  y="0" width="78" height="80" class="line"/>
+              <text x="131" y="32" text-anchor="middle" class="label-tag">Restaurant</text>
+              <text x="131" y="52" text-anchor="middle" class="label-detail" font-size="10" font-style="normal">briefed</text>
+
+              <rect x="184" y="0" width="78" height="80" class="line"/>
+              <text x="223" y="32" text-anchor="middle" class="label-tag">Spa</text>
+              <text x="223" y="52" text-anchor="middle" class="label-detail" font-size="10" font-style="normal">briefed</text>
+
+              <rect x="276" y="0" width="78" height="80" class="line"/>
+              <text x="315" y="32" text-anchor="middle" class="label-tag">Housekpg.</text>
+              <text x="315" y="52" text-anchor="middle" class="label-detail" font-size="10" font-style="normal">briefed</text>
+            </g>
+
+            <text x="270" y="408" text-anchor="middle" class="label-marker">staff is prepared, not surprised</text>
+          </g>
+
+          <!-- ───────── MIDDLE · one substrate ───────── -->
+          <g>
+            <line x1="600" y1="60" x2="600" y2="380" class="line-soft"/>
+            <circle cx="600" cy="220" r="6" class="node-emphasis"/>
+            <text x="600" y="252" text-anchor="middle" class="label-eyebrow label-eyebrow-green">one substrate</text>
+          </g>
+
+          <!-- ───────── RIGHT PANEL · per property ───────── -->
+          <g transform="translate(660, 0)">
+            <text x="270" y="32" text-anchor="middle" class="label-eyebrow">Per property</text>
+            <text x="270" y="52" text-anchor="middle" class="label-marker">weeks before opening day</text>
+
+            <!-- 10 profile nodes in a row, representing N=200 -->
+            <g transform="translate(120, 90)">
+              <circle cx="0"   cy="10" r="8" class="node"/>
+              <circle cx="34"  cy="10" r="8" class="node"/>
+              <circle cx="68"  cy="10" r="8" class="node"/>
+              <circle cx="102" cy="10" r="8" class="node"/>
+              <circle cx="136" cy="10" r="8" class="node"/>
+              <circle cx="170" cy="10" r="8" class="node"/>
+              <circle cx="204" cy="10" r="8" class="node"/>
+              <circle cx="238" cy="10" r="8" class="node"/>
+              <circle cx="272" cy="10" r="8" class="node"/>
+              <circle cx="306" cy="10" r="8" class="node"/>
+            </g>
+            <text x="270" y="140" text-anchor="middle" class="label-detail">200 synthetic profiles</text>
+
+            <!-- Arrow down -->
+            <line x1="270" y1="155" x2="270" y2="190" class="line"/>
+
+            <!-- Agent band (same shape as left) -->
+            <rect x="120" y="195" width="300" height="48" class="line"/>
+            <text x="270" y="225" text-anchor="middle" class="label-band">agents rehearse</text>
+
+            <!-- Arrow down -->
+            <line x1="270" y1="248" x2="270" y2="288" class="line"/>
+
+            <!-- Gap report panel -->
+            <g transform="translate(95, 295)">
+              <rect x="0" y="0" width="354" height="80" class="line"/>
+              <text x="14" y="20" class="label-tag">Property gap report</text>
+              <text x="14" y="42" class="label-detail">· prayer space not designated</text>
+              <text x="14" y="58" class="label-detail">· indoor-rain menu empty</text>
+              <text x="14" y="74" class="label-detail">· pu-erh sourcing unconfirmed</text>
+            </g>
+
+            <text x="270" y="408" text-anchor="middle" class="label-marker">gaps surface before real guests find them</text>
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <!-- =================================================================== -->
+    <!-- SLIDE III · HOW IT WORKS — architecture diagram                     -->
+    <!-- =================================================================== -->
+    <section class="slide s3" data-slide="3" data-section="How it works" data-time="22s">
+      <div class="top">
+        <div class="title">How it works. <em>Eight agents.</em></div>
+        <div class="caption">
+          Not single-shot Q&amp;A. Agents negotiate a stay — and emit a briefing for every staff team.
+        </div>
+      </div>
+
+      <div class="diagram-wrap">
+        <svg viewBox="0 0 1200 560" preserveAspectRatio="xMidYMid meet" class="diagram" role="img" aria-labelledby="d3-title">
+          <title id="d3-title">Multi-agent architecture: eight agents around a Cultural Reasoning hub, emitting briefings to four staff teams</title>
+
+          <!-- ───────── Agent constellation ───────── -->
+          <!-- Hub: Cultural Reasoning Agent (center) -->
+          <g>
+            <!-- Radial edges from hub to 7 satellites -->
+            <line x1="600" y1="220" x2="600" y2="80"  class="line-soft"/>
+            <line x1="600" y1="220" x2="730" y2="125" class="line-soft"/>
+            <line x1="600" y1="220" x2="800" y2="220" class="line-soft"/>
+            <line x1="600" y1="220" x2="730" y2="315" class="line-soft"/>
+            <line x1="600" y1="220" x2="600" y2="360" class="line-soft"/>
+            <line x1="600" y1="220" x2="470" y2="315" class="line-soft"/>
+            <line x1="600" y1="220" x2="400" y2="220" class="line-soft"/>
+            <line x1="600" y1="220" x2="470" y2="125" class="line-soft"/>
+
+            <!-- A few peer edges (sparse, suggesting collaboration) -->
+            <line x1="730" y1="125" x2="800" y2="220" class="line-soft" opacity="0.35"/>
+            <line x1="800" y1="220" x2="730" y2="315" class="line-soft" opacity="0.35"/>
+            <line x1="470" y1="125" x2="400" y2="220" class="line-soft" opacity="0.35"/>
+            <line x1="400" y1="220" x2="470" y2="315" class="line-soft" opacity="0.35"/>
+            <line x1="730" y1="315" x2="600" y2="360" class="line-soft" opacity="0.35"/>
+            <line x1="600" y1="360" x2="470" y2="315" class="line-soft" opacity="0.35"/>
+
+            <!-- Hub node (Discovery Green) -->
+            <circle cx="600" cy="220" r="32" class="node-emphasis"/>
+            <text x="600" y="217" text-anchor="middle" class="label-hub">Cultural</text>
+            <text x="600" y="232" text-anchor="middle" class="label-hub">Reasoning</text>
+
+            <!-- Satellite agents · 7 around hub -->
+            <!-- Top -->
+            <circle cx="600" cy="80" r="20" class="node"/>
+            <text x="600" y="48" text-anchor="middle" class="label-node">Itinerary</text>
+            <text x="600" y="85" text-anchor="middle" class="label-tag-quiet">PLAN</text>
+
+            <!-- Upper right -->
+            <circle cx="730" cy="125" r="20" class="node"/>
+            <text x="780" y="118" class="label-node">Service</text>
+            <text x="730" y="130" text-anchor="middle" class="label-tag-quiet">OPS</text>
+
+            <!-- Right -->
+            <circle cx="800" cy="220" r="20" class="node"/>
+            <text x="830" y="225" class="label-node">Restaurant</text>
+            <text x="800" y="225" text-anchor="middle" class="label-tag-quiet">F&amp;B</text>
+
+            <!-- Lower right -->
+            <circle cx="730" cy="315" r="20" class="node"/>
+            <text x="780" y="330" class="label-node">Spa</text>
+            <text x="730" y="320" text-anchor="middle" class="label-tag-quiet">WELL</text>
+
+            <!-- Bottom -->
+            <circle cx="600" cy="360" r="20" class="node"/>
+            <text x="600" y="400" text-anchor="middle" class="label-node">Housekeeping</text>
+            <text x="600" y="365" text-anchor="middle" class="label-tag-quiet">ROOM</text>
+
+            <!-- Lower left -->
+            <circle cx="470" cy="315" r="20" class="node"/>
+            <text x="420" y="330" text-anchor="end" class="label-node">Concierge</text>
+            <text x="470" y="320" text-anchor="middle" class="label-tag-quiet">LOG</text>
+
+            <!-- Left -->
+            <circle cx="400" cy="220" r="20" class="node"/>
+            <text x="370" y="225" text-anchor="end" class="label-node">Companion</text>
+            <text x="400" y="225" text-anchor="middle" class="label-tag-quiet">GUEST</text>
+
+            <!-- Upper left -->
+            <circle cx="470" cy="125" r="20" class="node"/>
+            <text x="420" y="118" text-anchor="end" class="label-node">Memory</text>
+            <text x="470" y="130" text-anchor="middle" class="label-tag-quiet">RECALL</text>
+          </g>
+
+          <!-- ───────── Output fan-out ───────── -->
+          <!-- Vertical Discovery Green spine down from constellation -->
+          <line x1="600" y1="395" x2="600" y2="430" class="line-emphasis"/>
+          <!-- Horizontal Discovery Green collector (centered, extends past cards) -->
+          <line x1="150" y1="430" x2="1050" y2="430" class="line-emphasis"/>
+
+          <!-- 4 briefing cards · centered at x=600, span 186 to 1014 -->
+          <g transform="translate(186, 450)">
+            <rect x="0"   y="0" width="180" height="80" class="line"/>
+            <text x="14"  y="22" class="label-tag">Concierge briefing</text>
+            <text x="14"  y="46" class="label-detail">Source 2021 pu-erh,</text>
+            <text x="14"  y="62" class="label-detail">Hangzhou tea master.</text>
+
+            <rect x="216" y="0" width="180" height="80" class="line"/>
+            <text x="230" y="22" class="label-tag">Restaurant briefing</text>
+            <text x="230" y="46" class="label-detail">Hangzhou seasonal register.</text>
+            <text x="230" y="62" class="label-detail">Kitchen brief shared.</text>
+
+            <rect x="432" y="0" width="180" height="80" class="line"/>
+            <text x="446" y="22" class="label-tag">Spa briefing</text>
+            <text x="446" y="46" class="label-detail">Rhythm of restoration,</text>
+            <text x="446" y="62" class="label-detail">not vigor.</text>
+
+            <rect x="648" y="0" width="180" height="80" class="line"/>
+            <text x="662" y="22" class="label-tag">Housekeeping</text>
+            <text x="662" y="46" class="label-detail">Three-generation layout,</text>
+            <text x="662" y="62" class="label-detail">elder-near-window.</text>
+          </g>
+
+          <text x="600" y="552" text-anchor="middle" class="label-marker">every cultural inference carries provenance · staff can defend the &ldquo;why&rdquo;</text>
+        </svg>
+      </div>
+    </section>
+
+    <!-- =================================================================== -->
+    <!-- SLIDE IV · DEMO HANDOFF                                             -->
+    <!-- =================================================================== -->
+    <section class="slide s4" data-slide="4" data-section="Demo handoff" data-time="4s">
+      <div class="eyebrow">Live</div>
+      <div class="persona">Mrs.&nbsp;Liu.&nbsp;<em>47.</em><br />Hangzhou.<br />Anniversary stay, three&nbsp;generations.</div>
+      <div class="arrival">Arriving in 72 hours.</div>
+      <div class="cue">Cue · switch source to browser · split-screen Companion + Operations&nbsp;Theater</div>
+    </section>
+
+    <!-- =================================================================== -->
+    <!-- SLIDE V · TWO SCALES — concrete outputs                             -->
+    <!-- =================================================================== -->
+    <section class="slide s5" data-slide="5" data-section="Two scales" data-time="20s">
+      <div class="top">
+        <div class="title">Same engine. <em>Two scales.</em></div>
+        <div class="caption">
+          You just watched the left column. The right column is the part the industry hasn't named yet.
+        </div>
+      </div>
+
+      <div class="diagram-wrap">
+        <svg viewBox="0 0 1200 540" preserveAspectRatio="xMidYMid meet" class="diagram" role="img" aria-labelledby="d5-title">
+          <title id="d5-title">Two scales of preparation: per-guest output vs per-property output, sharing one engine</title>
+
+          <!-- Column dividers -->
+          <line x1="600" y1="40" x2="600" y2="480" class="line-soft"/>
+
+          <!-- ───────── LEFT · per guest output ───────── -->
+          <g>
+            <text x="60" y="36" class="label-eyebrow">A · Per guest</text>
+            <text x="60" y="58" class="label-marker">95 s of multi-agent reasoning</text>
+
+            <!-- Input -->
+            <text x="60" y="100" class="label-tag-quiet">INPUT</text>
+            <text x="60" y="124" class="label-node">1 profile · 3 explicit fields</text>
+
+            <!-- Bracket / connector -->
+            <line x1="60" y1="138" x2="60" y2="172" class="line"/>
+            <line x1="60" y1="172" x2="540" y2="172" class="line"/>
+
+            <text x="60" y="196" class="label-tag-quiet">OUTPUT · 4 STAFF BRIEFINGS</text>
+
+            <!-- 4 briefing rows -->
+            <g transform="translate(60, 214)">
+              <text x="0"   y="0" class="label-tag">Concierge</text>
+              <text x="120" y="0" class="label-detail" font-style="italic">"2021 pu-erh, Hangzhou tea master vintage"</text>
+              <line x1="0" y1="14" x2="500" y2="14" class="line-soft"/>
+
+              <text x="0"   y="40" class="label-tag">Restaurant</text>
+              <text x="120" y="40" class="label-detail" font-style="italic">"Hangzhou seasonal register, kitchen briefed"</text>
+              <line x1="0" y1="54" x2="500" y2="54" class="line-soft"/>
+
+              <text x="0"   y="80" class="label-tag">Spa</text>
+              <text x="120" y="80" class="label-detail" font-style="italic">"Rhythm of restoration, not vigor"</text>
+              <line x1="0" y1="94" x2="500" y2="94" class="line-soft"/>
+
+              <text x="0"   y="120" class="label-tag">Housekeeping</text>
+              <text x="120" y="120" class="label-detail" font-style="italic">"Three-generation layout, elder near window"</text>
+              <line x1="0" y1="134" x2="500" y2="134" class="line-soft"/>
+            </g>
+
+            <text x="60" y="408" class="label-marker">↳ delivered T &minus; 72 h, before Mrs. Liu opens a single message</text>
+          </g>
+
+          <!-- ───────── RIGHT · per property output ───────── -->
+          <g transform="translate(620, 0)">
+            <text x="0" y="36" class="label-eyebrow label-eyebrow-green">B · Per property</text>
+            <text x="0" y="58" class="label-marker">same engine · 200 synthetic profiles</text>
+
+            <!-- Input -->
+            <text x="0" y="100" class="label-tag-quiet">INPUT</text>
+            <text x="0" y="124" class="label-node">200 profiles · cultural-cohort weighted</text>
+
+            <!-- Bracket -->
+            <line x1="0" y1="138" x2="0" y2="172" class="line"/>
+            <line x1="0" y1="172" x2="540" y2="172" class="line"/>
+
+            <text x="0" y="196" class="label-tag-quiet label-eyebrow-green">OUTPUT · PROPERTY GAP REPORT</text>
+
+            <!-- Gap rows -->
+            <g transform="translate(0, 214)">
+              <text x="0"   y="0" class="label-tag">Operations</text>
+              <text x="120" y="0" class="label-detail" font-style="italic">"No prayer space designated · 11% of cohort flags"</text>
+              <line x1="0" y1="14" x2="500" y2="14" class="line-soft"/>
+
+              <text x="0"   y="40" class="label-tag">F&amp;B</text>
+              <text x="120" y="40" class="label-detail" font-style="italic">"Indoor-rain menu empty · weather pivots unhandled"</text>
+              <line x1="0" y1="54" x2="500" y2="54" class="line-soft"/>
+
+              <text x="0"   y="80" class="label-tag">Sourcing</text>
+              <text x="120" y="80" class="label-detail" font-style="italic">"Pu-erh supplier unconfirmed for Hangzhou cohort"</text>
+              <line x1="0" y1="94" x2="500" y2="94" class="line-soft"/>
+
+              <text x="0"   y="120" class="label-tag">Design</text>
+              <text x="120" y="120" class="label-detail" font-style="italic">"Multi-gen room layouts incomplete on Floors 3–5"</text>
+              <line x1="0" y1="134" x2="500" y2="134" class="line-soft"/>
+            </g>
+
+            <text x="0" y="408" class="label-marker label-eyebrow-green">↳ surfaced weeks before opening · before any real guest arrives</text>
+          </g>
+
+          <!-- Bottom bar - the "same substrate" claim -->
+          <line x1="60" y1="500" x2="1160" y2="500" class="line-soft"/>
+          <text x="600" y="528" text-anchor="middle" class="label-marker">no separate code path · the same agents that prepared one guest rehearsed two hundred</text>
+        </svg>
+      </div>
+    </section>
+
+    <!-- =================================================================== -->
+    <!-- SLIDE VI · REASONING SUBSTRATE + FEEDBACK LOOP                      -->
+    <!-- =================================================================== -->
+    <section class="slide s6" data-slide="6" data-section="The substrate" data-time="13s">
+      <div class="top">
+        <div class="title">Under the agents. <em>The quality engine.</em></div>
+        <div class="caption">
+          A cultural reasoning ontology, and a feedback loop where staff teaches the system <em>why</em>.
+        </div>
+      </div>
+
+      <div class="diagram-wrap">
+        <svg viewBox="0 0 1200 480" preserveAspectRatio="xMidYMid meet" class="diagram" role="img" aria-labelledby="d6-title">
+          <title id="d6-title">Cultural Reasoning substrate: three inputs feed an ontology, which produces tagged inferences with provenance; staff overrides feed back into the ontology</title>
+
+          <!-- ───────── Column eyebrows ───────── -->
+          <text x="120" y="40" class="label-eyebrow">Inputs</text>
+          <text x="120" y="60" class="label-marker">three explicit fields · no scraping</text>
+
+          <text x="500" y="40" class="label-eyebrow label-eyebrow-green">Ontology</text>
+          <text x="500" y="60" class="label-marker">codified · founder-built · years of curation</text>
+
+          <text x="860" y="40" class="label-eyebrow">Outputs</text>
+          <text x="860" y="60" class="label-marker">tagged inferences · click-through provenance</text>
+
+          <!-- ───────── Column 1 · Inputs (3 fields) ───────── -->
+          <g transform="translate(120, 110)">
+            <line x1="-20" y1="0" x2="-20" y2="220" class="line-soft"/>
+
+            <rect x="0"  y="0"   width="260" height="56" class="line"/>
+            <text x="14" y="22" class="label-tag-quiet">FIELD</text>
+            <text x="14" y="44" class="label-node">Birth date</text>
+
+            <rect x="0"  y="82"  width="260" height="56" class="line"/>
+            <text x="14" y="104" class="label-tag-quiet">FIELD</text>
+            <text x="14" y="126" class="label-node">Hometown · origin</text>
+
+            <rect x="0"  y="164" width="260" height="56" class="line"/>
+            <text x="14" y="186" class="label-tag-quiet">FIELD</text>
+            <text x="14" y="208" class="label-node">One sentence of intent</text>
+          </g>
+
+          <!-- Arrows inputs → ontology -->
+          <line x1="390" y1="138" x2="475" y2="220" class="line"/>
+          <line x1="390" y1="220" x2="475" y2="220" class="line"/>
+          <line x1="390" y1="302" x2="475" y2="220" class="line"/>
+
+          <!-- ───────── Column 2 · Ontology (3 reasoning layers) ───────── -->
+          <g transform="translate(475, 100)">
+            <rect x="0" y="20" width="260" height="240" class="line-emphasis"/>
+            <text x="130" y="50" text-anchor="middle" class="label-eyebrow label-eyebrow-green">Cultural reasoning</text>
+
+            <line x1="20" y1="78" x2="240" y2="78" class="line-soft"/>
+
+            <text x="20" y="106" class="label-tag-quiet">LAYER</text>
+            <text x="20" y="128" class="label-node">Life phase</text>
+            <text x="20" y="148" class="label-detail" font-size="11">restoration · transition · ascent</text>
+
+            <text x="20" y="180" class="label-tag-quiet">LAYER</text>
+            <text x="20" y="202" class="label-node">Cultural lens</text>
+            <text x="20" y="222" class="label-detail" font-size="11">BaZi · Phoenix · per-guest</text>
+
+            <text x="20" y="254" class="label-tag-quiet">LAYER</text>
+            <text x="20" y="276" class="label-node">Emotional context</text>
+            <text x="20" y="296" class="label-detail" font-size="11">rhythm · register · what to withhold</text>
+          </g>
+
+          <!-- Arrows ontology → outputs -->
+          <line x1="755" y1="220" x2="840" y2="170" class="line"/>
+          <line x1="755" y1="220" x2="840" y2="250" class="line"/>
+          <line x1="755" y1="220" x2="840" y2="330" class="line"/>
+
+          <!-- ───────── Column 3 · Outputs (tagged inferences) ───────── -->
+          <g transform="translate(840, 110)">
+            <line x1="280" y1="0" x2="280" y2="220" class="line-soft"/>
+
+            <rect x="0"  y="0"   width="260" height="56" class="line"/>
+            <text x="14" y="22" class="label-tag-quiet">INFERENCE</text>
+            <text x="14" y="44" class="label-detail" font-style="italic" font-size="12">"Restoration phase ← anniversary × season"</text>
+
+            <rect x="0"  y="82"  width="260" height="56" class="line"/>
+            <text x="14" y="104" class="label-tag-quiet">INFERENCE</text>
+            <text x="14" y="126" class="label-detail" font-style="italic" font-size="12">"Pu-erh 8am ← origin × time × phase"</text>
+
+            <rect x="0"  y="164" width="260" height="56" class="line"/>
+            <text x="14" y="186" class="label-tag-quiet">INFERENCE</text>
+            <text x="14" y="208" class="label-detail" font-style="italic" font-size="12">"Elder-near-window ← family × seasonal light"</text>
+          </g>
+
+          <!-- ───────── Feedback loop · staff override → ontology ───────── -->
+          <g>
+            <!-- Curved path: bottom of outputs back to bottom-left of ontology -->
+            <path d="M 970 380 Q 970 430, 730 430 Q 490 430, 490 380" class="line-emphasis" fill="none"/>
+            <!-- Arrowhead on left end -->
+            <polyline points="495,374 485,380 495,386" class="line-emphasis"/>
+
+            <!-- Label -->
+            <text x="730" y="455" text-anchor="middle" class="label-band-emphasis">staff override teaches the &ldquo;why&rdquo;</text>
+            <text x="730" y="472" text-anchor="middle" class="label-marker label-eyebrow-green">the personal feedback loop · the moat compounds</text>
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <!-- =================================================================== -->
+    <!-- SLIDE VII · MOAT + ASK                                              -->
+    <!-- =================================================================== -->
+    <section class="slide s7" data-slide="7" data-section="The moat + the ask" data-time="10s">
+      <div class="quote">
+        Marriott can ship a RAG prompt in six months.<br/>
+        <em>They cannot ship taste in six months.</em>
+      </div>
+
+      <div class="gilt-rule"></div>
+
+      <div class="ask">Two properties. <em>90 days.</em> Route&nbsp;A.</div>
+      <div class="pilot">One APAC · One Sand Hill</div>
+      <div class="close">Rosewood named Sense of Place first. <em>Let's build what comes next together.</em></div>
+    </section>
+
+  </main>
+
+  <!-- =================================================================== -->
+  <!-- SPEAKER NOTES                                                         -->
+  <!-- =================================================================== -->
+  <aside class="notes" id="notes" aria-hidden="true">
+    <div class="notes-head">
+      <div class="label">Speaker notes</div>
+      <div class="meta"><span id="notes-section">Cold open</span> &nbsp; · &nbsp; <span id="notes-time">5s</span></div>
+    </div>
+
+    <div class="note-block is-active" data-note="1">
+      <div class="speaker-label">Spoken — 5s</div>
+      <div class="speaker-line">"Cultural Resonance. The reasoning layer that prepares — humans, properties, openings."</div>
+      <div class="meta-row">
+        <div class="key">Pace</div><div>Land it before the audience settles. One breath. Hold.</div>
+        <div class="key">Stage</div><div>Wordmark center. Discovery Green appears only in the italic "Resonance" — the one colour event on this slide.</div>
+      </div>
+    </div>
+
+    <div class="note-block" data-note="2">
+      <div class="speaker-label">Spoken — 12s</div>
+      <div class="speaker-line">"Two clocks. One ticks toward a guest arriving — and we prepare every staff team before she walks in. The other ticks toward a new property opening — and the same agents rehearse it against two hundred synthetic guests. Marriott, Hilton, Four Seasons all answer <em>at</em> the moment of need. We prepare <em>before</em>."</div>
+      <div class="meta-row">
+        <div class="key">Pace</div><div>Steady. Diagram does the work — point at the left clock, then the right clock, then the green "one substrate" dot.</div>
+        <div class="key">Land</div><div>"Prepare <em>before</em>" — the Gen-IV verb. This is the entire product claim in one sentence.</div>
+        <div class="key">Cut</div><div>If behind, drop the chain name list ("Marriott, Hilton, Four Seasons") — diagram caption already names them.</div>
+      </div>
+    </div>
+
+    <div class="note-block" data-note="3">
+      <div class="speaker-label">Spoken — 22s</div>
+      <div class="speaker-line">"Eight agents. The Cultural Reasoning Agent in the center surfaces what Hangzhou tea ritual means for a woman in this life phase. Itinerary debates morning rhythm with Service. Restaurant, Spa, Housekeeping each pull what they need. They're not taking turns answering one prompt — they're <em>negotiating</em> a stay. And the output isn't a guest reply. It's four staff briefings, each with click-through provenance. Every claim has a source. This is what Marriott can't prompt-engineer in six months."</div>
+      <div class="meta-row">
+        <div class="key">Pace</div><div>This is the tech-depth slide. Slow down. Point at the green hub, then the satellites, then the four briefing cards below the green spine.</div>
+        <div class="key">Land</div><div>"Negotiating a stay" + "provenance" — the two technical claims that distinguish us from Gen-3 chatbots.</div>
+        <div class="key">Stage</div><div>Do not stand in front of the diagram. The constellation is the proof — let the audience trace it.</div>
+      </div>
+    </div>
+
+    <div class="note-block" data-note="4">
+      <div class="speaker-label">Spoken — 4s</div>
+      <div class="speaker-line">"Three days before Mrs. Liu arrives. Let me show you what the system has already done."</div>
+      <div class="meta-row">
+        <div class="key">Cue</div><div>Switch presentation source → browser. Split-screen Companion (L) + Operations Theater (R).</div>
+        <div class="key">Critical</div><div>"Three days before" — frames proactive preparation. The diagrams on slides II and III already prepared the audience for this.</div>
+        <div class="key">Demo</div><div>4 beats · 93s · Agent collaboration → Staff briefing → Companion silence → Portal cohort flash</div>
+      </div>
+    </div>
+
+    <div class="note-block" data-note="5">
+      <div class="speaker-label">Spoken — 20s</div>
+      <div class="speaker-line">"Same engine, two scales. On the left — you just watched it — one profile, 95 seconds, four briefings, delivered before she opens a single message. On the right is the part the industry hasn't named yet. <em>Same agents.</em> Two hundred synthetic guests. A property opening in Phuket next quarter surfaces its gaps <em>weeks</em> before opening day — gaps that today get discovered by real guests, at a real cost to brand."</div>
+      <div class="meta-row">
+        <div class="key">Pace</div><div>The diagram is the argument. Point at the left column ("you just saw this"), the right column ("and this is the unlock"), and the bottom hairline ("same code path").</div>
+        <div class="key">Land</div><div>"Same agents" + "weeks before opening day" — these two phrases together are why we're structurally next-generation.</div>
+        <div class="key">Q&amp;A</div><div>Expect: "Isn't this just synthetic data generation?" → "Anyone can fake profiles. Only the ontology can generate <em>plausible</em> ones. The Portal makes the moat tactile."</div>
+      </div>
+    </div>
+
+    <div class="note-block" data-note="6">
+      <div class="speaker-label">Spoken — 13s</div>
+      <div class="speaker-line">"Under the agents — three explicit inputs feed a cultural reasoning ontology. Life phase, cultural lens, emotional context. Out come tagged inferences with provenance — staff can defend the why. And here" — <em>point at curved arrow</em> — "every staff override teaches the ontology. The moat compounds with every stay."</div>
+      <div class="meta-row">
+        <div class="key">Pace</div><div>Trace the diagram left-to-right, then point at the curved feedback loop at the bottom.</div>
+        <div class="key">Land</div><div>"The moat compounds" — the line investors will repeat.</div>
+        <div class="key">Privacy</div><div>If asked: "Three explicit fields. No scraping. No behavioral inference. Guest can see and curate her own profile."</div>
+      </div>
+    </div>
+
+    <div class="note-block" data-note="7">
+      <div class="speaker-label">Spoken — 10s (over walk-off)</div>
+      <div class="speaker-line">"Marriott can ship a RAG prompt in six months. They cannot ship taste in six months. Two properties, ninety days. Sand Hill plus one APAC. Thank you."</div>
+      <div class="meta-row">
+        <div class="key">Pace</div><div>Hold a beat after "six months." Let the line breathe.</div>
+        <div class="key">Stage</div><div>Walk down-stage on "Thank you." Hold the slide for applause. Do not click away.</div>
+        <div class="key">Q&amp;A cue</div><div>First question likely: "Is this real multi-agent or sequential prompts?" / "How is the Portal different from synthetic data generation?"</div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- =================================================================== -->
+  <div class="hint" id="hint">
+    <span><kbd>→</kbd> next</span>
+    <span><kbd>←</kbd> prev</span>
+    <span><kbd>N</kbd> notes</span>
+    <span><kbd>T</kbd> timer</span>
+    <span><kbd>Esc</kbd> first</span>
+  </div>
+
+  <script>
+    (() => {
+      'use strict';
+
+      const slides = Array.from(document.querySelectorAll('.slide'));
+      const notesBlocks = Array.from(document.querySelectorAll('.note-block'));
+      const notesPanel = document.getElementById('notes');
+      const counterCurrent = document.getElementById('counter-current');
+      const counterTotal = document.getElementById('counter-total');
+      const sectionLabel = document.getElementById('section-label');
+      const notesSection = document.getElementById('notes-section');
+      const notesTime = document.getElementById('notes-time');
+      const progress = document.getElementById('progress');
+      const timerEl = document.getElementById('timer');
+      const hint = document.getElementById('hint');
+
+      const total = slides.length;
+      const roman = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'];
+
+      let active = 1;
+      counterTotal.textContent = roman[total];
+
+      function go(n) {
+        if (n < 1 || n > total) return;
+        slides.forEach(s => s.classList.remove('is-active'));
+        notesBlocks.forEach(b => b.classList.remove('is-active'));
+        const slide = slides[n - 1];
+        const note = notesBlocks[n - 1];
+        slide.classList.add('is-active');
+        if (note) note.classList.add('is-active');
+        active = n;
+        counterCurrent.textContent = roman[n];
+        sectionLabel.textContent = slide.dataset.section || '';
+        notesSection.textContent = slide.dataset.section || '';
+        notesTime.textContent = slide.dataset.time || '';
+        progress.style.width = (n / total * 100) + '%';
+      }
+
+      function next() { if (active < total) go(active + 1); }
+      function prev() { if (active > 1) go(active - 1); }
+
+      document.addEventListener('keydown', (e) => {
+        if (e.metaKey || e.ctrlKey || e.altKey) return;
+
+        switch (e.key) {
+          case 'ArrowRight':
+          case 'PageDown':
+          case ' ':
+            e.preventDefault(); next(); break;
+          case 'ArrowLeft':
+          case 'PageUp':
+            e.preventDefault(); prev(); break;
+          case 'Home':
+            e.preventDefault(); go(1); break;
+          case 'End':
+            e.preventDefault(); go(total); break;
+          case 'Escape':
+            e.preventDefault();
+            if (notesPanel.classList.contains('is-open')) toggleNotes(false);
+            else go(1);
+            break;
+          case 'n':
+          case 'N':
+            e.preventDefault(); toggleNotes(); break;
+          case 't':
+          case 'T':
+            e.preventDefault();
+            if (e.shiftKey) resetTimer();
+            else toggleTimer();
+            break;
+          default:
+            if (/^[1-9]$/.test(e.key)) {
+              const n = parseInt(e.key, 10);
+              if (n <= total) { e.preventDefault(); go(n); }
+            }
+        }
+      });
+
+      function toggleNotes(force) {
+        const isOpen = notesPanel.classList.contains('is-open');
+        const next = (typeof force === 'boolean') ? force : !isOpen;
+        notesPanel.classList.toggle('is-open', next);
+        notesPanel.setAttribute('aria-hidden', String(!next));
+      }
+
+      const DURATION = 180;
+      let remaining = DURATION;
+      let interval = null;
+
+      function format(s) {
+        const sign = s < 0 ? '−' : '';
+        const a = Math.abs(s);
+        const m = Math.floor(a / 60);
+        const r = a % 60;
+        return `${sign}${m} : ${String(r).padStart(2, '0')}`;
+      }
+
+      function paintTimer() {
+        timerEl.textContent = format(remaining);
+        if (interval === null) {
+          timerEl.dataset.state = remaining === DURATION ? 'idle' : 'paused';
+        } else {
+          timerEl.dataset.state = remaining < 0 ? 'overrun' : 'running';
+        }
+      }
+
+      function startTimer() {
+        if (interval !== null) return;
+        interval = setInterval(() => { remaining -= 1; paintTimer(); }, 1000);
+        timerEl.dataset.state = 'running';
+      }
+
+      function pauseTimer() {
+        if (interval === null) return;
+        clearInterval(interval);
+        interval = null;
+        paintTimer();
+      }
+
+      function resetTimer() {
+        pauseTimer();
+        remaining = DURATION;
+        paintTimer();
+      }
+
+      function toggleTimer() {
+        if (interval === null) startTimer();
+        else pauseTimer();
+      }
+
+      paintTimer();
+      timerEl.addEventListener('click', toggleTimer);
+
+      setTimeout(() => hint.classList.add('fade-out'), 4500);
+
+      function readHash() {
+        const m = window.location.hash.match(/^#(\d+)$/);
+        if (m) {
+          const n = parseInt(m[1], 10);
+          if (n >= 1 && n <= total) go(n);
+        }
+      }
+      window.addEventListener('hashchange', readHash);
+      readHash();
+
+      document.addEventListener('click', (e) => {
+        if (e.target.closest('.notes') || e.target.closest('.timer') || e.target.closest('.hint')) return;
+        const x = e.clientX / window.innerWidth;
+        if (x > 0.6) next();
+        else if (x < 0.4) prev();
+      });
+    })();
+  </script>
+</body>
+</html>
