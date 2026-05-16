@@ -1,0 +1,299 @@
+{
+  "id": "de-mericourt-sandhill-2026-09",
+  "display_name": "Henri-Édouard de Méricourt",
+  "archetype_tag": "Burgundian vineyard dynasty — patriarch in stewardship phase, succession in motion",
+  "direct_input": {
+    "birth_date": "1962-10-04",
+    "origin": "Vosne-Romanée, Côte de Nuits, France",
+    "stay_intent": "Je voudrais que ce voyage donne à mon fils la stature qu'il aura besoin de porter sans moi, et que ma fille sente que nous sommes venus pour elle aussi.",
+    "languages": ["French", "English (competent, prefers French)", "some Italian"],
+    "booking_window": "Sunday 13 September 2026 – Saturday 19 September 2026, 6 nights"
+  },
+  "family": [
+    {
+      "relation": "spouse",
+      "name": "Aliénor de Méricourt (née de Chastenay)",
+      "birth_date": "1965-04-22",
+      "origin": "Beaune, Bourgogne, France (family seat: Château de Chastenay, Yonne)",
+      "languages": ["French", "English (fluent)", "German (conversational)"],
+      "notes": "From a Burgundian-Yonne family older than the de Méricourts; trained as an art historian at the École du Louvre, kept the cataloguing of the Domaine's library and the Chastenay collection. She is the one who reads the wine writers in English and tells Henri-Édouard what they actually said. Catholic, practicing, discreet. Vouvoies her mother-in-law to this day. Approves the hotel before he does.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "child",
+      "name": "Hugues de Méricourt",
+      "birth_date": "1991-02-17",
+      "origin": "Beaune, Bourgogne, France",
+      "languages": ["French", "English (fluent)", "German (working)", "Mandarin (basic, learned for the Hong Kong market)"],
+      "notes": "Elder son, 35. Officially co-gérant of the Domaine since 2023; running commercial and the cellar's élevage decisions in tandem with the régisseur. Studied agronomy at Montpellier SupAgro, did a vintage at a Mosel estate and one at a Yarra Valley winery before coming home. Married, two small children (not on this trip; with maternal grandparents in the Yonne). The trip's actual working principal — most US distributor meetings are his to lead, with the patriarch present as legitimacy.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "in-law",
+      "name": "Sibylle de Méricourt (née d'Hauteville)",
+      "birth_date": "1993-07-30",
+      "origin": "Reims, Champagne, France",
+      "languages": ["French", "English"],
+      "notes": "Hugues's wife. Champenoise family (négociant background, not grower). Not traveling — staying with the children in the Yonne. Mentioned only because Hugues will FaceTime her every evening around 18h Pacific (3h Paris) and Henri-Édouard considers that ritual sacred — do not schedule Hugues in that window.",
+      "traveling_on_this_stay": false
+    },
+    {
+      "relation": "child",
+      "name": "Marguerite de Méricourt",
+      "birth_date": "1997-11-08",
+      "origin": "Beaune, Bourgogne, France",
+      "languages": ["French", "English (fully bilingual)", "Italian (working)"],
+      "notes": "Daughter, 28. Six-month curatorial residency at SFMOMA's photography department (started March 2026, ends August). Lives in a sublet in Hayes Valley. The reason the family's US trip stretched from a 3-night business swing into a 6-night family visit. She will drive up from the city the second evening and stay at the hotel for the back half of the trip. Has not been home to Burgundy since Easter; her mother is watching her closely for tiredness. Does not drink during the workweek; will accept a glass at family dinners. Closer to her father than the family lets on in public.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "parent",
+      "name": "Madeleine de Méricourt (née de Brézé)",
+      "birth_date": "1940-06-12",
+      "origin": "Saumur, Pays de la Loire, France",
+      "languages": ["French", "English (rusty), some Latin from her convent schooling"],
+      "notes": "Patriarch's mother, 86. The widow of the previous Vicomte and the keeper of the Domaine's correspondence archive from the 1950s onward. Joining the family for the first night only — flying in from Paris with her own caregiver, taking the second flight back to Geneva to visit her sister, then home. She has not been to California in 41 years. Walks short distances with a cane; mild macular degeneration (large-print menus only, no fine-print receipts to sign). Catholic, daily mass when possible — will want to know whether there is a Sunday mass within reasonable drive on her one evening. She will retire by 21h sharp; the family's first dinner must be moved earlier to honor that.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "extended",
+      "name": "Mme. Béatrice Garnier (caregiver, traveling with Madeleine for the one-night leg)",
+      "origin": "Dijon, France",
+      "languages": ["French"],
+      "notes": "Eight years with Madame de Méricourt. Should be given her own room adjacent to Madeleine's, briefed in French, and addressed by name. Does not eat with the family but should be offered a proper meal in her room at the same hour, not later. Aliénor is firm about this — the previous-generation French convention of treating live-in staff as invisible is something Aliénor has consciously broken in her household and she expects the property to mirror it.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "sibling",
+      "name": "Geoffroy de Méricourt",
+      "birth_date": "1965-09-19",
+      "origin": "Vosne-Romanée, France",
+      "notes": "Patriarch's younger brother. Runs the Provence house (a 17th-century bastide near Lourmarin that the family uses for Easter and August) and the small olive operation there. Not on this trip. Mentioned because Henri-Édouard will phone him on Tuesday morning — Geoffroy is the only person with whom he discusses succession out loud.",
+      "traveling_on_this_stay": false
+    }
+  ],
+  "derived_from_history": {
+    "stays": [
+      {
+        "property": "Rosewood London",
+        "dates": "2018-10-08 to 2018-10-11",
+        "occasion": "London on-trade tasting circuit — first major push to sell the Domaine's 1er Cru parcellaire bottlings into UK restaurants beyond the historic négociant channel",
+        "party_composition": "Henri-Édouard + Hugues (then 27, his first commercial trip as heir-apparent) — 2 men",
+        "notable_moments": [
+          "Patriarch requested at check-in that the welcome bottle be removed from the suite unopened — 'nous sommes vignerons, pas amateurs' — and asked instead for a carafe of still water at cellar temperature and a small plate of unsalted butter, radishes, and good bread. Concierge Mei-Lin sourced the radishes from a Borough Market stall the next morning; the patriarch noticed.",
+          "Hosted a private tasting in the Mirror Room for 14 UK sommeliers and one wine writer; asked the F&B team to use Zalto Universal glasses (their own) rather than the house Riedels, and to serve the older vintages from carafes the family brought in their luggage. Property complied without negotiation.",
+          "On the last evening Henri-Édouard switched mid-dinner from English back to French when speaking with his son in front of the waiting captain — the captain (a Lyonnais) answered the next question in French unprompted. Patriarch left a handwritten note for him at reception."
+        ],
+        "service_choices": [
+          "Welcome bottle removed; cellar-temperature water and a simple goûter substituted",
+          "Mirror Room private tasting with family's own glassware and carafes",
+          "Breakfast: black coffee, a tartine of butter and confiture de cerises noires, no eggs unless explicitly ordered",
+          "Late lunch (14h, never 12h30) on tasting days"
+        ],
+        "declined_or_unused": [
+          "Welcome champagne service (asked it be replaced, politely, as above)",
+          "Spa offerings (untouched both stays)",
+          "Theatre concierge service (Patriarch: 'Nous avons un théâtre à la maison, le ciel.')",
+          "In-room minibar wine selection — patriarch asked for the list to be removed from the suite entirely, finding its presence in a hotel of this register 'un peu commercial'"
+        ],
+        "memory_artifact_excerpt": "Mei-Lin (Guest Relations) note, 2018-10-11: 'M. de Méricourt is courteous, exact, and quietly demanding in a way that rewards the staff member who notices first. Hugues is being trained in real time — patriarch lets him lead negotiations and quietly corrects only afterward. The captain in Holborn (Pierre L.) made a strong impression by speaking French unprompted. Flag the family's preference for room-temperature still water and the absence of welcome bottle on every future booking.'"
+      },
+      {
+        "property": "Hôtel de Crillon, A Rosewood Hotel",
+        "dates": "2020-02-19 to 2020-02-21",
+        "occasion": "Entertaining a delegation of Japanese importers in Paris; family used the Crillon rather than the family flat in the 7th to keep the apartment private",
+        "party_composition": "Henri-Édouard + Aliénor — 2 adults; family hosted 6 Japanese guests at one dinner",
+        "notable_moments": [
+          "Aliénor met with Crillon's then-resident art consultant about a 19th-century photograph the hotel had recently acquired; they spoke for ninety minutes. The consultant remembered her by name in a 2024 email when the family rebooked.",
+          "Dinner for the Japanese delegation was held in a private salon, not at L'Écrin. Patriarch requested the sommelier serve only the family's own wines (carried in) and added: 'Ne proposez aucun de vos crus, même par politesse. Ce soir nous sommes les hôtes, pas le client.' The sommelier (M. Vasseur) understood immediately and made himself genuinely useful as service captain rather than as wine voice — the family noticed.",
+          "Patriarch was unwell the second morning (light flu); housekeeping was asked, by Aliénor in French, to delay turndown indefinitely and to bring a tisane of verveine, nothing else. The note Aliénor wrote was on the property's letterhead in cursive French and is still in the housekeeping log."
+        ],
+        "service_choices": [
+          "Private salon dinner with family's own wine; sommelier as captain only",
+          "Verveine tisane available in-suite at any hour",
+          "Daily papers: Le Figaro, Les Échos, La Croix (specifically — Aliénor reads it), and the FT weekend",
+          "No turndown chocolates; replaced with a single carré of bitter chocolate from a named Parisian chocolatier on request"
+        ],
+        "declined_or_unused": [
+          "Welcome champagne (declined — pattern by now)",
+          "Hotel car service to dinner venues — family used their own driver from Beaune",
+          "Spa (untouched)",
+          "Concierge offer of a backstage Opéra Garnier tour — Aliénor declined, mentioning she preferred the Petit Palais quietly on her own"
+        ]
+      },
+      {
+        "property": "Rosewood Castiglion del Bosco",
+        "dates": "2022-09-04 to 2022-09-10",
+        "occasion": "30th wedding anniversary — the only proper leisure stay in the family's Rosewood file. Chosen because 'cela ressemble à l'Europe' (Henri-Édouard's words to the booking agent)",
+        "party_composition": "Henri-Édouard + Aliénor — 2 adults",
+        "notable_moments": [
+          "Patriarch asked the estate director, on the second day, for a private conversation with the cellar master about élevage approaches for Sangiovese versus Pinot Noir — the conversation lasted three hours and the family left a long handwritten letter of thanks in French and Italian on departure.",
+          "Aliénor asked the property's gardener for cuttings of a specific old rose growing along the kitchen-garden wall; he sent them to Burgundy three weeks later, properly packaged. The roses took. She has mentioned this to two people at Rosewood London since.",
+          "On their anniversary evening the couple ate alone on the terrace; the kitchen prepared a tagliatelle al ragù bianco of veal, no wine pairing offered (the family was drinking a 1995 Domaine de Méricourt Vosne-Romanée 1er Cru they had brought). The kitchen sent out a small plate of just-picked figs and pecorino at the end of the meal, unannounced. Patriarch wrote a thank-you in his own hand to the chef.",
+          "They attended Sunday mass at the small chapel on the estate; Aliénor took communion, Henri-Édouard did not (rarely does in public, observant in private). Neither commented on this to each other or to staff."
+        ],
+        "service_choices": [
+          "Suite with terrace, garden-facing, no pool-view rooms",
+          "Daily morning espresso (single, ristretto) and a slice of crostata della casa — no eggs, no buffet visit",
+          "Dinner late but not Italian-late (20h30 sharp)",
+          "Anniversary dinner alone on terrace, family's own bottle, no kitchen-led pairing"
+        ],
+        "declined_or_unused": [
+          "Estate wine tour as a guided experience — politely declined; the private conversation with the cellar master was substituted at the patriarch's initiative",
+          "Cooking class (Aliénor: 'I cook')",
+          "Couples spa rituals (booked individual massages on different mornings — same therapist for both, by request)",
+          "Helicopter to Florence (patriarch found the suggestion bordering on impolite and said so gently)",
+          "Truffle hunt with dogs (Aliénor declined for the dogs' sake — she dislikes the staged version)"
+        ],
+        "memory_artifact_excerpt": "Beatrice (villa host, Castiglion) note, 2022-09-10: 'Couple courteous, observant, and culturally exact. They do not want to be entertained; they want the property to be itself and to let them be themselves inside it. Patriarch is a vigneron and was treated as a colleague by the cellar master — this mattered to him more than any service we offered. Flag: the family explicitly compared Castiglion favorably to the few other hotels they use, saying it «felt European». They are likely to return.'"
+      },
+      {
+        "property": "Rosewood Hong Kong",
+        "dates": "2023-11-13 to 2023-11-17",
+        "occasion": "Asia commercial trip — meetings with the family's existing Hong Kong importer and one new Singaporean buyer flown up for the occasion. Hugues's first solo lead on a major-market negotiation; patriarch present 'pour la forme'",
+        "party_composition": "Henri-Édouard + Hugues — 2 men",
+        "notable_moments": [
+          "Patriarch asked the concierge to find a Catholic mass in French within Hong Kong on the Wednesday evening — concierge located a service at the Mission Étrangères de Paris's Hong Kong chapter; Henri-Édouard went alone and the concierge logged that he came back visibly settled.",
+          "Hugues hosted the negotiation dinner at a private room at Lung King Heen (off-property) and the Rosewood concierge had pre-briefed the restaurant on the family's preference to bring their own wines — five bottles, carried by hand from Beaune in their cabin luggage. The patriarch was present, said almost nothing, let Hugues conduct the entire room. On returning to the hotel he asked the bar for a single glass of Calvados (one of the few times alcohol appears in the file outside the family's own wines) — the bartender chose well and the patriarch noted the brand to remember.",
+          "Patriarch declined the property's celebrated harbor-view tasting menu twice — preferred room-service congee on both nights he was alone."
+        ],
+        "service_choices": [
+          "Suite with desk facing the city, not the harbor (patriarch finds harbor view distracting for paperwork)",
+          "French-language newspapers daily (Le Figaro, Les Échos — sourced via the concierge from a Central newsstand)",
+          "Concierge-arranged mass on the Wednesday",
+          "Late breakfast (9h), congee preferred over Western options"
+        ],
+        "declined_or_unused": [
+          "Welcome champagne (pattern)",
+          "Harbor tasting menu offered twice",
+          "Spa (untouched)",
+          "Suggested tailor visits (patriarch is dressed exclusively from one Beaune tailor and one Parisian shirtmaker; this was politely conveyed)"
+        ]
+      },
+      {
+        "property": "Hôtel de Crillon, A Rosewood Hotel",
+        "dates": "2024-06-25 to 2024-06-27",
+        "occasion": "Hosting two US importers in Paris ahead of Vinexposium — Hugues now formally lead on the commercial relationship; patriarch's role explicitly «la signature, pas la voix»",
+        "party_composition": "Henri-Édouard + Hugues — 2 men",
+        "notable_moments": [
+          "M. Vasseur (sommelier, remembered from 2020) had moved to Maître d'Hôtel and personally seated the family; patriarch greeted him by name. The hotel had also held aside the same private salon used in 2020 without being asked — Aliénor had mentioned the salon by name in the booking note.",
+          "On the second morning Hugues asked the concierge for a 7h walking route along the Seine that would let him think before the day's first meeting; concierge gave him a hand-drawn map, not a printed one. He used it both mornings.",
+          "Patriarch had a private lunch alone at the bar one day (rare — usually eats with someone) and ordered an omelette aux fines herbes and a single glass of a white Burgundy from a producer he knew personally. He stayed forty minutes longer than the lunch took. The bar staff did not interrupt."
+        ],
+        "service_choices": [
+          "Private salon for the US importer dinner",
+          "Family's own wines on the table; sommelier as captain",
+          "Hand-drawn walking maps from the concierge (an established small kindness now)",
+          "Le Figaro, Les Échos, La Croix, FT weekend"
+        ],
+        "declined_or_unused": [
+          "Welcome champagne",
+          "L'Écrin tasting menu (used the private salon instead)",
+          "Hotel car (own driver from Burgundy)",
+          "Spa, gym (untouched)"
+        ],
+        "memory_artifact_excerpt": "Vasseur (Maître d'Hôtel) note, 2024-06-27: 'The Méricourt arrival has settled into a known shape. The father is consciously stepping back; the son is being measured by the room. Our discretion is part of the choreography — we are watching a succession in progress and we should not narrate it. The same private salon, the same glassware, the same papers; let the change be theirs to make.'"
+      },
+      {
+        "property": "Rosewood London",
+        "dates": "2025-09-22 to 2025-09-24",
+        "occasion": "UK on-trade tasting season; Hugues now leads, patriarch present for one of three days only — flew in for the headline tasting, flew home next morning",
+        "party_composition": "Hugues solo for 3 nights; Henri-Édouard joined for 1 night",
+        "notable_moments": [
+          "Concierge desk (Mei-Lin again, now Head Concierge) had the patriarch's same suite ready for one night with the welcome bottle pre-removed, room-temperature water decanted, and a small dish of radishes and unsalted butter on the table — exactly as in 2018, seven years later. The patriarch noticed within ninety seconds of entering and asked the bellman to pass his thanks to Mei-Lin by name.",
+          "Hugues used the Mirror Room for the headline tasting; brought the family's own Zalto glasses again (now an established protocol). He invited Mei-Lin's deputy to observe — an unprompted gesture of respect.",
+          "Patriarch flew home early specifically to be at the Domaine for the start of harvest — the early September vintage that year was tight and he had not missed the opening day of harvest in 38 years."
+        ],
+        "service_choices": [
+          "Welcome bottle removed; radishes-butter-bread amuse standing protocol now",
+          "Mirror Room with family's own glassware",
+          "Single-night quick turnaround for the patriarch (booking team handled departure transport at 5h30 without his asking)"
+        ],
+        "declined_or_unused": [
+          "Welcome bottle (still and always)",
+          "Spa (untouched)",
+          "Theatre, restaurant suggestions outside the property's own kitchen (Hugues eats in-room when alone)"
+        ]
+      }
+    ],
+    "observed_register": [
+      "vigneron-not-amateur (the family produces wine; hotel wine programs are observed with collegial interest, not consumed as luxury)",
+      "welcome-bottle-removed (standing protocol across 5+ stays; do not require re-asking)",
+      "own-glassware, own-wines at family-hosted dinners (Zalto Universals, carafes from Beaune)",
+      "French-as-family-language (the patriarch switches to French with his son in front of staff as a marker — staff who can answer in French are remembered)",
+      "Catholic-observed-not-performed (mass when accessible, communion private, no announcement)",
+      "names matter and persist (Mei-Lin 2018→2025, Vasseur 2020→2024, Beatrice 2022, Lorenzo 2022) — the family will ask after staff they remember",
+      "papers in three languages with La Croix specifically for Aliénor",
+      "succession-in-progress as the unspoken organizing register of every stay since 2023"
+    ],
+    "observed_avoidances": [
+      "welcome champagne / welcome wine in any form (8 stays, 0 acceptances)",
+      "minibar wine list visible in the suite (patriarch finds it commercial)",
+      "hotel sommelier proposing pairings when the family is hosting (he becomes a captain, not a voice)",
+      "ostentatious upgrades (helicopters, celebrity-chef showpieces, branded turndowns)",
+      "service staff addressing guests in English when the guest has spoken French (the patriarch experiences this as a small discourtesy)",
+      "treating Mme. Garnier (or any traveling household staff) as invisible — Aliénor is firm",
+      "spa as a service category in general (untouched across the entire file — not a refusal of wellness, simply not the family's vocabulary)",
+      "any framing that treats the family as 'wine tourists' or invites them to a property's wine experience as if they were learners"
+    ],
+    "recurring_staff_relationships": [
+      {
+        "property": "Rosewood London",
+        "staff": "Mei-Lin Chen — Head Concierge (was Guest Relations in 2018)",
+        "note": "Seven-year relationship. Owns the welcome-bottle-removed / radishes-and-butter protocol. The patriarch asks after her by name on every London booking. Brief her on the September 2025 standing welcome and note that she now also handles Hugues directly — Hugues is her relationship to inherit, not just hers to maintain."
+      },
+      {
+        "property": "Hôtel de Crillon",
+        "staff": "Pierre Vasseur — Maître d'Hôtel (was sommelier in 2020)",
+        "note": "Family's de facto host in Paris. Promoted on his own merits; family takes quiet credit for having recognized him in 2020. He has memorized the private-salon protocol and the family's own-wine convention. Should be on the welcome team for any future Crillon booking by default."
+      },
+      {
+        "property": "Rosewood Castiglion del Bosco",
+        "staff": "Beatrice — villa host; the cellar master from 2022 (name in the file but not used publicly by the family in correspondence)",
+        "note": "The 2022 anniversary stay is the family's only Rosewood leisure stay and they remember it with a precision that exceeds the trip's length. Beatrice's name comes up in passing in two later booking conversations. The cellar master became a quiet professional contact — they exchange Christmas cards."
+      },
+      {
+        "property": "Rosewood Hong Kong",
+        "staff": "Concierge desk (specific staff name not in the file — the patriarch tipped on the way out, did not record a name)",
+        "note": "The 2023 Wednesday-mass arrangement registered. The patriarch has mentioned the concierge desk's discretion to Hugues twice. On any Asia rebooking, flag the mass and the French papers as standing."
+      }
+    ],
+    "cross_property_pattern": "The family uses Rosewood as a commercial instrument, not a leisure habit — they vacation at the Domaine and the Provence bastide, and they hotel when there is a market to work. The pattern across seven years shows a deliberate, slow transfer of authority from Henri-Édouard to Hugues that has unfolded one property at a time: London 2018 (father leads, son observes) → Hong Kong 2023 (son leads, father attends 'for legitimacy') → Crillon 2024 (son leads, father is explicitly 'la signature, pas la voix') → London 2025 (son alone for three nights, father in for one). Sand Hill 2026 is the first US trip, with daughter resident in San Francisco — meaning it carries the two registers the family rarely combines: a working trip with a US distributor circuit AND a family visit to the daughter mid-residency. Read every choice on this stay against that doubling, and against the fact that this is the only stay in the file likely to include the patriarch's 86-year-old mother, even for a single night."
+  },
+  "cultural_profile_hint": {
+    "cultural_lens": "French provincial nobility of the wine-producing Bourgogne — a household whose identity is tied not to a city or a profession but to a specific piece of inherited land, a specific name, and a specific liquid that the land yields. Distinguishes itself quietly but firmly from 'Paris luxury' (which it finds performative) and from Anglo-American 'château tourism' (which it finds embarrassing on its behalf). Catholic and observant in a 19th-century rural mode — practiced, undeclared, structuring the week. Formal in language register (vouvoiement still used in certain family contexts), informal in personal warmth once trust is established. Reads the world through the vocabulary of terroir, parcellaire, élevage, garde — and tends to evaluate hospitality through the same lens: is the property itself, or is it performing itself.",
+    "register": [
+      "vigneron-as-identity (not job, not hobby — vocation across generations)",
+      "stewardship over ownership (one holds the Domaine for the next holder)",
+      "provincial-nobility distinct from Paris luxury (and quietly proud of the distinction)",
+      "French-first in language and reference; English used competently and without ceremony",
+      "Catholic observed not performed (mass, no rosary on the table; communion, no commentary)",
+      "names persist (Mei-Lin in 2018 is still Mei-Lin in 2026; staff turnover is the property's problem, not the guest's interest)",
+      "own-wines, own-glassware as professional courtesy not status display",
+      "household-staff included by name (Aliénor's particular reform of the family's older habits)",
+      "succession-as-current-tense — every conversation has a subordinate clause about Hugues"
+    ],
+    "current_phase": "Stewardship / Garde — Henri-Édouard is in the phase of holding the inherited Domaine in trust for the next holder while consciously transferring authority. The phase's center of gravity is the land and the name themselves, not family continuity per se: the question he sits with daily is whether he is leaving the parcellaire, the cellar's house style, the staff at the Domaine, and the family's name in the on-trade in better condition than he received them. Hugues being formally co-gérant since 2023 is the visible marker; the invisible work is Henri-Édouard learning to be present without speaking, to validate without leading, to age into legitimacy rather than authority. This stay sits inside that phase precisely — patriarch attending a US trip he could have skipped, specifically so that his son's standing with the US distributors is set in front of him.",
+    "emotional_anchors": [
+      "Hugues conducting a US distributor negotiation with the patriarch in the room — the explicit choreography of succession in front of strangers",
+      "Marguerite at SFMOMA — the first of the children to choose a vocation outside the Domaine, and the family's quiet pride in that choice combined with the small ache of a daughter on a different continent",
+      "Madeleine's one night at the property — her last likely transatlantic trip, her first sight of California since 1985, the photograph the family will quietly take of her at the table that Aliénor will frame later",
+      "the 18h Pacific FaceTime that Hugues makes to Sibylle and the children every evening — sacred, not to be scheduled across",
+      "Henri-Édouard's private question, never spoken aloud at the property: whether the Domaine will outlive him in the form he received it",
+      "Aliénor's quiet authority — the marriage is the engine, and her approval of the property is the real measure of the stay's success"
+    ],
+    "avoid": [
+      "welcome champagne, welcome wine, welcome bottle of any kind in the suite — eight stays of evidence, do not require re-asking",
+      "any framing of the family as 'wine enthusiasts' or invitation to a wine-tasting experience as a guest activity (they are colleagues of any serious wine program; treat them so or do not raise wine at all)",
+      "the property's sommelier proposing pairings when the family is hosting — sommelier becomes captain, not voice",
+      "addressing the patriarch in English when he has opened in French — small but real discourtesy in his register",
+      "any staff member treating Mme. Garnier (Madeleine's caregiver) as back-of-house or invisible — Aliénor will notice immediately and quietly",
+      "scheduling anything across the 18h Pacific window when Hugues calls his wife and children",
+      "scheduling the family's first dinner past 20h on the night Madeleine is present (she will retire at 21h)",
+      "performative California-rustic touches that read as corporate (mason jars of wildflowers on every surface, branded 'farm-to-table' menu narration, denim-shirted staff scripts) — the family will find this charming if genuine and faintly absurd if not, and the difference is detectable in the first ninety seconds",
+      "any framing of Marguerite as 'the daughter visiting' rather than as a member of the family in her own working life — she is here as a curator on residency who happens to also be Henri-Édouard's daughter, not the other way around",
+      "any allusion in service language to 'the de Méricourt name' or family titles in front of US guests at the distributor dinner — the patriarch finds Anglo deference to French titles embarrassing and the son will inherit a business in which that register is a liability",
+      "spa as 'decompression' framing or as a celebration gesture (the family does not use spa as a category; offering it as recognition will land as a misread)"
+    ]
+  }
+}

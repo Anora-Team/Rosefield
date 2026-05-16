@@ -1,0 +1,417 @@
+{
+  "id": "jhunjhunwala-london-2026-05",
+  "display_name": "Vikramaditya Jhunjhunwala",
+  "archetype_tag": "Marwari industrialist · multi-generational London regular · board roadshow + family",
+  "direct_input": {
+    "birth_date": "1973-10-29",
+    "origin": "Mumbai, India",
+    "stay_intent": "Bauji is travelling with us this time — keep things quiet enough that he still feels like the head of the table, even when I'm running between meetings.",
+    "languages": ["Hindi", "Marwari (home)", "English (fluent, British-inflected)", "Gujarati (business)"],
+    "booking_window": "Saturday–Tuesday week after, 10 nights"
+  },
+  "family": [
+    {
+      "relation": "spouse",
+      "name": "Aanchal Jhunjhunwala (née Poddar)",
+      "birth_date": "1976-02-14",
+      "origin": "Kolkata, India",
+      "languages": ["Hindi", "Marwari", "Bengali", "English"],
+      "notes": "From the Poddar trading family of Kolkata — married into the Jhunjhunwalas at 22. Strict lacto-vegetarian, no onion/garlic on Tuesdays and during Paryushan. Carries the family's social calendar in London — Bond Street jeweller appointments, theatre tickets, the Harrow housemaster's tea. Wears saree to dinner most evenings even abroad; the choice of saree each night is itself a statement she will not explain.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "parent",
+      "name": "Shyam Sundar Jhunjhunwala (Bauji)",
+      "birth_date": "1948-06-12",
+      "origin": "Pilani, Rajasthan → Mumbai, India",
+      "languages": ["Marwari", "Hindi", "English (slow, deliberate)"],
+      "notes": "Vikramaditya's father, 77. Patriarch, formally chairman emeritus but in practice still consulted on every material decision. Strict Jain-influenced vegetarian (no root vegetables, no eating after sunset on Ekadashi, no leather in the room). Walks with a silver-tipped cane — mild knee arthritis, refuses a wheelchair anywhere public. Has stayed at this property since the 1990s; remembers staff who have since retired. Will not initiate any request — Vikramaditya or Aanchal must read him and route it. Eldest-served-first applies always; he must be greeted before anyone else in the family at every encounter.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "parent",
+      "name": "Pushpa Devi Jhunjhunwala (Maaji)",
+      "birth_date": "1951-09-04",
+      "origin": "Jhunjhunu, Rajasthan → Mumbai, India",
+      "languages": ["Marwari", "Hindi", "limited English"],
+      "notes": "Vikramaditya's mother, 74. Wears only white-and-cream sarees since 2019 (a personal vow taken after her elder sister's passing — not widowhood). Diabetic, type 2; insulin twice daily, refrigeration needed. Carries her own thali and small steel tiffin set for early morning tea — does not use hotel crockery before her morning puja (6:00–6:45). Will accept fruit in the room but not flowers in her bedroom (kept in the sitting area only). Defers to Bauji in public, runs the household in private.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "child",
+      "name": "Rishabh Jhunjhunwala",
+      "birth_date": "2008-04-19",
+      "origin": "Mumbai, India",
+      "languages": ["English", "Hindi", "Marwari (passive)"],
+      "notes": "Son, 18. Lower Sixth at Harrow School — boards there during term. The grandchild visit is the secondary purpose of this trip; he will join the family at the hotel Friday evening through Sunday night of the second weekend (exeat). Quietly anglicised — accent, music, social references. Bauji adores him without pretending to understand him. Vegetarian by lineage but has experimented at school; family does not ask, he does not volunteer.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "child",
+      "name": "Avani Jhunjhunwala",
+      "birth_date": "2003-07-22",
+      "origin": "Mumbai, India",
+      "languages": ["Hindi", "Marwari", "English", "French (passable)"],
+      "notes": "Daughter, 22. Just finished an MSc at LSE; joining the family for the last four nights of the stay before flying back to Mumbai. Engagement is being quietly negotiated with the Singhania family — the Hatton Garden jewellery pickup on this trip is, in part, for her. She knows; she has not said so. Strict vegetarian, off dairy by choice (the only one in the family).",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "sibling",
+      "name": "Anand Jhunjhunwala",
+      "birth_date": "1976-11-30",
+      "origin": "Mumbai, India",
+      "languages": ["Marwari", "Hindi", "English", "Mandarin (business)"],
+      "notes": "Younger brother, runs the Singapore arm of the family group. Not on this stay — will join the London roadshow remotely from a Singapore-side dial-in. Vikramaditya speaks to him every morning at 6:30 London time (11:00 Singapore) without exception; concierge has historically held the lobby phone room open for this call.",
+      "traveling_on_this_stay": false
+    }
+  ],
+  "derived_from_history": {
+    "stays": [
+      {
+        "property": "Rosewood London",
+        "dates": "2019-05-11 to 2019-05-18",
+        "occasion": "First Jhunjhunwala family stay at this property — Bauji's recommendation after a Cinnamon Bay competitor stay fell short",
+        "party_composition": "Vikramaditya + Aanchal + Bauji + Maaji (Avani and Rishabh in India)",
+        "notable_moments": [
+          "Bauji asked at check-in for the same kind of mineral water he had been served at the Connaught in 1994 — concierge sourced San Pellegrino in the green glass bottle and stocked the suite within the hour, never mentioned again",
+          "Maaji's puja corner was set up in the suite living room without being asked twice — small low table, east-facing, no leather chair within sightline; housekeeping note: 'Mr. V. quietly moved the leather ottoman to the corridor himself before his mother arrived in the room'",
+          "Aanchal asked the concierge for a recommendation 'not from the hotel list' for the daughter's prospective jewellery — was directed to a third-generation Hatton Garden cutter named Mr. Avraham Sztern. She thanked the concierge by writing his wife's name on a card the next morning."
+        ],
+        "service_choices": [
+          "Two adjoining suites, parents in the larger one (Vikramaditya insisted)",
+          "In-suite pure-vegetarian Jain breakfast 7:30 daily — no onion, no garlic, no root vegetables for Bauji's plate, separately plated",
+          "Evening tea (masala chai + Marie biscuits, not pastries) at 17:00 in the parents' suite, brought by the same butler each day after day 2"
+        ],
+        "declined_or_unused": [
+          "Welcome champagne (untouched in both suites; replaced with fresh lime water and a tray of seasonal fruit on request)",
+          "Mill restaurant tasting menu (declined — family ate in-suite or at outside Indian restaurants in Mayfair)",
+          "Spa welcome treatments for Aanchal (declined politely — 'next visit, perhaps')"
+        ],
+        "memory_artifact_excerpt": "Family operates by inference and by age. The patriarch will never make a request directly — his son will, on his behalf, often after a long pause. Leather, alcohol, root vegetables, and onion in the elder's sightline are non-starters. Read the room before offering."
+      },
+      {
+        "property": "Rosewood London",
+        "dates": "2019-11-02 to 2019-11-08",
+        "occasion": "Diwali stay — first time the family chose to be away from Mumbai for the festival",
+        "party_composition": "Vikramaditya + Aanchal + Bauji + Maaji + Avani (then 16) + Rishabh (then 11)",
+        "notable_moments": [
+          "Aanchal requested that the suite door be marked with a small rangoli on Lakshmi Puja evening (27 October); housekeeping coordinated with her personal staff member who had travelled from Mumbai, supplying coloured rice flour discreetly",
+          "Bauji performed the puja in the suite at 19:14 sharp — Aanchal had checked the muhurat herself; staff were asked to suspend room service to the floor for 45 minutes during the puja, which was honoured without question",
+          "Avani requested permission to invite three school friends from Wycombe Abbey to tea on day 4; tea was held in the Mirror Room, vegetarian-only, no alcohol on the table — Bauji greeted each girl personally and asked their fathers' names"
+        ],
+        "service_choices": [
+          "Floor-level room service suspension during puja (19:00–19:45)",
+          "Vegetarian high tea for Avani's school friends, Mirror Room private nook",
+          "Pre-stocked silver thali set in the suite kitchenette (sourced by Aanchal from Southall, stored by housekeeping between use)"
+        ],
+        "declined_or_unused": [
+          "Hotel-arranged Diwali turn-down theme (diya + branded card — declined; family arranged their own diyas)",
+          "Mayfair fireworks viewing terrace (declined — Maaji preferred not to be near loud noise; family did short rooftop blessing instead)",
+          "Photographer offered for family Diwali photo (declined — Aanchal: 'we have a photographer travelling with us')"
+        ],
+        "memory_artifact_excerpt": "The family brings its own ritual infrastructure (puja items, photographer, kitchen staff back-channel). What they need from the hotel is permission, privacy, and a willingness to step back at the exact right moment. The muhurat is non-negotiable. Branded Diwali theming reads to them as presumption."
+      },
+      {
+        "property": "Rosewood Hong Kong",
+        "dates": "2020-01-15 to 2020-01-19",
+        "occasion": "Asia banking meetings — Vikramaditya solo for the first two nights, family arriving for the last two",
+        "party_composition": "Vikramaditya (solo nights 1–2); + Aanchal + Bauji for nights 3–4",
+        "notable_moments": [
+          "Vikramaditya took every meeting in the suite or at outside offices; never used the hotel's meeting rooms — explicitly told concierge that 'meetings happen in private homes or offices in our world, not in hotel boardrooms'",
+          "Asked the Butterfly Room to prepare a strict Jain afternoon tea on day 3 for Bauji's arrival — three days notice, executed without an Indian guest tea-tasting first (Mr. Chan, concierge, took the brief personally)",
+          "Bauji insisted on walking to Man Mo Temple on day 4 — Vikramaditya hired a private car to follow at walking pace in case the knee gave way; staff arranged a folding chair to be carried discreetly by the driver"
+        ],
+        "service_choices": [
+          "Suite-only dining for Vikramaditya nights 1–2",
+          "Jain afternoon tea (no honey, no root vegetables, no onion/garlic, no eggs), Butterfly Room private alcove",
+          "Walking-pace follow car for Bauji's temple visit"
+        ],
+        "declined_or_unused": [
+          "Hotel-arranged meeting rooms (declined firmly — pattern noted in the file)",
+          "Asaya spa packages (declined for all)",
+          "Rooftop bar — Vikramaditya: 'we don't drink, and my father wouldn't sit there'"
+        ]
+      },
+      {
+        "property": "Rosewood London",
+        "dates": "2021-07-03 to 2021-07-10",
+        "occasion": "Post-pandemic return stay; financing roadshow + Avani's gap-year planning",
+        "party_composition": "Vikramaditya + Aanchal + Avani (then 17)",
+        "notable_moments": [
+          "Vikramaditya asked for the use of the small library off the lobby for a 45-minute call to Singapore at 6:30 each morning; concierge held it open for him for seven consecutive mornings",
+          "Aanchal and Avani spent an afternoon at Liberty and at the V&A's South Asian galleries — Aanchal asked the concierge for a curator-led visit to the Tipu Sultan rooms specifically; arranged within 36 hours through a back-channel",
+          "Family ate at Gymkhana on three of seven nights; Vikramaditya tipped the maître d' directly each time in cash, never via the bill"
+        ],
+        "service_choices": [
+          "Library held open for 6:30 morning call (seven days)",
+          "Curator-led V&A visit (Tipu Sultan rooms)",
+          "Suite breakfast moved to 7:00 from 7:30 to accommodate the call schedule"
+        ],
+        "declined_or_unused": [
+          "Hotel restaurant breakfast (declined — always in-suite)",
+          "Pride Month welcome amenity placed in suite (set aside without comment by Aanchal — neither approving nor disapproving)",
+          "Spa couples package (declined again — Aanchal's standing 'next time')"
+        ]
+      },
+      {
+        "property": "Rosewood Castiglion del Bosco",
+        "dates": "2022-05-21 to 2022-06-02",
+        "occasion": "Twelve-night family summer — first long stay together since Bauji's bypass surgery the previous winter",
+        "party_composition": "Vikramaditya + Aanchal + Bauji + Maaji + Avani + Rishabh + Anand (joined for last 4 nights from Singapore)",
+        "notable_moments": [
+          "Aanchal arranged for a private vegetarian chef trained in Rajasthani cooking to travel with the family from Jaipur — staff at Castiglion gave him kitchen access during off-hours; the executive chef noted in the log that he 'learned three dishes' from him and asked permission to add a vegetable thali option to the off-menu list",
+          "Bauji walked the vineyard path each morning at 6:00 with Vikramaditya; the property's gardener Pietro began leaving a fresh fig on the bench at the halfway point each day after observing Bauji rest there twice — never mentioned, never thanked, simply continued",
+          "Maaji took a fall on day 8 in the bathroom — minor, no injury; staff response was clinical and unobtrusive, no incident report shown to the family. Vikramaditya later sent a personal note to the GM thanking the night manager Giulia by name."
+        ],
+        "service_choices": [
+          "Private villa with separate kitchen-staff entrance for the travelling chef",
+          "Daily 6:00 vineyard walk — Pietro's standing observation",
+          "Connecting suites within villa for parents, Vikramaditya and Aanchal, and the children — never one open-plan family villa (privacy for elders at night is sacred)",
+          "Dinner at 19:30 sharp every evening — Bauji's eating window before sunset on Ekadashi days adjusted to 17:30 without comment"
+        ],
+        "declined_or_unused": [
+          "Wine pairing offered nightly for first three nights (declined every time; replaced with mocktails and chaas — staff stopped offering by night 4)",
+          "Truffle hunt (declined — Bauji's mobility)",
+          "Cooking class led by Castiglion chef (declined — family had their own chef, but Aanchal sent the chef to attend on the family's behalf as a courtesy)",
+          "Photographer for the family portrait on the lawn (declined — 'we have someone')"
+        ],
+        "memory_artifact_excerpt": "This family travels with its own infrastructure — chef, photographer, often a Marwari-speaking attendant for Maaji. What earns trust is hotel staff who notice the small unspoken accommodations (the fig on the bench, the silent handling of the fall) and never ask for credit. Pietro the gardener is mentioned in the family's WhatsApp group by name."
+      },
+      {
+        "property": "Rosewood London",
+        "dates": "2022-11-09 to 2022-11-16",
+        "occasion": "Diwali (24 October had passed — stay was deliberately post-Diwali, for the Annakut and Bhai Dooj observances which Aanchal wanted to do quietly in London this year)",
+        "party_composition": "Vikramaditya + Aanchal + Bauji + Maaji",
+        "notable_moments": [
+          "Aanchal performed Annakut in the suite on the morning of arrival — 56 small dishes prepared by their travelling cook in the suite kitchenette; staff stayed away from the floor between 9:00 and 11:00 at her request, then a small selection was offered to housekeeping by Aanchal personally as prasad",
+          "Bauji asked the concierge — through Vikramaditya — for a copy of that day's Financial Times to be left outside the suite door at 5:45 every morning; concierge complied and added the Mumbai-edition headlines via the business centre's wire access, unprompted, from day 3",
+          "Maaji needed a small adjustment to her insulin refrigeration — the suite minibar was emptied and dedicated to her medication; housekeeping left a discreet label in Hindi (दवाई / medicine) which she noticed and pointed out to Aanchal with visible pleasure"
+        ],
+        "service_choices": [
+          "Floor privacy window for Annakut (9:00–11:00, day 1)",
+          "FT + Mumbai wire headlines printed and left at the door, 5:45 daily",
+          "Minibar converted to medication storage with bilingual label",
+          "Daily masala chai at 17:00 in the parents' suite (continued standing order from 2019)"
+        ],
+        "declined_or_unused": [
+          "Welcome amenity (champagne and macarons — replaced with seasonal fruit, lime water, and a small dish of mukhwas on Aanchal's standing preference, now in the file)",
+          "Theatre concierge bookings (Aanchal books theatre through her own London agent — politely declined)",
+          "Hotel car service (family uses a long-standing private chauffeur company, Tristar — concierge knows to coordinate with their dispatcher)"
+        ]
+      },
+      {
+        "property": "Rosewood Phuket",
+        "dates": "2023-12-26 to 2024-01-02",
+        "occasion": "Family year-end — first stay since Vikramaditya's mother survived a serious diabetic episode in October; the trip was framed as 'rest, no programme'",
+        "party_composition": "Vikramaditya + Aanchal + Bauji + Maaji + Avani + Rishabh",
+        "notable_moments": [
+          "Aanchal asked the villa host to ensure that no New Year's Eve programming reached the villa — no fireworks viewing invitation, no countdown call, no champagne. Khun Praew (villa host) honoured this without comment; the family observed midnight quietly in the villa with kheer and ginger tea",
+          "Bauji requested — through Vikramaditya — that the villa's small infinity pool be unheated; said the heated water reminded him of his cardiac rehab pool and he 'did not come to Phuket for the hospital'. Engineers complied within an hour",
+          "Rishabh (then 15) asked the staff one night, quietly, whether he could try a fish curry at the main restaurant — Khun Praew arranged a private table for him alone, did not document it in the family-visible log, and never mentioned it again. Aanchal has never been told."
+        ],
+        "service_choices": [
+          "NYE silence (no programming reached the villa)",
+          "Pool unheated from day 2 onward",
+          "In-villa Jain breakfast for Bauji and Maaji; less restrictive lacto-vegetarian for younger generation",
+          "Tea service at 17:00 daily (standing across properties)"
+        ],
+        "declined_or_unused": [
+          "NYE gala dinner at the main restaurant (declined for all)",
+          "Sunset cocktail experience (declined)",
+          "Long-tail boat island tour (declined — Bauji's mobility, and Aanchal's stated 'no programme')",
+          "Children's club for Rishabh (he was 15 — not applicable, but the suggestion was logged and Aanchal noted later 'he is not a child here')"
+        ],
+        "memory_artifact_excerpt": "The most important service this stay was Khun Praew's handling of Rishabh's quiet request. The boy is becoming a man inside a family that is still treating him as a child; the staff who can hold that ambiguity without exposing him to either side earn permanent trust. Family privacy is non-negotiable, and silence about what is seen is a service in itself."
+      },
+      {
+        "property": "Rosewood London",
+        "dates": "2024-05-04 to 2024-05-11",
+        "occasion": "Annual May board roadshow + Rishabh's first Harrow exeat as a new boarder",
+        "party_composition": "Vikramaditya + Aanchal + Rishabh (joined Sat-Sun of exeat)",
+        "notable_moments": [
+          "Vikramaditya took five back-to-back meetings on the Tuesday — concierge held the lobby's library for him from 7:00 to 19:00, with a vegetarian thali sent in at 13:30 (no announcement, just placed; he ate in eleven minutes between calls)",
+          "Aanchal collected a custom set of polki earrings from a Bond Street jeweller on the Thursday — the jeweller had hand-delivered to the hotel at her request; concierge arranged a small valuables room with a witness present (a property security officer and the jeweller's assistant) for the handover. Aanchal signed for them in Devanagari.",
+          "Rishabh arrived Saturday afternoon visibly tired from his first half-term at Harrow; Vikramaditya did not ask about school for the first six hours. They ordered room service biryani at 22:30 and ate it watching cricket on the suite TV. Housekeeping left the dishes outside until morning at Vikramaditya's request — 'don't disturb him'."
+        ],
+        "service_choices": [
+          "Library held as a working room (7:00–19:00, Tuesday)",
+          "Private valuables handover, witnessed (Thursday)",
+          "Late-night biryani room service with no morning disturbance (Saturday)"
+        ],
+        "declined_or_unused": [
+          "Concierge offer of a 'welcome back to London' afternoon tea for Rishabh (declined — Aanchal: 'let him just rest')",
+          "Theatre booking offered for Saturday evening (declined — same reason)",
+          "Spa for Aanchal (declined again — file note: 'standing pattern, do not re-offer')"
+        ]
+      },
+      {
+        "property": "Rosewood London",
+        "dates": "2024-11-23 to 2024-11-30",
+        "occasion": "Pre-Diwali this time (Diwali fell 1 November; this was a separate post-festival stay focused on year-end financing and Avani's LSE family weekend)",
+        "party_composition": "Vikramaditya + Aanchal + Bauji (Maaji stayed in Mumbai — chest infection)",
+        "notable_moments": [
+          "Bauji travelled without Maaji for the first time in eleven years — visibly subdued at check-in. Vikramaditya quietly asked the concierge to ensure that Maaji could be reached by video call from the suite TV at 7:30 every morning (Mumbai 13:00); a tech assistant set it up daily, never required a request",
+          "Aanchal took Avani to a Carnatic music recital at King's Place on the Friday evening — asked concierge for a recommendation on what to send the artist as a courtesy after the concert; concierge arranged a small basket from a Mayfair florist with a handwritten card in Tamil (translated by a staff member whose mother is from Chennai)",
+          "Vikramaditya cancelled two days of meetings mid-stay when Maaji's infection worsened — concierge held the room for an emergency departure that didn't happen (Maaji stabilised). The held flight was rebooked without a fee through the hotel's travel desk."
+        ],
+        "service_choices": [
+          "Daily 7:30 video call setup to Mumbai (suite TV)",
+          "Carnatic concert florist basket with Tamil-translated card",
+          "Travel-desk holding posture for possible emergency departure",
+          "Bauji's daily walk in Green Park accompanied by a hotel porter (offered by GM, accepted — first time the family has accepted a chaperone for him)"
+        ],
+        "declined_or_unused": [
+          "Mill restaurant private booking (declined — Aanchal and Vikramaditya ate in-suite to keep Bauji company every night)",
+          "Spa packages (declined)",
+          "Concierge offer to send a get-well card to Maaji on the hotel's behalf (Aanchal politely declined — 'this is for our family')"
+        ],
+        "memory_artifact_excerpt": "Bauji without Maaji is a different guest. The morning video call was the spine of the stay — when it happened on time, the day proceeded normally; on the morning it failed (network issue, 25 minutes' delay), Bauji refused breakfast. The acceptance of the hotel porter for the Green Park walk is a quiet signal that the family is beginning to acknowledge his frailty in ways they would not yet say aloud."
+      },
+      {
+        "property": "Rosewood London",
+        "dates": "2025-05-17 to 2025-05-24",
+        "occasion": "May roadshow — Avani's LSE graduation week",
+        "party_composition": "Vikramaditya + Aanchal + Bauji + Maaji + Avani",
+        "notable_moments": [
+          "Maaji's first London stay since the chest infection — she arrived with a Marwari-speaking attendant (Sumitra, age 52, employed by the family for 14 years). Concierge arranged a small adjoining room for Sumitra without it being framed as 'staff accommodation' — Aanchal had asked that Sumitra be 'a guest of the family' on the booking",
+          "On graduation day, Aanchal asked the concierge to have a small silver coin tray, jaggery, and a single yellow rose in the suite at 6:00 before they left for the ceremony — a quiet pre-departure ritual; not photographed",
+          "Bauji performed a brief blessing for Avani in the suite that morning; the ceremony itself was at LSE, not the hotel. Family hosted no party — dinner was just the five of them at Benares, private room, vegetarian-only, by 21:00 done"
+        ],
+        "service_choices": [
+          "Adjoining room for Sumitra, framed as 'family guest' on the booking",
+          "Pre-departure ritual items (coin tray, jaggery, single yellow rose) in suite at 6:00, graduation morning",
+          "No celebration programming at the hotel — the family deliberately kept it understated"
+        ],
+        "declined_or_unused": [
+          "Concierge offer of a graduation cake (declined firmly — Aanchal: 'we do not cut cake for these things')",
+          "Champagne sent by hotel as a graduation gesture (declined; replaced with a fruit basket and a hand-written note from the GM, which Aanchal kept and pasted into her trip journal — she later mentioned this to Avani)",
+          "Hotel photographer for the family on the steps (declined; family had their own)"
+        ],
+        "memory_artifact_excerpt": "Marwari celebration is restrained almost to the point of secrecy from the outside — the silver coin tray and the yellow rose are doing more work than any cake would. Staff who provide ritual infrastructure without naming it as celebration are correctly reading the family. The handwritten note from the GM landed; the champagne would have closed a door."
+      },
+      {
+        "property": "Rosewood Hong Kong",
+        "dates": "2025-10-09 to 2025-10-12",
+        "occasion": "Singapore-Hong Kong financing leg with Anand (younger brother); first joint business trip the brothers have done in five years",
+        "party_composition": "Vikramaditya + Anand (Aanchal and parents in Mumbai)",
+        "notable_moments": [
+          "The two brothers requested adjoining suites with the connecting door unlocked — 'we will eat breakfast together'. Concierge held to this every morning",
+          "On the second evening, both brothers visited the Man Mo Temple together at dusk — a private homage to Bauji's 2020 walk. Did not mention it to anyone, but the duty manager who saw them leave noted it in the log: 'brothers walking out together, quietly dressed, no driver'",
+          "Vikramaditya tipped Mr. Chan (head concierge from the family's earlier 2020 stay) personally with a small silver box on departure — Mr. Chan recognised it as a Jaipur silversmith's piece and was visibly moved"
+        ],
+        "service_choices": [
+          "Adjoining suites, connecting door unlocked all stay",
+          "Breakfast for two in Vikramaditya's suite at 6:45 each morning (early — meeting schedule)",
+          "No hotel meeting rooms used (consistent with 2020 file note)"
+        ],
+        "declined_or_unused": [
+          "Asaya spa (declined for both — pattern across years)",
+          "Rooftop bar (declined — 'we don't drink')",
+          "Hotel-arranged business dinners (declined — brothers used their own family contacts in Hong Kong)"
+        ]
+      }
+    ],
+    "observed_register": [
+      "strict lacto-vegetarian baseline (no eggs in the cooked food, dairy yes); patriarch is Jain-strict (no root vegetables, no onion/garlic, no eating after sunset on Ekadashi)",
+      "alcohol completely off — never offered after stay 2 at any property in the file",
+      "masala chai at 17:00 daily, in the elders' suite, with Marie biscuits not pastries (standing order)",
+      "festival calendar drives travel timing (Diwali, Annakut, Bhai Dooj, Ekadashi, Paryushan) — observed even abroad",
+      "elder-first protocol: greet Bauji before anyone, serve him before anyone, route requests through Vikramaditya not directly",
+      "family travels with its own infrastructure: chef from Jaipur, photographer, Marwari-speaking attendant for Maaji, private chauffeur (Tristar) on standing call",
+      "private valuables handovers for jewellery acquired in London — discreet, witnessed, signed in Devanagari",
+      "morning is sacrosanct: 5:45–9:00 belongs to Bauji's walk, Maaji's puja, and Vikramaditya's call to Anand in Singapore",
+      "Aanchal as the cultural-protocol authority; Vikramaditya as the only one who speaks to staff on the family's behalf",
+      "celebration is restrained: silver coin trays, single yellow roses, jaggery, blessings before departure — no cake, no champagne, no public toast",
+      "handwritten thank-you cards (Aanchal writes them; sometimes addressed to staff family members by name)",
+      "in-suite dining preferred over restaurant dining when elders are present"
+    ],
+    "observed_avoidances": [
+      "alcohol in all forms (champagne welcomes, wine pairings, cocktail experiences, rooftop bars)",
+      "onion, garlic, root vegetables, and eggs on Bauji's plate (Jain-strict); raw foods generally",
+      "leather visible in the elders' rooms (ottomans, chair seats, decorative items)",
+      "Western celebration formats (birthday cakes, NYE countdowns, graduation parties, Christmas theming)",
+      "branded hospitality theming (Diwali boxes, Pride amenities, festival turn-downs — neither approved nor disapproved, simply set aside)",
+      "hotel meeting rooms for business (consistent across London and Hong Kong)",
+      "photographers, photo moments, public celebration optics",
+      "spa offerings (declined every time across 10+ stays — pattern, not coincidence)",
+      "strong florals (especially lilies) in the elders' bedrooms",
+      "loud or fireworks-adjacent experiences (Maaji's preference)",
+      "direct requests addressed to elders (must be routed through Vikramaditya)",
+      "any staff or service implying that the elders are frail (the Green Park porter was a hard-won acceptance, not a default)"
+    ],
+    "recurring_staff_relationships": [
+      {
+        "property": "Rosewood London",
+        "staff": "James Whitford, Head Concierge (with the property since 2017)",
+        "note": "Has handled every Jhunjhunwala London stay since 2019. Knows the FT-plus-Mumbai-wire-headlines pattern, the 17:00 chai standing order, the Annakut floor-privacy window, the Tristar chauffeur dispatcher by name. Aanchal addresses him as 'Mr. Whitford' even in the family WhatsApp; Bauji, the only one who calls him 'James', does so as a quiet sign of trust."
+      },
+      {
+        "property": "Rosewood London",
+        "staff": "Eleanor Mbeki, GM (since 2023)",
+        "note": "Wrote the handwritten note that accompanied the fruit basket at Avani's graduation. Has learned (from Whitford's handover) not to offer champagne to this family in any context. Personally arranged the held flight rebooking during Maaji's chest infection scare. Aanchal has mentioned her by name to Vikramaditya more than once."
+      },
+      {
+        "property": "Rosewood London",
+        "staff": "Patrick Donnelly, Butler — parents' suite (since 2019, except a 2021 absence)",
+        "note": "The one staff member Bauji greets first on arrival at the property — has served the 17:00 chai for six years. Knows that Bauji takes one Marie biscuit and Maaji takes none. Brought the bilingual medication label idea to housekeeping in 2022. Did not flinch when Vikramaditya moved the leather ottoman himself in 2019."
+      },
+      {
+        "property": "Rosewood London",
+        "staff": "Anita Sharma, Suite Housekeeping",
+        "note": "British-born, Punjabi family. Quietly handles all puja-corner setup, prasad distribution acknowledgments, and Aanchal's Devanagari signature documents. Aanchal sends her a Diwali card every year from Mumbai. Anita has never been asked to translate but does so when something needs it."
+      },
+      {
+        "property": "Rosewood Castiglion del Bosco",
+        "staff": "Pietro Mancini, Vineyard Gardener",
+        "note": "Mentioned by name in the Jhunjhunwala family WhatsApp group. The fig-on-the-bench gesture during the 2022 family stay is the kind of unannounced service the family treats as canonical — Vikramaditya has told the Pietro story to people in Mumbai who will never meet him."
+      },
+      {
+        "property": "Rosewood Phuket",
+        "staff": "Khun Praew, Villa Host",
+        "note": "Held the silence around Rishabh's fish curry in 2023 and the NYE non-programming. Aanchal has sent her a hand-written note (rare for her toward non-London staff). Trusted with both the elder protocol and the adolescent ambiguity — a rare combination."
+      },
+      {
+        "property": "Rosewood Hong Kong",
+        "staff": "Mr. Chan, Head Concierge",
+        "note": "Arranged the Jain afternoon tea in 2020 and recognised the Jaipur silver box from Vikramaditya in 2025. The brothers' temple walk that he noted in the log without mention was the kind of attention the family values most — observed but not surfaced."
+      }
+    ],
+    "cross_property_pattern": "Across eleven stays at four properties, the Jhunjhunwalas behave as a single multi-generational unit whose centre of gravity is Bauji's chair, whose voice to staff is Vikramaditya, and whose protocol authority is Aanchal. London is the home-away — annual, twice a year, layered with school visits and Bond Street pickups; Castiglion is the long-form family holiday; Phuket and Hong Kong are recovery and business respectively. The constants are: alcohol is impossible, vegetarian-strict at the elder's plate is non-negotiable, festival timing dictates the calendar, the family travels with its own ritual and culinary infrastructure, and the staff who become canonical are those who provide architecture without performance — a held room, an unspoken substitution, a fig on a bench, a bilingual label, a moment of silence about what was seen. This stay raises the stakes: Bauji is visibly aging, Avani's engagement is being arranged through this trip's jewellery, and Rishabh is becoming a man inside a family that is still treating him as a boy."
+  },
+  "cultural_profile_hint": {
+    "cultural_lens": "Marwari industrialist · Rajasthan-origin Bombay business family, third generation in command and fourth generation in the wings — a household where personal achievement, family standing, and the lineage's name in the trade press are a single indivisible thing, and where wealth is expressed through restraint, ritual fidelity, and the maintenance of an internal protocol the outside world is not invited to read. Distinct from a diasporic Indian frame: there is no negotiation between two cultural registers, only a steady internal grammar that has been carried, intact, from Pilani to Mumbai to London and back. The English of this family is a working language, not an identity.",
+    "register": [
+      "elder-first protocol as the spine of every encounter (greeting order, serving order, request routing)",
+      "ritual calendar over secular calendar (muhurat, Ekadashi, Annakut, Paryushan, Bhai Dooj) — observed precisely, even abroad",
+      "vegetarian-strict as inherited dharma, not preference — Jain-adjacent for the patriarch, lacto-vegetarian for the household",
+      "jewellery as language: who receives, when, from which atelier, in what metal — encoding family standing and forthcoming alliances",
+      "Hindi-English-Marwari code-switching, with Marwari reserved for the household and for moments of feeling",
+      "celebration through ritual infrastructure (silver coin trays, jaggery, blessings, the muhurat itself), not through Western party formats",
+      "the family's own staff (chef, attendant, photographer, chauffeur) as travelling extension of the household — hotel staff are valued by how gracefully they integrate alongside, never instead of",
+      "restraint as the highest aesthetic; what is not said and not done carries the most weight"
+    ],
+    "current_phase": "Lineage — Vansh (वंश). The phase of stewardship: a third-generation head who is simultaneously running the operating business, anticipating the patriarch's withdrawal, arranging a daughter's alliance, watching a son begin to differentiate from the family at Harrow, and holding the unspoken contract that the family's name will pass through him intact. This is not arrival (the family has arrived for three generations) nor reckoning (there is no second frame to reckon with). It is the slow, ceremonial labour of continuity — what one carries forward, how one carries it, and the small adjustments by which a lineage decides what it is becoming without ever announcing the decision.",
+    "emotional_anchors": [
+      "Bauji's visible aging — the cane, the cardiac history, the missed Maaji, the accepted porter in Green Park — and the unspoken question of when Vikramaditya formally becomes the family's first voice rather than its second",
+      "Avani's prospective engagement to the Singhania family — the Hatton Garden pickup is part of the alliance's groundwork, and this stay is the last family stay before that conversation becomes formal",
+      "Rishabh's quiet differentiation at Harrow — the fish curry in Phuket, the anglicised accent, the school friends at the Mirror Room tea — and Vikramaditya's silent decision to neither push nor pull him",
+      "Aanchal's authorship of the family's cultural calendar, executed almost entirely without verbal instruction to anyone outside the household",
+      "The relationship with Anand in Singapore — the 6:30 morning call, the Man Mo Temple walk — as the one peer-level confidence Vikramaditya has, and the family's recognition that the business may eventually need both brothers in one room more often",
+      "The property itself as a multi-generational witness — Bauji has stayed at this property since the 1990s; this trip is also, quietly, an audit of whether the next generation will keep coming"
+    ],
+    "avoid": [
+      "any framing that addresses Bauji as the celebrant of his own presence — he must be greeted, served, and honoured without being announced",
+      "alcohol in any form, in any room, at any meal (decade of consistent evidence across four properties)",
+      "any offer that implies the elders are frail in front of them (wheelchairs, walking sticks beyond his own silver-tipped cane, escorts framed as 'assistance')",
+      "Western celebration formats — cakes, champagne, party programming, public toasts, photographers on lawns — especially around Avani's graduation-adjacent moments and any milestone for Bauji",
+      "branded festival theming (Diwali boxes, themed turn-downs) — read as presumption; the family brings its own ritual material",
+      "asking Bauji or Maaji a direct service question — route everything through Vikramaditya, who will route it to Aanchal when it is a protocol decision",
+      "leather furnishings or accents in the elders' suite",
+      "lilies and other strong florals in the elders' bedrooms — osmanthus, jasmine, marigold, or none",
+      "scheduling that intrudes on the 5:45–9:00 morning window (Bauji's walk, Maaji's puja, Vikramaditya's call to Anand)",
+      "any hotel meeting rooms for Vikramaditya's business — provide a library or private room without naming it a meeting room",
+      "surfacing what was observed but not meant to be seen (Rishabh's quiet experiments, the brothers' temple walk) — discretion is the highest form of service in this file",
+      "treating 'Indian-themed' amenities (rangoli kits, sitar music, paneer on every menu) as cultural recognition — the family writes its own register and is more flattered by a Mumbai-edition FT headline than by a marigold garland"
+    ]
+  }
+}

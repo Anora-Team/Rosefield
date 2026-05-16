@@ -1,0 +1,209 @@
+{
+  "id": "whitlam-castiglion-2026-05",
+  "display_name": "Eleanor Whitlam & Tom Brennan",
+  "archetype_tag": "australian-conservation-couple-last-quiet-trip-reciprocity",
+  "direct_input": {
+    "birth_date": "1991-02-14",
+    "origin": "Melbourne, Australia",
+    "stay_intent": "We want to walk slowly through somewhere that's been looked after for a thousand years before we decide whether we're ready to look after a person.",
+    "languages": ["English", "Italian (intermediate, Eleanor)", "French (passive, Tom)"],
+    "booking_window": "Saturday–Sunday following week, 8 nights"
+  },
+  "family": [
+    {
+      "relation": "spouse",
+      "name": "Tom Brennan",
+      "birth_date": "1989-08-30",
+      "origin": "Lorne, Victoria, Australia (raised), Hobart, Tasmania (university)",
+      "languages": ["English", "French (passive)"],
+      "notes": "Husband. Marine ecologist at the Australian Institute of Marine Science, currently on a 2-year secondment co-leading a coral-recruitment monitoring program on the northern Great Barrier Reef in partnership with the Yuku-Baja-Muliku rangers. Pescatarian by professional ethic (will not eat reef fish or farmed prawns; eats sustainably-caught Mediterranean species while in Europe). Mild lower-back issue from years of dive work — prefers firm mattress, no soft pillow-tops. Walks before sunrise as a habit kept from field seasons.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "parent",
+      "name": "Margaret Whitlam (née Halloran)",
+      "origin": "Melbourne, Australia",
+      "languages": ["English"],
+      "notes": "Eleanor's mother. Retired secondary-school history teacher, 68. Recent diagnosis of early-stage non-Hodgkin lymphoma — treatment beginning June 2026 in Melbourne. This stay is privately understood by the couple as the last long trip before Eleanor's calendar contracts around her mother's care. Not traveling. Has been to Castiglion del Bosco once, in 2022, for her own 60th — which is part of why Eleanor chose it.",
+      "traveling_on_this_stay": false
+    },
+    {
+      "relation": "parent",
+      "name": "David Whitlam",
+      "origin": "Melbourne, Australia",
+      "languages": ["English"],
+      "notes": "Eleanor's father. Recently retired partner at a Melbourne commercial law firm; no relation to the political Whitlams (the family makes the disclaimer themselves, a little wearily). Steady, practical, will be primary caregiver for Margaret during treatment. Not traveling.",
+      "traveling_on_this_stay": false
+    },
+    {
+      "relation": "parent",
+      "name": "Patrick Brennan",
+      "origin": "Lorne, Victoria, Australia",
+      "languages": ["English"],
+      "notes": "Tom's father. Ran a small abalone-diving and oyster-lease operation on the Surf Coast for thirty years before selling to a co-op in 2019; now does volunteer kelp-restoration work with a local Landcare group. Tom's environmental orientation comes from him directly. Not traveling.",
+      "traveling_on_this_stay": false
+    },
+    {
+      "relation": "in-law",
+      "name": "Siobhan Brennan",
+      "origin": "Lorne, Victoria, Australia",
+      "languages": ["English", "Irish Gaelic (some)"],
+      "notes": "Tom's mother. Midwife, semi-retired, still does a few homebirth shifts a month. The question of grandchildren is alive on her side of the family in a way that is loving and patient rather than pressuring. Not traveling.",
+      "traveling_on_this_stay": false
+    },
+    {
+      "relation": "sibling",
+      "name": "Claire Whitlam",
+      "origin": "Naarm/Melbourne, Australia",
+      "languages": ["English", "Auslan"],
+      "notes": "Eleanor's younger sister, 31. Works in disability advocacy; will be in Melbourne with their parents during this trip. The sisters text daily; Eleanor will likely step outside for a long call most evenings around 6pm local time (3am Melbourne — Claire is an early riser). Not traveling.",
+      "traveling_on_this_stay": false
+    }
+  ],
+  "derived_from_history": {
+    "stays": [
+      {
+        "property": "Rosewood Phuket",
+        "dates": "2021-11-06 to 2021-11-13",
+        "occasion": "Honeymoon, self-booked, delayed eighteen months by COVID border closures (married March 2020 in a backyard ceremony in Brunswick)",
+        "party_composition": "Couple",
+        "notable_moments": [
+          "On arrival they politely declined the welcome floral arrangement and asked whether the flowers could be redirected to a staff area rather than thrown out; villa host took the request without making it awkward and arranged for the arrangement to be moved to the staff dining room with a small note from the couple.",
+          "Tom asked the dive concierge specifically whether the house reef program used reef-safe sunscreen and whether briefings included anything on not touching coral; was told yes to the first and 'we mention it' to the second, and over breakfast wrote out a one-page suggested briefing script which he left for the dive lead — apologetically, with a handwritten note: 'no obligation, just the kind of thing I do for a living, ignore freely.'",
+          "Refused single-use plastic water bottles in the villa from day two onward; housekeeping switched to glass carafes refilled from the villa filtration without being asked again.",
+          "Eleanor spent two afternoons in the villa working on a sustainability-linked loan deck for a client back home — apologized to the butler about it, said 'I promise this is the only trip I'll do this on,' which the butler logged."
+        ],
+        "service_choices": [
+          "Glass carafe water service after day two",
+          "Sunrise breakfast at the villa, never the main restaurant",
+          "Long-tail boat to a nearby beach with packed lunch (couple specified no individual plastic packaging — kitchen sent everything in beeswax wrap and a tiffin)"
+        ],
+        "declined_or_unused": [
+          "Welcome floral arrangement (redirected to staff dining)",
+          "Sundowner cocktail service (declined nightly, accepted iced hibiscus instead)",
+          "Couples photoshoot offered as honeymoon compliment",
+          "Reef fish tasting menu offered at the main restaurant — Tom declined and explained briefly to the chef, who appreciated it; chef sent a separate vegetable-forward tasting on the house"
+        ],
+        "memory_artifact_excerpt": "Honeymoon couple, Australian, ecologically attentive without being difficult. Husband is a working marine scientist — handled the reef-briefing note with grace, no condescension. Wife apologized for working from the villa, which is rare. Note for future: no single-use plastics from arrival, glass carafes default."
+      },
+      {
+        "property": "Rosewood Hong Kong",
+        "dates": "2023-09-04 to 2023-09-07",
+        "occasion": "Work trip — Eleanor only; APAC sustainable-finance summit hosted by her bank, she presented a session on transition-finance instruments",
+        "party_composition": "Solo (Eleanor)",
+        "notable_moments": [
+          "Asked at check-in whether the room could have the daily newspaper service cancelled — 'I'd rather not have paper delivered if I'm not going to read it.' Concierge complied and noted it on the profile.",
+          "Used the in-room kettle and brought her own loose-leaf tea (Melbourne roaster) rather than ordering room-service breakfast. Asked housekeeping for a small dish for used leaves; housekeeping provided a porcelain saucer and emptied it discreetly.",
+          "Declined the welcome fruit plate the first evening with a handwritten note thanking the team and asking whether it could be sent to another guest or to staff — politely, the way someone does it who has clearly been thinking about food waste for a long time."
+        ],
+        "service_choices": [
+          "Newspaper cancelled",
+          "Late-evening hot water service to the room (10pm) for her own tea",
+          "Walking directions to the venue rather than car service, both mornings"
+        ],
+        "declined_or_unused": [
+          "Welcome fruit plate (redirected)",
+          "Turndown chocolate (left untouched both nights, removed quietly by day three)",
+          "Spa offered as a compliment of the summit block — declined politely, 'next time'"
+        ],
+        "memory_artifact_excerpt": "Solo business guest. Quietly disciplined about consumption — cancels what she won't use rather than letting it arrive. Brought her own tea. No fuss, no lecture. Tipped housekeeping in cash on departure with a thank-you note."
+      },
+      {
+        "property": "Rosewood Castiglion del Bosco",
+        "dates": "2022-05-19 to 2022-05-23",
+        "occasion": "Eleanor's mother Margaret's 60th birthday — multi-generational stay organized by Eleanor's father David; the couple joined for four of the seven nights the parents stayed",
+        "party_composition": "Eleanor + Tom + Eleanor's parents (Margaret and David); Eleanor's sister Claire joined for two nights",
+        "notable_moments": [
+          "Tom spent a morning walking the estate's forest paths alone with the head forester (arranged by the concierge after Tom asked at check-in whether the property did any restoration work on the surrounding macchia) — came back animated, the only time on the trip he talked at dinner without prompting.",
+          "Margaret asked the spa for a treatment she could do sitting up rather than lying down (she gets vertigo); the spa adapted without making it a thing. Eleanor noticed and thanked the spa manager personally on departure.",
+          "Family dinner on Margaret's actual birthday was held at the Osteria — Eleanor had quietly pre-arranged with the GM that there would be no 'Happy Birthday' sung, no candle parade, no public acknowledgment beyond the staff knowing. The cake was brought to the table with a single beeswax candle and the server simply said 'with the chef's wishes.' Margaret cried, in the good way. Eleanor squeezed the GM's hand on the way out.",
+          "Couple skipped the wine tour at Tenuta di Castiglion — Eleanor doesn't drink much, Tom drinks beer mostly — and instead asked whether they could visit the estate's bee operation. They were taken; Tom asked a lot of questions about varroa-mite management."
+        ],
+        "service_choices": [
+          "Forester walk arranged for Tom (private)",
+          "Spa adaptation for Margaret's vertigo (seated treatments)",
+          "Quiet birthday handling at Osteria — no public acknowledgment",
+          "Bee operation visit in lieu of wine tour"
+        ],
+        "declined_or_unused": [
+          "Wine tour at Tenuta di Castiglion (declined politely)",
+          "Truffle hunt (declined — Tom said 'I'd rather not, the dogs work hard enough,' which the concierge noted as charming and a little Australian)",
+          "Photographer offered for the 60th — Eleanor declined and said Claire had a camera"
+        ],
+        "memory_artifact_excerpt": "Daughter (Eleanor) organized the quiet handling of mother's 60th with extraordinary care — staff-facing instructions were precise, never imperious. Son-in-law (Tom) is a working ecologist; engaged deeply with the estate's land-management. The family treats the property as a place with a life of its own, not a backdrop. Note: do not propose wine experiences as default for this couple."
+      }
+    ],
+    "observed_register": [
+      "no single-use plastic; glass carafes default",
+      "redirect rather than waste (flowers, fruit, paper)",
+      "engagement with land and staff who work the land (forester, beekeeper, dive briefer)",
+      "quiet birthdays / no public acknowledgment of personal milestones",
+      "her own tea, his own water bottle — they travel with their own vessels",
+      "walks before breakfast, especially Tom",
+      "handwritten notes to staff at departure (both of them, not just one)",
+      "apologetic when working from the room — they read it as a small failure",
+      "alcohol present but never the centerpiece — Eleanor a glass, Tom a beer, occasionally neither"
+    ],
+    "observed_avoidances": [
+      "Single-use plastics in all forms (water bottles, packaging, amenity sachets)",
+      "Reef fish and farmed prawns on menus (Tom — professional, not preachy)",
+      "Sung-aloud birthday / celebratory rituals in public dining",
+      "Photographers and 'capture the moment' offerings",
+      "Wine-tour-as-default in Italy (they will go to the bees instead)",
+      "Newspapers and printed materials they won't read",
+      "Welcome amenities that arrive without asking and end up in the bin",
+      "Cars where walking is reasonable"
+    ],
+    "recurring_staff_relationships": [
+      {
+        "property": "Rosewood Phuket",
+        "staff": "Villa host, Khun Ploy",
+        "note": "Handled the flower-redirect and the single-use-plastic switchover on the honeymoon without making either request feel like a complaint. The couple sent a card from Melbourne three months later thanking her by name; it's still on the back-of-house notice board."
+      },
+      {
+        "property": "Rosewood Castiglion del Bosco",
+        "staff": "Head forester / estate land-management lead, Marco",
+        "note": "Took Tom on the private forest walk in 2022. The two corresponded by email afterwards — Tom sent him a paper on Mediterranean coastal restoration that he thought might be useful for a macchia regeneration question Marco had raised. This is the kind of relationship the property doesn't usually log; Tom mentioned it in the booking notes for this stay, asking whether Marco was still on staff."
+      },
+      {
+        "property": "Rosewood Castiglion del Bosco",
+        "staff": "Osteria GM, Lorenzo",
+        "note": "Held the quiet line on Margaret's 60th birthday dinner — no song, no parade, single candle, 'chef's wishes.' Eleanor remembered. He should know she's back."
+      }
+    ],
+    "cross_property_pattern": "Across three properties the couple consistently reframe luxury service from 'what is brought to us' to 'what is in right relationship with this place.' They redirect rather than refuse, ask about land and craft before asking about menus, and protect the people around them — Margaret's vertigo, Margaret's birthday, the dive briefer's professional dignity, the housekeeper's wasted fruit plate — by quietly editing the choreography rather than complaining about it. Eleanor is the planner and the buffer; Tom is the one who falls into long conversations with the people who work the ground. The pattern is not eco-asceticism; it's reciprocity, in a register that is unmistakably Australian-progressive — secular, place-conscious, allergic to performance, comfortable saying 'no obligation, just the kind of thing I do for a living.'"
+  },
+  "cultural_profile_hint": {
+    "cultural_lens": "Australian cosmopolitan-progressive in a specific generational frame — late-millennial professionals shaped by the Black Summer fires of 2019-20, by working alongside (in Tom's case) and learning from (in Eleanor's case) First Nations land and sea management practice, and by a quiet rejection of the extractive-luxury register their parents' generation accepted without question. Their orientation to place is the operative cultural fact, not their nationality. They use 'Country' (capitalized) for Indigenous Australian land in conversation between themselves and would notice an Acknowledgment of Country done well at home; they would find an attempt to import that gesture into a Tuscan estate tone-deaf and would rather staff simply know the land they're on and tell them about it honestly.",
+    "register": [
+      "reciprocity over consumption — what does this place need, not just what does it offer",
+      "engagement with the people who work the land (forester, beekeeper, gardener, fisherman) over engagement with the people who serve the food",
+      "self-deprecation about privilege rather than denial of it ('we know we're lucky to be here')",
+      "quiet over scenic — they would rather a working morning in a vegetable garden than a helicopter over the vineyard",
+      "preference for local craft, local materials, local hands — not as aesthetic, as ethics",
+      "secular ceremony — beeswax candles, hand-written cards, walking before breakfast, a single glass shared",
+      "professional dignity extended to staff (Tom asks specialists technical questions as a peer, not a guest)"
+    ],
+    "current_phase": "Reciprocity / Country — the phase of consciously living in relationship to place (ecological, cultural, intergenerational) rather than extracting from it. Underneath this stay sits an unspoken question about whether to have a child, weighed against Eleanor's mother beginning cancer treatment and the couple's shared sense that the world they would be bringing a child into is one whose reciprocity has been broken in many directions. They are not in crisis; they are in deliberation. The stay is what they privately call 'the last quiet trip before we decide,' and the deliberation should be legible to staff only as a particular kind of attentiveness — they will value experiences that model care for the place and the people who keep it, not experiences that perform care for them.",
+    "emotional_anchors": [
+      "Margaret's diagnosis and the closing window of long trips with her still well — never to be named by staff, but the gravity is there",
+      "Tom's professional life as a marine ecologist watching coral systems he loves degrade in real time — he carries grief he does not display",
+      "The unspoken question of children, held with care and without urgency, between two people who talk about everything",
+      "Tom's father Patrick and the kelp-restoration volunteering — Tom would notice and value any small recognition of the land-as-living-system framing here at Castiglion",
+      "Eleanor's quiet competence as the family's organizer, the one who handles her mother's appointments and her sister's calendar and her own deal flow without complaint — she would value being looked after for one week without having to ask",
+      "Marco the forester, if he is still on staff — Tom asked about him in the booking notes and would be moved if Marco remembered him"
+    ],
+    "avoid": [
+      "Any framing that romanticizes Australia in outback / surfer / 'g'day' register — they will read it as not having been seen",
+      "Wine-tour-as-default Tuscan programming — they have declined it before; offer the beekeeper, the forester, the kitchen-garden lead instead",
+      "Single-use plastic in any guise (amenity sachets, bottled water in the villa, individually-wrapped anything)",
+      "Reef fish, farmed prawns, bluefin, or anything in the 'avoid' column of the Mediterranean sustainable seafood guides — Tom will know and will be quietly distressed rather than complain",
+      "Public birthday / anniversary rituals — they did not tell anyone it is also their sixth wedding anniversary mid-stay (May 21) and would prefer it not be marked publicly; a single beeswax candle and a card at a private moment is the maximum register",
+      "Helicopter / car transfers offered as a default convenience — they will walk, cycle, or take the train",
+      "Treating Tom's ecological questions as charming guest curiosity rather than peer expertise — connect him with Marco or the kitchen-garden lead and let the conversation be technical",
+      "Attempting to map their Australian-ness onto an Indigenous-Australian aesthetic in the room (no didgeridoo audio, no boomerang motif, no Acknowledgment-of-Country card in a Tuscan villa) — the respect they want extended to First Nations Country at home is precisely what makes the gesture wrong abroad",
+      "Champagne welcome, in-villa floral refresh, turndown chocolates that will be left untouched — redirect by default",
+      "Naming the mother's illness, the question of children, or 'the last quiet trip' framing in any staff-facing communication — these are the gravity of the stay, not its content"
+    ]
+  }
+}

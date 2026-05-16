@@ -1,0 +1,184 @@
+{
+  "id": "walsh-castiglion-2026-05",
+  "display_name": "Megan Walsh",
+  "archetype_tag": "post-burnout sabbatical solo / ex-Big-Law litigator / fallow",
+  "direct_input": {
+    "birth_date": "1987-11-04",
+    "origin": "Shaker Heights, Ohio, USA",
+    "stay_intent": "I have nowhere I need to be for the first time since I was twenty-four and I would like to find out what that feels like.",
+    "languages": ["English", "Italian (tourist-level, working on it)"],
+    "booking_window": "Wednesday–Tuesday three weeks later, 26 nights"
+  },
+  "family": [
+    {
+      "relation": "parent",
+      "name": "Thomas Walsh",
+      "birth_date": "1956-05-18",
+      "origin": "Shaker Heights, Ohio, USA (b. Cleveland)",
+      "languages": ["English"],
+      "notes": "Father. Retired claims-litigation attorney at a mid-size Cleveland firm (Calfee Halter). Megan followed him into law and partially away from him into Big Law. They have not had a substantive phone call since she left her firm — both prefer email. Not traveling.",
+      "traveling_on_this_stay": false
+    },
+    {
+      "relation": "parent",
+      "name": "Eileen (née Doherty) Walsh",
+      "birth_date": "1958-09-22",
+      "origin": "Shaker Heights, Ohio, USA (b. Lakewood)",
+      "languages": ["English"],
+      "notes": "Mother. Retired pediatric nurse. Devout — daily mass through Megan's childhood; Megan lapsed in college and the family has not relitigated it. Sends a text every Sunday after mass: a single emoji, sometimes a photo of the parish bulletin. Megan responds the same day, briefly. Not traveling.",
+      "traveling_on_this_stay": false
+    },
+    {
+      "relation": "sibling",
+      "name": "Daniel Walsh",
+      "birth_date": "1984-02-11",
+      "origin": "Shaker Heights, Ohio, USA",
+      "languages": ["English"],
+      "notes": "Older brother, 42. High school history teacher in Cleveland Heights; married, two kids (8 and 5). Took the predictable path; the sibling relationship is warm but they speak roughly four times a year. He was the first person she told she was leaving the firm. Not traveling.",
+      "traveling_on_this_stay": false
+    }
+  ],
+  "derived_from_history": {
+    "stays": [
+      {
+        "property": "Rosewood Sand Hill",
+        "dates": "2019-10-17 to 2019-10-19",
+        "occasion": "Firm partner offsite — Megan attended as a then-fifth-year senior associate, one of three associates invited as a development signal",
+        "party_composition": "Group of 22 (partners + senior associates); Megan was the most junior woman in the room",
+        "notable_moments": [
+          "Logged at the welcome cocktail hour for thirty-five minutes; staff note records her 'polite, kept to herself near the fireplace, sparkling water with lime, did not refresh, left before the dinner seating call.'",
+          "Declined the optional Saturday morning Sharon Heights hiking activity citing 'work to finish' though no laptop was open in the room per turndown.",
+          "Took breakfast alone at Madera at 6:30am both mornings — toast, scrambled eggs, black coffee, the New York Times in print, paid in cash to avoid the room charge appearing on the firm's master folio."
+        ],
+        "service_choices": [
+          "Solo early breakfast both mornings",
+          "Room service dinner Friday night (Caesar salad, no anchovy, no dressing on the side requested)"
+        ],
+        "declined_or_unused": [
+          "Saturday group hike",
+          "Spa credit included in the offsite package (untouched)",
+          "Welcome wine pairing at the partner dinner (substituted with sparkling water — staff note: 'declined politely, no explanation offered or expected')",
+          "Sunday brunch group photo (was not in the frame; staff log unclear whether she stepped out or stepped behind the camera)"
+        ],
+        "memory_artifact_excerpt": "Associate guest with the firm group. Read as professional, formal, self-contained — did not network past the obligatory. Returned to room early both evenings. Notable: paid for one breakfast in cash rather than have it on the firm's bill — possibly modest, possibly cautious. Did not engage staff in extended conversation."
+      },
+      {
+        "property": "Rosewood London",
+        "dates": "2022-06-08 to 2022-06-12",
+        "occasion": "Three-day deposition prep + deposition (witness was a former executive of an English subsidiary in a securities-fraud matter); firm booked the room",
+        "party_composition": "Solo (two junior associates were in a separate hotel)",
+        "notable_moments": [
+          "Worked from the room every day until late; housekeeping noted dinner trays from room service four of four nights, always the same — green salad, grilled fish or chicken, no dessert, one glass of red wine on two of the four nights.",
+          "Asked the concierge on day two for a recommendation for a Catholic church for an early-morning mass — went once, to the 7am at Brompton Oratory; did not go a second time. Staff note: 'request made matter-of-factly, not religious — possibly architectural interest or family obligation.'",
+          "On the final morning sat in Scarfes Bar for an hour with a single espresso before her car to the airport, reading a paperback (staff did not catch the title)."
+        ],
+        "service_choices": [
+          "In-room dining nightly",
+          "Pressing service used daily",
+          "Quiet floor requested at booking"
+        ],
+        "declined_or_unused": [
+          "Welcome amenity (cheese plate and a half-bottle of Bordeaux — note left thanking the team, plate and bottle returned untouched on day three)",
+          "Spa booking suggested for the rest day between depositions (declined: 'I would rather walk')",
+          "Newspaper delivery (declined — 'I'll pick one up')",
+          "Concierge offer to book a Saturday matinee (declined without alternative)"
+        ],
+        "memory_artifact_excerpt": "Working guest. The room was a workstation; she did not perform leisure even when given a window for it. The one mass attended early and not repeated is the only off-script gesture in the file. She did not require pampering or anticipate it — she required to not be interrupted. Returned welcome wine without ceremony."
+      },
+      {
+        "property": "Rosewood Mayakoba",
+        "dates": "2023-12-23 to 2023-12-30",
+        "occasion": "Solo Christmas — booked herself two weeks out after a five-year relationship ended in October; no occasion declared at booking",
+        "party_composition": "Solo",
+        "notable_moments": [
+          "Booked a standard Overwater Casita rather than a villa — staff noted the booking was 'modest for a solo stay this length, declined upgrade offered at check-in.'",
+          "Did not leave the property the entire week. Walked the mangrove boardwalks every morning between 6:30 and 8am — different routes, always alone, returned for late breakfast around 9.",
+          "Christmas Day: declined the resort's holiday dinner seating. Ate alone in the casita: pasta pomodoro, a green salad, a small piece of grilled fish — staff log notes the order as 'unceremonial, requested no special plating.'",
+          "Read on the deck for hours every afternoon. Butler noted at least four different books finished across the week — two literary novels, one short-story collection, one essay collection (titles logged on day three when she asked the butler whether the property bookshop carried Marilynne Robinson — it did not; the butler sourced a used copy of Gilead from a bookstore in Playa del Carmen and left it on the deck on day five without a card. She found him the next morning to thank him, in person, quietly).",
+          "Did not use the phone, the spa, the pool bar, or the beach club lounge once across seven days."
+        ],
+        "service_choices": [
+          "Long solo morning walks (mangrove side, not beach side)",
+          "Late simple breakfasts in the casita",
+          "Quiet in-villa dinners, light food, no wine list ever opened",
+          "One favor accepted: the sourced Robinson novel from the butler"
+        ],
+        "declined_or_unused": [
+          "Christmas Eve mass shuttle to Playa (declined — did not go)",
+          "Resort holiday dinner with seating chart (declined for both Christmas Eve and Christmas Day)",
+          "Spa welcome credit (untouched all week)",
+          "Snorkeling, cenote tour, yoga, sound bath, cooking class — all offered in the in-villa welcome book, none booked",
+          "Butler check-in twice daily (Megan asked, on day two, for the morning check-in only and that the evening check-in be replaced by a note slipped under the door if anything needed her attention — there was never anything)",
+          "Photographer offered for a 'solo holiday portrait' on Christmas morning (declined — staff note: 'pleasantly, but immediately')",
+          "Turn-down service (cancelled after night one — 'I'd rather come back to the room as I left it')"
+        ],
+        "memory_artifact_excerpt": "Solo Christmas stay, no occasion declared. Guest used the property as a place to be unbothered, not as a place to be hosted. The one accepted gesture — the sourced novel — was thanked in person and not converted into a recurring relationship. She did not return the next year. File note for any future stay: she does not want to be remembered as 'the woman who spent Christmas alone here.' Do not greet her as a returning Mayakoba guest if she books another property; the memory is hers, not ours."
+      }
+    ],
+    "observed_register": [
+      "early walker (consistent 6-8am window across three properties)",
+      "literary fiction, paperback, finishes books fast on real downtime",
+      "in-room dining over restaurant dining when alone",
+      "modest orders — green salad, grilled protein, no dessert, sparkling water default",
+      "wine occasionally and quietly — one glass, never a second, never on consecutive nights",
+      "cash discretion when the firm was paying — privacy from her own employer baked in",
+      "pays attention to staff names but does not perform familiarity back",
+      "walks rather than spa, reads rather than tours, sleeps early"
+    ],
+    "observed_avoidances": [
+      "group activities of any framing (firm offsite hike, resort holiday dinner, sound baths)",
+      "welcome wine, welcome champagne, welcome anything alcoholic she did not order",
+      "spa treatments offered as decompression or as a credit — never used across three properties",
+      "photography of any kind, including solo holiday portraits and group shots",
+      "upgrades offered at check-in — declined at Mayakoba",
+      "concierge curation of free time (matinees, tours, classes)",
+      "turn-down service when traveling alone (cancelled at Mayakoba after night one)",
+      "extended conversation with staff beyond the transaction — brief, warm, closed"
+    ],
+    "recurring_staff_relationships": [
+      {
+        "property": "Rosewood Mayakoba",
+        "staff": "Esteban Ruiz, casita butler",
+        "note": "Sourced the Marilynne Robinson novel from a bookstore in Playa del Carmen and left it on her deck without a card on day five of her 2023 Christmas stay. She thanked him in person the next morning, briefly. No further interaction across the remaining two days. This is the only logged staff relationship in her Rosewood history that crossed from transactional to noticed — and she has not returned to Mayakoba since."
+      }
+    ],
+    "cross_property_pattern": "Three stays, three different reasons (firm offsite, deposition, solo Christmas), one consistent posture: she arrives, she does the thing, she does not consume the property. The signal is the volume of declines — across three stays nearly every offered amenity (wine, spa, tour, photo, upgrade, turndown, brunch) is politely refused, and the few accepted moments are unceremonial (breakfast alone, an early walk, one sourced novel). Staff who tried to host her were thanked and not engaged; staff who left her alone were noticed. The file is thin not because she is a new guest but because she has consistently declined to give it more to hold."
+  },
+  "cultural_profile_hint": {
+    "cultural_lens": "Midwestern Catholic lapsed — Shaker Heights upbringing, Jesuit high school (Saint Ignatius), Notre Dame undergrad, Michigan Law. The Catholicism is not practiced but the shape of it remains: an instinct for restraint, for not making a scene, for treating one's own struggle as private and slightly unseemly to name, for distrusting celebration as showy. Add to that thirteen years in Big Law litigation, which trained the same instincts into a professional armor — composure, brevity, the refusal to display either need or pleasure. She has spent a decade being the youngest woman in rooms full of older men and has learned to take up no more space than the matter requires. This stay is the first sustained period in her adult life where the matter does not require anything.",
+    "register": [
+      "restraint as inheritance, not aesthetic — she does not know she is being restrained, it is simply her gear",
+      "privacy as a default setting, not a request — she will not articulate that she wants to be left alone, she will simply decline things until the staff notice",
+      "walking as the only consistent personal practice — not exercise, not meditation, walking",
+      "literary fiction as the form of company she takes when she is alone — Marilynne Robinson, Alice Munro, Colm Tóibín, Jenny Erpenbeck, Rachel Cusk, Elizabeth Strout",
+      "modest orders, modest rooms, no upgrades — the Mayakoba booking pattern is not frugality, it is a discomfort with being indulged",
+      "warmth toward individual staff in brief flashes — gratitude for the sourced novel, nodding at the breakfast server — never converted into rapport she would have to maintain",
+      "no screens by choice — she has not yet articulated this as a preference but it shows in the stay record"
+    ],
+    "current_phase": "Fallow — a deliberately empty period after thirteen years of continuous labor. Not transformation, not rupture, not a journey, not a chapter break. The phase of a field intentionally left unplanted for a season so that whatever it grows next is something it could not have grown if it had kept producing. There is no narrative arc here yet and the system must not impose one. She does not know what she will do next and she is not currently looking; the looking would defeat the purpose. The work of the stay is to do no work and to not call that anything.",
+    "emotional_anchors": [
+      "The unresolved question of whether the thirteen years were a vocation, a mistake, or simply expensive",
+      "Her father — the original attorney, the path she partially followed and partially exceeded — and the unspoken question of what he thinks of her leaving",
+      "Her mother's Sunday text after mass, which she will continue to receive in Tuscany and continue to answer briefly",
+      "Her brother Daniel, who took the smaller life and may have been right",
+      "The absence of a partner and the open question of whether she wants one, which she is allowing to remain open",
+      "A quiet, unsentimental awareness that she has not been alone with herself for this long since she was seventeen — and that the silence is the entire point, not the problem to solve"
+    ],
+    "avoid": [
+      "Scheduled wellness packages of any kind — no spa-day curation, no 'restorative arrival ritual,' no welcome massage credit framed as decompression. She has declined spa at three properties in a row; the pattern is the answer.",
+      "Intention-setting prompts, journaling kits in the room, gratitude cards, guided reflection materials — any artifact that asks her to perform interiority for the property's benefit.",
+      "Curated Tuscan experiences as default suggestions — no unsolicited Tuscan cooking class, no vineyard tour, no truffle hunt, no Pienza day trip, no Brunello tasting flight at the enoteca. If she asks, answer well. Until she asks, do not offer.",
+      "Recommendations framed as 'for your journey,' 'for this chapter,' 'to mark the transition,' or anything that names the sabbatical as a passage requiring ceremony.",
+      "Morning-energy / evening-winddown narrative scaffolding — no 'how would you like to begin your day' check-in calls, no evening 'how was today' touches. Treat each day as not requiring a frame.",
+      "Daily property newsletter, in-room printed activity calendar, weekly events schedule slipped under the door. She has already (in the stay-day-one ask the system should anticipate) requested these be discontinued. Honor it across the full 26 nights without re-asking.",
+      "Welcome turndown service with chocolate, music, drawn bath, or robe arrangement — she has cancelled the equivalent after night one at Mayakoba and will here. Pre-empt: offer once at check-in, accept her cancellation cleanly, do not reintroduce mid-stay as a surprise.",
+      "Questions framed as 'do you have plans for the day' or 'shall we book anything for tomorrow' — these are the questions the stay is designed to make unnecessary. A nod at the breakfast room and the absence of an inquiry is the service.",
+      "Welcome alcohol of any kind — no Brunello half-bottle in the room, no prosecco at check-in, no aperitivo cart wheeled to the terrace. If she orders a glass of wine at dinner one night she will not order one the next; do not infer a pattern from a single occurrence.",
+      "Photography in any framing — no welcome portrait, no property-grounds photo offer, no 'commemorative' shot at any point. She has declined this at every previous property.",
+      "Religious framing of the property's nearby pilgrim history (Via Francigena, Sant'Antimo abbey, Montalcino's church) as 'a journey for the soul' or 'a personal pilgrimage' — if she asks where the road to Sant'Antimo is, give her the directions and the hours and step back. Do not offer to arrange a guided visit.",
+      "Treating her as the 'solo woman traveler' demographic — no women-only walking groups, no 'we have other solo guests this week if you'd like an introduction.' She is not lonely; she is alone, on purpose.",
+      "Food on schedule — do not offer her a standing dinner reservation, a held breakfast time, a 'usual table.' Food on request, every time, even if she orders the same thing eleven nights in a row. The repetition is hers to choose, not the property's to confirm.",
+      "Naming the length of the stay back to her — no 'a long stay with us,' no 'as you settle in for the month,' no 'with so much time ahead of you.' The length is the variable she is most aware of and least wants reflected back."
+    ]
+  }
+}

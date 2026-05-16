@@ -1,0 +1,428 @@
+{
+  "id": "rosen-mayakoba-2026-12",
+  "display_name": "Mrs. Miriam Rosen",
+  "archetype_tag": "widowed solo returner · twelfth winter at the same casita · first without him",
+  "direct_input": {
+    "birth_date": "1958-02-09",
+    "origin": "Scarsdale, NY, USA",
+    "stay_intent": "I need to find out if I can still love this place on my own — please don't make it harder by pretending nothing has changed.",
+    "languages": ["English", "Yiddish (passive, household phrases)", "tourist Spanish"],
+    "booking_window": "Saturday 12 December 2026 – Tuesday 22 December 2026, 10 nights"
+  },
+  "family": [
+    {
+      "relation": "spouse",
+      "name": "Dr. Daniel Rosen (z\"l)",
+      "birth_date": "1953-06-30",
+      "origin": "Brooklyn, NY, USA",
+      "languages": ["English", "Hebrew", "Yiddish"],
+      "notes": "Deceased March 2025 — pancreatic cancer, eighteen months from diagnosis. Cardiologist at Montefiore for thirty-one years. Mrs. Rosen was his primary caregiver from August 2024 through end of life. Present in every prior Mayakoba record on this file; not traveling on this stay. He is the reason every default exists.",
+      "traveling_on_this_stay": false
+    },
+    {
+      "relation": "child",
+      "name": "Rachel Rosen-Berger",
+      "birth_date": "1985-08-14",
+      "origin": "Brookline, MA, USA",
+      "languages": ["English", "conversational Hebrew"],
+      "notes": "Elder daughter. Litigation partner, Ropes & Gray. The one who booked and partly funded this trip — wired the deposit in October and called the property GM directly to ask 'please don't let her be alone in a way that hurts her.' Texts her mother every morning at 8am ET; expects no daily reply but will fly to Cancun within twelve hours if she doesn't hear by lunchtime. Not traveling.",
+      "traveling_on_this_stay": false
+    },
+    {
+      "relation": "child",
+      "name": "Joshua Rosen",
+      "birth_date": "1988-11-21",
+      "origin": "Oakland, CA, USA",
+      "languages": ["English"],
+      "notes": "Younger son. Documentary filmmaker. Spent the most time at the hospital in the last six weeks. Married to David Park (no children); the two of them hosted Mrs. Rosen for Pesach this year — first holiday without her husband at the seder table. Not traveling. Calls less than his sister, says more in each call.",
+      "traveling_on_this_stay": false
+    },
+    {
+      "relation": "grandchild",
+      "name": "Eli Rosen-Berger",
+      "birth_date": "2017-04-03",
+      "origin": "Brookline, MA, USA",
+      "notes": "Rachel's son, 9. Mrs. Rosen brought him on the 2023 Mayakoba trip as a 'just the grandkid' week — staff remember him. He drew her a picture of the casita before this trip; she has it folded in her wallet. Not traveling.",
+      "traveling_on_this_stay": false
+    },
+    {
+      "relation": "grandchild",
+      "name": "Maya Rosen-Berger",
+      "birth_date": "2020-09-09",
+      "origin": "Brookline, MA, USA",
+      "notes": "Rachel's daughter, 6. Has not yet been to Mayakoba. Not traveling.",
+      "traveling_on_this_stay": false
+    },
+    {
+      "relation": "sibling",
+      "name": "Susan Mendelsohn",
+      "origin": "White Plains, NY, USA",
+      "notes": "Mrs. Rosen's younger sister, 64. Offered to come along; was gently declined. She is the family member Mrs. Rosen will call if something breaks open emotionally and she does not want to worry the children. Not traveling.",
+      "traveling_on_this_stay": false
+    }
+  ],
+  "derived_from_history": {
+    "stays": [
+      {
+        "property": "Rosewood Mayakoba",
+        "dates": "2014-12-20 to 2014-12-29",
+        "occasion": "First winter trip — Dr. Rosen had just been made chief of cardiology at Montefiore; gift to themselves",
+        "party_composition": "Dr. and Mrs. Rosen, couple",
+        "notable_moments": [
+          "Booked Overwater Casita 24 — second floor, east-facing, the one with the longer dock walk. Dr. Rosen specifically asked for an upper unit because he wanted to drink his coffee 'above the mangroves, not in them.' This becomes the standing room from this stay forward.",
+          "Asked Ana (in-villa breakfast) for coffee at 6:00am sharp on day two — two cups, one with steamed milk (his), one black with a small pitcher of milk on the side (hers, for the second cup). Ana wrote 'two cups, 6am, Casita 24' on the suite card and that note has migrated to every subsequent stay.",
+          "Booked Captain Beto's snorkel boat at Punta Maroma on day four — a two-person private charter rather than the group boat. Dr. Rosen swam farther than the captain expected; Mrs. Rosen stayed in the shallow reef. They came back arguing affectionately about whether the parrotfish was the same one twice."
+        ],
+        "service_choices": [
+          "Overwater Casita 24, second floor",
+          "In-villa breakfast 6:00am — two cups of coffee, fruit, one order of huevos divorciados (his), one order of fruit and yogurt (hers)",
+          "Captain Beto's two-person snorkel charter, one outing",
+          "Friday evening — Mrs. Rosen lit travel Shabbat candles on the casita's outdoor dining table; housekeeping noted and adjusted the turndown timing for Friday nights from this stay forward"
+        ],
+        "declined_or_unused": [
+          "Couples spa massage offered as welcome amenity (declined — 'we'll do it later in the week,' never booked)",
+          "Tequila tasting at Casa del Lago (Dr. Rosen did not drink — recovering, twelve years sober at this point, never mentioned on file directly but visible in every stay's drink record)",
+          "Mariachi serenade offered for their anniversary date (politely declined — 'we're not a serenade couple')"
+        ],
+        "memory_artifact_excerpt": "First stay. Two-cup coffee order at 6am set by the husband — wife took her second cup at the same time, sat on the dock together. Friday candles on the outdoor table; do not clear before sundown. Husband does not drink alcohol — note for all bars."
+      },
+      {
+        "property": "Rosewood Mayakoba",
+        "dates": "2015-12-19 to 2015-12-28",
+        "occasion": "Second winter — beginning of the annual ritual",
+        "party_composition": "Dr. and Mrs. Rosen, couple",
+        "notable_moments": [
+          "Requested Casita 24 by number at booking. GM at the time, Sergio, held it.",
+          "Captain Beto's boat again — Dr. Rosen asked the front desk to 'find the same captain as last year' and was pleased they remembered the name.",
+          "Ana brought the two cups at 6am on day one without being asked. Dr. Rosen tipped her in cash that morning, in addition to the standard end-of-stay tip."
+        ],
+        "service_choices": [
+          "Casita 24",
+          "6am two-cup breakfast, Ana",
+          "Captain Beto snorkel charter, two outings this trip"
+        ],
+        "declined_or_unused": [
+          "Tequila pairing dinner at Casa del Lago",
+          "In-villa massage offered after the longer second snorkel day (declined)"
+        ]
+      },
+      {
+        "property": "Rosewood Mayakoba",
+        "dates": "2016-12-22 to 2016-12-31",
+        "occasion": "Third winter — staying through New Year's Eve for the first time",
+        "party_composition": "Dr. and Mrs. Rosen, couple",
+        "notable_moments": [
+          "Dr. Rosen asked the concierge for a quiet NYE — declined the beach party, asked for in-villa dinner. The chef sent a tasting menu that included a small tres leches with a candle; Mrs. Rosen ate the candle's bite, Dr. Rosen ate the rest. They were asleep before midnight.",
+          "Friday Shabbat candles continued. Housekeeping had a small fire-safe ceramic tray waiting on the outdoor table by the third Friday — no one had asked; Ana had simply moved it from another room."
+        ],
+        "service_choices": [
+          "Casita 24",
+          "In-villa NYE dinner",
+          "Captain Beto, one outing",
+          "Fire-safe tray for Shabbat candles, outdoor table, standing arrangement"
+        ],
+        "declined_or_unused": [
+          "Beach NYE party and fireworks viewing on the south point (declined)",
+          "Champagne tower for NYE in-villa (declined; sparkling water and fresh lime sent instead at staff initiative)"
+        ]
+      },
+      {
+        "property": "Rosewood London",
+        "dates": "2017-05-04 to 2017-05-09",
+        "occasion": "Dr. Rosen attending the European Society of Cardiology meeting; Mrs. Rosen joining for the second half as personal trip",
+        "party_composition": "Couple",
+        "notable_moments": [
+          "Mrs. Rosen asked the concierge (Holland-Wright) for the closest Reform synagogue for Friday night services — was directed to West London Synagogue. She went alone; Dr. Rosen was at conference dinner. Returned and the suite had a small plate of challah from the hotel's bakery on the table, no card. She mentioned this once, quietly, to Holland-Wright on departure.",
+          "Standing pot of tea at 7am rather than coffee at this property — Mrs. Rosen's preference when in London, distinct from Mayakoba pattern."
+        ],
+        "service_choices": [
+          "Standard suite, no special configuration",
+          "7am tea service, Earl Grey, milk separate",
+          "Theatre concierge — booked seats for The Ferryman, Royal Court"
+        ],
+        "declined_or_unused": [
+          "Sense spa couples package (Mrs. Rosen used the spa solo once for a manicure)",
+          "Saturday afternoon tea reservation (declined — Mrs. Rosen observes Shabbat lightly, prefers to walk in Hyde Park on Saturday afternoons)"
+        ]
+      },
+      {
+        "property": "Rosewood Mayakoba",
+        "dates": "2017-12-23 to 2018-01-01",
+        "occasion": "Fourth winter",
+        "party_composition": "Dr. and Mrs. Rosen, couple",
+        "notable_moments": [
+          "Hanukkah fell during the stay. Mrs. Rosen brought a small travel menorah; lit candles on the outdoor table next to the Shabbat tray. Housekeeping rearranged turndown timing for the eight nights without being asked.",
+          "Captain Beto's wife had just had a baby — Mrs. Rosen brought a small gift to the boat on day six. Beto remembered this for years."
+        ],
+        "service_choices": [
+          "Casita 24",
+          "Travel menorah accommodation, eight nights",
+          "Captain Beto, two outings"
+        ],
+        "declined_or_unused": [
+          "Christmas Eve carolers on the lawn (Mrs. Rosen mentioned 'not really our holiday' to the butler — said gently, not pointedly)",
+          "Christmas Day brunch in main restaurant (in-villa breakfast as usual, then a long walk)"
+        ],
+        "memory_artifact_excerpt": "Family does not celebrate Christmas; observes Hanukkah and Shabbat. Lights candles on the outdoor table — Ana has the fire-safe tray waiting. Adjust Friday and (when applicable) Hanukkah-night turndown to after candle-lighting. Do not offer Christmas programming to this room."
+      },
+      {
+        "property": "Rosewood Mayakoba",
+        "dates": "2018-12-22 to 2018-12-31",
+        "occasion": "Fifth winter",
+        "party_composition": "Dr. and Mrs. Rosen, couple",
+        "notable_moments": [
+          "Captain Beto remembered the gift from the year before and brought a photo of the baby (now a toddler) to the boat. Mrs. Rosen kept the photo in her beach bag the rest of the week.",
+          "Dr. Rosen pulled a back muscle on day three (snorkeling). Spa therapist Lourdes was sent to the casita for an in-villa therapeutic session — first spa use on the file for him. He thanked her in Spanish; she corrected his pronunciation of 'gracias' affectionately. He came back to her every trip after."
+        ],
+        "service_choices": [
+          "Casita 24",
+          "In-villa therapeutic massage with Lourdes (added to standing options)",
+          "Captain Beto, two outings"
+        ],
+        "declined_or_unused": [
+          "Tequila and mezcal vertical at Casa del Lago",
+          "NYE early dinner at Punta Bonita (in-villa dinner as standing preference)"
+        ]
+      },
+      {
+        "property": "Rosewood Mayakoba",
+        "dates": "2019-12-21 to 2019-12-30",
+        "occasion": "Sixth winter — Rachel and her then-fiancé Adam joined for the first weekend",
+        "party_composition": "Dr. and Mrs. Rosen + Rachel + Adam (4 total, two casitas, weekend only)",
+        "notable_moments": [
+          "Rachel and Adam stayed in the adjacent overwater casita (26). Family dinners in-villa at Casita 24 on Friday and Saturday — Mrs. Rosen made Friday's blessing over the candles with the four of them present; Adam (not Jewish) was visibly moved and asked to take a photo of the table after, not during.",
+          "Captain Beto took the four of them out together one morning — first time the boat had been four. Beto adjusted the gear without making it a different trip."
+        ],
+        "service_choices": [
+          "Casitas 24 and 26 (adjacent)",
+          "Two in-villa family dinners, Friday and Saturday",
+          "Captain Beto, one four-person outing + one two-person (Dr. and Mrs. Rosen) midweek"
+        ],
+        "declined_or_unused": [
+          "Engagement-celebration photo session offered for Rachel and Adam (Rachel declined on her parents' behalf — 'they don't really do that')",
+          "Couples spa double-booking (Dr. and Mrs. Rosen and Rachel and Adam both offered; only Rachel and Adam took it)"
+        ]
+      },
+      {
+        "property": "Rosewood Mayakoba",
+        "dates": "2021-12-19 to 2021-12-28",
+        "occasion": "Seventh winter — first trip back post-pandemic; both vaccinated and boosted",
+        "party_composition": "Dr. and Mrs. Rosen, couple",
+        "notable_moments": [
+          "First stay after Dr. Rosen's father died (May 2021). He asked Ana on day one to bring 'just the two cups' — same as always — but ate breakfast in silence both first mornings. Ana noticed and lengthened the gap before clearing.",
+          "Dr. Rosen said kaddish on a Friday night in the casita — Mrs. Rosen joined him quietly. Housekeeping had the candles already lit by 5:45pm without being asked."
+        ],
+        "service_choices": [
+          "Casita 24",
+          "6am two-cup breakfast continued; Ana extended morning grace period",
+          "Captain Beto, one outing (Dr. Rosen swam less than usual)"
+        ],
+        "declined_or_unused": [
+          "NYE in-villa dinner (declined this year — early bedtime requested instead, room service appetizers only)",
+          "Lourdes session for Dr. Rosen (he declined this year — 'next year')"
+        ],
+        "memory_artifact_excerpt": "Dr. Rosen in mourning year (father). Quieter posture. Honor the standing orders exactly; do not add anything. The two cups still come at 6am — that is the comfort."
+      },
+      {
+        "property": "Rosewood Sand Hill",
+        "dates": "2022-04-15 to 2022-04-17",
+        "occasion": "Visiting Joshua and David — short stop on a longer California trip",
+        "party_composition": "Dr. and Mrs. Rosen + Joshua + David (dinner only, did not stay at property)",
+        "notable_moments": [
+          "Two-night stay only. Dr. Rosen at conference (UCSF) during the day; Mrs. Rosen walked the gardens and read in the lobby twice.",
+          "Madera dinner with Joshua and David — Mrs. Rosen asked the server (Maya) for a vegetarian first course for David specifically; Maya remembered him by name when the family returned for a brunch the next day."
+        ],
+        "service_choices": [
+          "Standard king room, garden side",
+          "Coffee service in-room 6:30am (slightly later than Mayakoba pattern)",
+          "Madera dinner, family table"
+        ],
+        "declined_or_unused": [
+          "Spa welcome (untouched)",
+          "Wine pairing at Madera (Dr. Rosen did not drink; Mrs. Rosen had one glass, did not finish)"
+        ]
+      },
+      {
+        "property": "Rosewood Mayakoba",
+        "dates": "2022-12-18 to 2022-12-27",
+        "occasion": "Eighth winter",
+        "party_composition": "Dr. and Mrs. Rosen, couple",
+        "notable_moments": [
+          "Hanukkah and Shabbat overlapped one Friday this year — Mrs. Rosen made both blessings on the outdoor table. Ana brought a small carafe of grape juice unprompted (Dr. Rosen did not drink wine for kiddush) — she had asked the concierge the year before what the right substitute was.",
+          "Dr. Rosen taught a younger guest (a doctor from Mexico City staying nearby) about the local cardiology landscape at the bar one evening — Mrs. Rosen joined them for the second half. She mentioned to the bartender, Manuel, that her husband 'still teaches anywhere there's a chair.'"
+        ],
+        "service_choices": [
+          "Casita 24",
+          "Grape juice for kiddush, standing for any Friday going forward",
+          "Captain Beto, two outings"
+        ],
+        "declined_or_unused": [
+          "Tequila-tasting Hanukkah special offered as cross-promotion (declined — 'thank you, no')",
+          "Photographer offered for the eighth-night Hanukkah candle-lighting (declined gently — 'we'd rather just have the night')"
+        ]
+      },
+      {
+        "property": "Rosewood Mayakoba",
+        "dates": "2023-07-22 to 2023-07-29",
+        "occasion": "Mid-summer trip — first time bringing a grandchild (Eli, then 6)",
+        "party_composition": "Dr. and Mrs. Rosen + Eli (3 total, off-season summer break)",
+        "notable_moments": [
+          "Booked Casita 24 plus a connecting suite for Eli. Ana adjusted to three cups at 6am — coffee for the grandparents, warm milk with a little honey for Eli (Mrs. Rosen had asked).",
+          "Captain Beto built a small reef-stop route specifically for a six-year-old's attention span — half the time, twice the breaks. Eli refused to leave the boat at the end and Beto let him 'help' coil the line.",
+          "Dr. Rosen taught Eli to play gin rummy on the casita deck after dinner — Mrs. Rosen took a photo of the two of them with their cards spread out. That photo is now framed in her bedroom in Scarsdale."
+        ],
+        "service_choices": [
+          "Casita 24 + connecting suite",
+          "6am breakfast extended — third cup (warm milk + honey) for grandchild",
+          "Captain Beto, kid-paced reef outing, two times",
+          "Kids' club declined — Eli stayed with grandparents the whole trip by his request"
+        ],
+        "declined_or_unused": [
+          "Kids' welcome amenity (a stuffed flamingo — Eli liked it but Mrs. Rosen quietly returned it on departure, saying 'we'll see him next year, save it for then')",
+          "Sunset photographer offered to capture the three of them (declined)"
+        ],
+        "memory_artifact_excerpt": "Grandparent week with Eli. Dr. Rosen evidently delighted; played cards every night. Captain Beto built a child-paced reef route. Family will likely repeat this configuration as Eli's sister Maya grows up."
+      },
+      {
+        "property": "Rosewood Mayakoba",
+        "dates": "2023-12-23 to 2024-01-01",
+        "occasion": "Ninth winter — last full winter before Dr. Rosen's diagnosis",
+        "party_composition": "Dr. and Mrs. Rosen, couple",
+        "notable_moments": [
+          "Standard pattern. Dr. Rosen mentioned to Lourdes during his massage that 'something feels off' with his digestion — she suggested he see his doctor at home. He did, in January. The diagnosis came in February.",
+          "NYE in-villa dinner — they danced once, slowly, in the living area after dinner. The butler had been bringing the dessert and quietly stepped out."
+        ],
+        "service_choices": [
+          "Casita 24",
+          "Lourdes therapeutic massage for Dr. Rosen, one session",
+          "In-villa NYE dinner with the standing tres leches arrangement"
+        ],
+        "declined_or_unused": [
+          "Captain Beto's boat — only one outing this year, half a day; Dr. Rosen tired more easily than usual",
+          "Spa for Mrs. Rosen (untouched — 'I'm fine')"
+        ]
+      },
+      {
+        "property": "Rosewood Mayakoba",
+        "dates": "2024-12-21 to 2024-12-30",
+        "occasion": "Tenth winter — Dr. Rosen mid-treatment; trip taken against oncologist's caution because 'he wanted Mayakoba once more'",
+        "party_composition": "Dr. and Mrs. Rosen, couple — Rachel flew down for the middle weekend (one night)",
+        "notable_moments": [
+          "Mrs. Rosen called the concierge two weeks ahead and quietly disclosed the diagnosis — asked for a small medical refrigerator in the casita and a discreet local oncologist on call. Concierge Camila handled it without flagging it on the public file.",
+          "Captain Beto adjusted the boat — they stayed in the calm bay, no open-water swim. Dr. Rosen sat in the shade and watched Mrs. Rosen do the snorkeling for the first time. He laughed at how slowly she kicked.",
+          "Ana brought the two cups at 6am every morning. Dr. Rosen drank only half of his by the second week. She started bringing his with less coffee and more milk, no comment.",
+          "On the last morning, Dr. Rosen asked Manuel at the bar for a single small glass of mezcal — the only alcohol on this file in his entire history. He sipped it, did not finish, looked at the lagoon for a long time. Manuel did not clear the glass until Mrs. Rosen nodded.",
+          "Mrs. Rosen took the framed photo of him and Eli (the gin rummy photo) out of her suitcase and put it on the bedside table. It traveled home with her unboxed."
+        ],
+        "service_choices": [
+          "Casita 24",
+          "Discreet medical refrigerator and oncologist on call",
+          "Captain Beto, calm-bay outing, one time",
+          "Ana adjusting coffee ratio without announcement",
+          "Lourdes therapeutic massage for Dr. Rosen, twice (gentle)"
+        ],
+        "declined_or_unused": [
+          "Standard snorkel charter intensity (Beto scaled back)",
+          "NYE in-villa dinner (declined — early bedtime; staff sent fruit and tea instead with no card)",
+          "Hanukkah-night photographer (declined — 'we're going to be quiet this year')"
+        ],
+        "memory_artifact_excerpt": "Last winter trip together. Family knew. Staff knew without being told. Every standing order honored; nothing announced. Mezcal at the bar on departure morning — first and only — Manuel did not clear it until the wife signaled."
+      }
+    ],
+    "observed_register": [
+      "two cups at 6am — the rhythm of a marriage made literal",
+      "Casita 24, second floor, east-facing — booked by number, never by request",
+      "Friday Shabbat candles on the outdoor dining table, fire-safe ceramic tray",
+      "Hanukkah travel menorah, eight nights",
+      "kiddush with grape juice, not wine",
+      "Captain Beto's private snorkel charter — never group, never substitute",
+      "in-villa over restaurant for anniversaries, NYE, family dinners",
+      "long quiet walks on the south beach in the late morning",
+      "Reform Jewish observance — present but uninstrumented, never explained",
+      "thank-yous in cash to the named staff, then a written note on Scarsdale stationery in January",
+      "tipping toward the people, not the property"
+    ],
+    "observed_avoidances": [
+      "Christmas programming, carolers, Christmas Eve menus, red-and-green amenities",
+      "Mariachi serenades, beach NYE parties, fireworks-on-the-point invitations",
+      "alcohol for Dr. Rosen — never asked, never named, simply absent from every order (recovering, twelve+ years sober at first stay)",
+      "couples spa packages branded as such (individual treatments fine; the framing isn't)",
+      "photographers, anniversary photo shoots, Hanukkah-candle photo moments",
+      "performative celebration around their anniversary date (Dec 27 — they have never marked it on property)",
+      "group snorkel boats, group tours, group anything",
+      "kids' club for visiting grandchildren — they came to be with the grandparents",
+      "stuffed-animal welcome amenities for visiting grandchildren (Mrs. Rosen returns them politely)"
+    ],
+    "recurring_staff_relationships": [
+      {
+        "property": "Rosewood Mayakoba",
+        "staff": "Ana Pech, in-villa breakfast",
+        "note": "Twelve years with this couple. Brought the two cups at 6am from the second day of the first stay forward. Adjusted Dr. Rosen's coffee ratio silently during his treatment year. Brings the grape juice for kiddush, has the Shabbat tray ready by 5:45pm on Fridays without being asked. She is the standing order made human. Brief her before this guest arrives — she will need to know what to do with the second cup."
+      },
+      {
+        "property": "Rosewood Mayakoba",
+        "staff": "Captain Beto Canul, private snorkel boat (Punta Maroma)",
+        "note": "Took them out every winter for eleven years. Remembered his own baby photo across years because Mrs. Rosen brought a gift. Built a child-paced reef route for grandson Eli in 2023. Scaled the boat down for Dr. Rosen's last trip without being asked. He should be told about Dr. Rosen before Mrs. Rosen books — and asked whether he would be willing to take her out alone, or whether she'd prefer to skip the boat this year entirely."
+      },
+      {
+        "property": "Rosewood Mayakoba",
+        "staff": "Lourdes Tun, spa therapist (in-villa)",
+        "note": "Dr. Rosen's standing massage therapist after the back injury in 2018. She is the one who told him in December 2023 that 'something feels off' and to see his doctor. She will likely want to know whether to be on the staff list this trip. Mrs. Rosen has never booked her solo before — leave the door open without pushing."
+      },
+      {
+        "property": "Rosewood Mayakoba",
+        "staff": "Manuel Sansores, lobby bar",
+        "note": "Made the single mezcal that Dr. Rosen sipped on departure morning in 2024 and did not clear the glass until Mrs. Rosen nodded. He understands what it means. Do not staff him on this trip unless Mrs. Rosen specifically goes to the bar — and if she does, he should know not to mention the mezcal."
+      },
+      {
+        "property": "Rosewood Mayakoba",
+        "staff": "Camila Ríos, concierge",
+        "note": "Handled the discreet medical arrangements in December 2024 without ever putting it on the public file. Rachel called her in October 2026 directly to coordinate this booking. She is the single point of contact for any sensitive routing this trip — staff should escalate to her, not improvise."
+      },
+      {
+        "property": "Rosewood London",
+        "staff": "Eleanor Holland-Wright, concierge",
+        "note": "Sent the small plate of challah to the suite after Mrs. Rosen went to West London Synagogue alone in 2017. Mrs. Rosen has never forgotten this and has mentioned it twice on subsequent reservations. Not on this trip's staff, but the gesture sets the standard for what 'reading her quietly' looks like."
+      }
+    ],
+    "cross_property_pattern": "Eleven consecutive winters at Rosewood Mayakoba in the same overwater casita, with a small number of supporting stays elsewhere — every visit choreographed around two people's shared rhythm: 6am coffee for two, a private snorkel boat with the same captain, in-villa meals on Friday nights and NYE, Shabbat candles on the outdoor table, a discreet refusal of every Christmas-coded amenity. The relationships with staff (Ana, Beto, Lourdes, Manuel, Camila) were built around the couple's symmetry — almost every standing order on this file presumes two cups, two seats, two beach towels, two pillows on the made bed. The twelfth trip on this file is the first one with one person on the reservation. Every previously perfect default is now a small wound waiting to be either honored or quietly redrawn."
+  },
+  "cultural_profile_hint": {
+    "cultural_lens": "American Jewish suburban — Reform observance worn lightly but constantly (Friday candles, Hanukkah, kiddush with grape juice, an instinct for not celebrating Christmas without ever saying so), Northeastern professional-class register (Westchester, Montefiore, Ropes & Gray), and the specific bilingualism of a woman who has spent forty-two years inside a marriage where the inside jokes, the restaurant orders, and the morning rituals were built jointly and are now hers to hold alone. The cultural specificity here is not 'Jewish guest' as a flat label — it is a woman whose Shabbat candle on the outdoor table is the same gesture it was last year but means something completely different now, and whose grief lives in the gap between the two cups and the one.",
+    "register": [
+      "Shabbat and Hanukkah as ambient ritual, not declared identity",
+      "kiddush with grape juice (long-standing accommodation for her late husband's sobriety, now a habit she has not changed)",
+      "Northeastern reserve — gratitude expressed by handwritten note weeks later, not in the moment",
+      "marriage-as-vocabulary — orders, room numbers, captains, dishes that were originally his choices and became theirs",
+      "competent solitude that has never been tested — she has not traveled alone in this lifetime",
+      "grandmother register held in reserve (photos in the wallet, not the conversation)",
+      "professional-class diction — direct, slightly dry, will name a problem once and not again"
+    ],
+    "current_phase": "Aftermath / Empty Chair — the phase that begins when a long shared life ends and every familiar place becomes a double exposure of the present and the person who is no longer in it. The work of this phase is not healing or moving on; it is learning whether a beloved place can still be loved when the person you loved it with is gone. The risk is not sadness — she has lived inside sadness for two years — it is the moment a well-meaning gesture forces her to perform either grief or its absence in front of a stranger.",
+    "emotional_anchors": [
+      "the two cups at 6am — and whether she can let Ana bring one without flinching, or needs the second cup brought and removed unobtrusively, or needs a different breakfast entirely (she does not know yet, and neither does the property)",
+      "Casita 24 itself — she requested it; she does not know if she can sleep in the bed alone",
+      "Captain Beto's boat — the question of whether to go out at all is the largest single unresolved choice on this trip",
+      "Friday night candles on the outdoor table — the ritual she will not skip, and the one place she will most need staff to read the difference between honoring and witnessing",
+      "the photo of Dr. Rosen and Eli playing gin rummy, which is in her suitcase and which she has not decided whether to put on the bedside table",
+      "her daughter Rachel's 8am check-in text — the thread that keeps the family from flying down uninvited",
+      "her own competence — she ran her husband's care for eighteen months and is now in a place where she does not need to be competent, which is its own kind of free-fall"
+    ],
+    "avoid": [
+      "'Welcome back, Mrs. Rosen!' or any cheerful continuity script — the continuity itself is the wound; her return is not a happy occasion to be matched in tone",
+      "any reference to 'your husband,' 'Dr. Rosen,' or 'the two of you' that she has not initiated — if she names him, follow her lead; if she does not, do not introduce him into the conversation",
+      "default two-cup coffee at 6am without a quiet pre-arrival decision about how to handle it (the standing order is now a question, not an instruction)",
+      "default two-person snorkel boat booking — do not auto-confirm Captain Beto; offer the question, accept any answer including 'not this year'",
+      "second pillow on the made bed, second beach towel laid out, second robe in the closet, two place settings on the outdoor dining table — every paired default needs an explicit recheck before her arrival",
+      "any 'in memory of' framing, memorial gesture, or condolence card on arrival — the staff who knew him should be told he died, and should be told not to bring it up; she is here to find out if she can still love the place, not to be hosted as a widow",
+      "couples-coded language anywhere on property ('your usual table for two,' 'his and hers spa,' 'anniversary' on Dec 27)",
+      "well-meaning upgrades to a 'bigger, easier' room — Casita 24 is the entire point; the upgrade would be a removal",
+      "asking her how she is doing in a tone that requires a real answer — front-of-house should default to warm, ordinary, slightly less talkative than usual",
+      "Christmas-coded amenities (carolers, red-and-green welcome, Christmas Eve menus pushed to room) — long-standing pattern, unchanged",
+      "photographers of any kind, including the well-intentioned 'we'd love to capture your return' — no",
+      "scheduling housekeeping or turndown during Friday evening 5:30–6:30pm window (Shabbat candles) or during Hanukkah candle-lighting nights",
+      "introducing the grandchildren by name in conversation as a way to be warm — they are not on this trip and naming them out of context could land as surveillance, not care",
+      "any service moment that requires her to perform either widowhood or recovery — she is here to find out who she is when no one is watching her be either"
+    ]
+  }
+}

@@ -68,12 +68,12 @@ Blocks everything else. Do not start Phase 1 until all of Phase 0 is ☑.
 
 | ID | Task | Status | Artifacts | Acceptance |
 |----|------|--------|-----------|------------|
-| 0.1 | Install Anthropic SDK | ☐ | `web-app/package.json`, `pnpm-lock.yaml` | `pnpm list @anthropic-ai/sdk` returns a version ≥ 0.30 |
-| 0.2 | Install ElevenLabs SDK (deferred — only if voice in scope) | ☐ | `web-app/package.json` | `pnpm list @elevenlabs/elevenlabs-js` returns a version. Skip if cutting voice. |
-| 0.3 | Wire design tokens into globals.css | ☐ | `web-app/src/app/globals.css` (replaced with [`design-pattern/tokens.css`](../design-pattern/tokens.css)) | Open http://localhost:3000, inspect `<body>` — `--color-surface-canvas` etc. resolve in DevTools |
-| 0.4 | Load Cormorant Garamond via `next/font/google` | ☐ | `web-app/src/app/layout.tsx` | Page renders in Cormorant Garamond, not Arial. No FOUT. |
-| 0.5 | Read Next 16 App Router + route-handler docs locally | ☐ | None (reading only) | Cite specific paths in `node_modules/next/dist/docs/` checked. Note any breaking-change gotchas in a comment at the top of `route.ts` when it's created. **Required by [`web-app/AGENTS.md`](../web-app/AGENTS.md).** |
-| 0.6 | Verify `pnpm dev` still works after token + font wiring | ☐ | None | Dev server starts; page loads; no compile errors; tokens visible |
+| 0.1 | Install Anthropic SDK | ☑ | `web-app/package.json`, `pnpm-lock.yaml` | @anthropic-ai/sdk 0.96.0 installed |
+| 0.2 | Install ElevenLabs SDK (deferred — only if voice in scope) | ✂ | — | Cut per cut-order §1; voice cut first |
+| 0.3 | Wire design tokens into globals.css | ☑ | `web-app/src/app/globals.css` | Sourced from `design-pattern/tokens.css`; density attr supported |
+| 0.4 | Load Cormorant Garamond via `next/font/google` | ☑ | `web-app/src/app/layout.tsx` | Cormorant variable injected as `--font-cormorant`; weights 300–600 |
+| 0.5 | Read Next 16 App Router + route-handler docs locally | ☑ | `node_modules/next/dist/docs/01-app/03-api-reference/03-file-conventions/route.md` | Notes for route.ts: `Response.json()`, `await request.json()`, `params` is a Promise in v15+, `runtime = 'nodejs'` for SDK calls |
+| 0.6 | Verify `pnpm dev` still works after token + font wiring | ☑ | — | Turbopack ready in 418ms; `curl http://localhost:3000` returns 200 with cormorant_garamond variable class on `<html>` |
 
 **Gate to Phase 1:** all six rows ☑.
 
