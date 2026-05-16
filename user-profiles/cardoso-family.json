@@ -1,0 +1,329 @@
+{
+  "id": "cardoso-mayakoba-2026-07",
+  "display_name": "Eduardo Cardoso de Almeida",
+  "archetype_tag": "Paulistano industrial patriarch — three-generation Mayakoba reunion for the 60th",
+  "direct_input": {
+    "birth_date": "1966-07-21",
+    "origin": "São Paulo, Brazil",
+    "stay_intent": "Quero ter os três meninos da Marina na piscina antes do almoço e todos nós na mesma mesa quando o sol cair — só isso, durante doze dias.",
+    "languages": ["Portuguese (Brazilian)", "English", "Spanish (functional, will not use unless required)"],
+    "booking_window": "Tuesday 14 July 2026 – Sunday 26 July 2026, 12 nights"
+  },
+  "family": [
+    {
+      "relation": "spouse",
+      "name": "Beatriz Almeida Cardoso",
+      "birth_date": "1969-11-03",
+      "origin": "São Paulo, Brazil (b. Belo Horizonte, MG)",
+      "languages": ["Portuguese", "English", "French (fluent)", "Italian (conversational)"],
+      "notes": "Bia. On the council of the Bienal de São Paulo; long-standing patron of MASP and the Instituto Moreira Salles. Reads the room before Eduardo does and quietly authors most of the family's aesthetic choices — restaurants, art, the seating order at dinner. Pescatarian for the last six years; never makes a point of it. The real signal that the property has read the family correctly is when Bia relaxes her shoulders on day two.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "child",
+      "name": "Marina Cardoso de Almeida Ribeiro",
+      "birth_date": "1992-04-18",
+      "origin": "São Paulo, Brazil",
+      "languages": ["Portuguese", "English", "French"],
+      "notes": "Elder daughter, 34. Trained as an architect at Mackenzie, now runs a small atelier in Vila Madalena. Married to Felipe; mother of the three grandchildren (Théo, Lívia, Joaquim). Caesarean three months ago — still recovering physically; will not say so. Prefers shaded loungers, not direct sun, for the first half of the stay. The trip is partly engineered around her — getting Marina out of São Paulo and her atelier for twelve full days is the unstated win.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "in-law",
+      "name": "Felipe Ribeiro Castanho",
+      "birth_date": "1989-09-27",
+      "origin": "Rio de Janeiro, Brazil",
+      "languages": ["Portuguese", "English"],
+      "notes": "Marina's husband, 36. Carioca by birth, married into a Paulistano household and still razzed about it at every churrasco. Partner at a São Paulo investment bank focused on agribusiness. Easy laugher; the one who pulls late-night Brahma bottles from the cooler and gets the music going. Will quietly cover any logistical friction so Eduardo doesn't have to.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "child",
+      "name": "Rafael Cardoso de Almeida",
+      "birth_date": "1995-02-09",
+      "origin": "São Paulo, Brazil",
+      "languages": ["Portuguese", "English", "Mandarin (intermediate, business)"],
+      "notes": "Younger son, 31. Works inside the family business (Cardoso Indústrias — auto-parts and precision metals, founded by Eduardo's father in 1971, now mid-sized with plants in Sorocaba and Manaus). Being slowly groomed for succession but not told so directly. Travels with his wife Helena. No children yet — a sensitive subject; do not gesture toward it.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "in-law",
+      "name": "Helena Tavares Cardoso",
+      "birth_date": "1996-08-14",
+      "origin": "Curitiba, Brazil",
+      "languages": ["Portuguese", "English", "German (fluent — mother is German-Brazilian from Joinville)"],
+      "notes": "Rafael's wife, 29. Corporate lawyer at a São Paulo firm; quieter than the Cardosos by family default, observant by training. Two years in, still calibrating her place among the Almeidas — Bia is warm with her but the warmth is also the test. Allergic to shellfish (anaphylactic — EpiPen carried). This is not a preference, it is a kitchen-protocol issue and must be confirmed in writing before arrival.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "grandchild",
+      "name": "Théo Cardoso Ribeiro",
+      "birth_date": "2019-05-30",
+      "origin": "São Paulo, Brazil",
+      "languages": ["Portuguese", "some English (school)"],
+      "notes": "7. Fearless in water — will be in the lagoon before breakfast. Reads enough to ask questions in English to staff and is delighted when they answer back. Calls Eduardo 'Vovô Edu.'",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "grandchild",
+      "name": "Lívia Cardoso Ribeiro",
+      "birth_date": "2021-10-12",
+      "origin": "São Paulo, Brazil",
+      "languages": ["Portuguese"],
+      "notes": "4. Shy first three days at any new place, then loud. Will need her stuffed jaguar (onça) found if it goes missing — it has gone missing on every prior family trip.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "grandchild",
+      "name": "Joaquim Cardoso Ribeiro",
+      "birth_date": "2026-02-08",
+      "origin": "São Paulo, Brazil",
+      "notes": "Five months old at the time of the stay. First international trip. Bottle-fed (Marina stopped nursing at four months on medical advice). Travels with Cleusa, the family's nanny of twelve years, who handles night feeds so Marina can sleep through.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "extended",
+      "name": "Cleusa Souza dos Santos",
+      "birth_date": "1972-06-04",
+      "origin": "Salvador, Bahia, Brazil",
+      "languages": ["Portuguese"],
+      "notes": "The family's nanny / household manager for twelve years; raised Marina's first two and now Joaquim. Baiana, evangélica, sends most of her wages home to her own grandchildren in Salvador. Bia treats her as senior household, not staff — she eats at the family table when she chooses to, has her own guest room (NOT staff quarters), is addressed as 'Dona Cleusa' by the children and by Eduardo, and her name appears on the reservation in her own right. This is a non-negotiable cultural point and the single fastest way for the property to either earn the family's loyalty or lose it on day one.",
+      "traveling_on_this_stay": true
+    }
+  ],
+  "derived_from_history": {
+    "stays": [
+      {
+        "property": "Rosewood Mayakoba",
+        "dates": "2018-12-26 to 2019-01-03",
+        "occasion": "Ano Novo / Réveillon — first Rosewood stay, recommended by friends from the Jockey Club de São Paulo",
+        "party_composition": "Eduardo, Bia, Marina + Felipe (newlyweds at the time), Rafael (then solo)",
+        "notable_moments": [
+          "Eduardo asked the concierge on day two whether the kitchen could prepare a proper picanha for New Year's Eve — not a steak, the whole top sirloin cap with the fat cap scored, grilled over wood, served sliced thick with farofa and vinagrete. Chef Mauricio at Casa del Lago sourced the cut from a Mexico City butcher overnight and prepared it on the beach grill for the family alone on Dec 31 at 10pm. Eduardo asked for Mauricio to be brought out and shook his hand for a long moment.",
+          "Family asked for the suite's welcome champagne to be sent to the staff break room instead — replaced with a tray of Brahma long-necks on ice, fresh limes, salt, and a bottle of cachaça Yaguara (Bia had brought it). Concierge complied without question.",
+          "Bia spent two mornings at the Sense spa and asked for the music to be turned off during her treatments — preferred silence. Spa logged it; honored for the rest of the stay."
+        ],
+        "service_choices": [
+          "Late dinners (9:30pm earliest, 10:30pm common)",
+          "Espresso (ristretto, double) after every meal including breakfast — Eduardo will reject American filter coffee politely the first time and pointedly the second",
+          "Lagoon-side villas configured as a single compound (suite + two adjoining)",
+          "Beach bonfire on Dec 31 with the family alone, music from their own phone (Chico Buarque, Marisa Monte, late-night Caetano), no property playlist"
+        ],
+        "declined_or_unused": [
+          "Welcome champagne (redirected to staff)",
+          "Tequila tasting at the bar (declined politely — 'we drink cachaça at home, and we brought our own')",
+          "Yoga at sunrise (declined every morning — the family is not awake)",
+          "Mariachi performance offered for Réveillon — Bia declined firmly and asked instead for a local samba or bossa trio if available; concierge sourced a Cuban son ensemble from Playa del Carmen as the nearest fit and the family was delighted"
+        ],
+        "memory_artifact_excerpt": "Concierge note (Luz Marina), 2019-01-02: 'Sra. Almeida Cardoso asked, gently but clearly, that the property not assume Spanish-language or Mexican-folk welcome registers for Brazilian guests in future. She thanked us for the son ensemble and said her mother-in-law would have danced. Flag for any Brazilian guest profile.'"
+      },
+      {
+        "property": "Rosewood Mayakoba",
+        "dates": "2020-12-23 to 2021-01-04",
+        "occasion": "Ano Novo — first stay post-pandemic restart; Marina pregnant with Théo",
+        "party_composition": "Eduardo, Bia, Marina + Felipe (Marina 6 months pregnant), Rafael (then with girlfriend Helena, pre-marriage), Eduardo's mother Dona Iolanda (then 86, now deceased 2023)",
+        "notable_moments": [
+          "Dona Iolanda's first and only Mayakoba stay. The family arranged a private mass on Dec 31 morning in a converted meeting room — Father Sebastián from a local parish came at the GM's arrangement, said the mass in Portuguese (he was Argentinian but had served in Brazil), Dona Iolanda wept quietly through the gospel.",
+          "Bia coordinated with Cleusa (then traveling for the first time with the family on international stay) to make sure she had her own villa key and was on the dining reservation as 'Sra. Cleusa Souza.' Front desk made an error on day one and the issue was raised with the GM by Bia within the hour — handled by day two, the GM apologized personally.",
+          "Marina did not swim per doctor's instruction; concierge arranged a shaded daybed at the beach with a side table set for açaí (sourced from a Mexico City Brazilian importer — chef Mauricio remembered) every morning at 10am."
+        ],
+        "service_choices": [
+          "Private mass arrangement",
+          "Daily açaí for Marina at the beach",
+          "Same villa compound configuration as 2018",
+          "Daily espresso ritual continued, now twice morning"
+        ],
+        "declined_or_unused": [
+          "Champagne tower at the NYE main gala (family did not attend — preferred their own beach setup)",
+          "Helicopter transfer from Cancún (declined — Eduardo finds it gauche; chauffeured van for nine plus luggage instead)",
+          "Spa offers for Marina (declined per medical, but property kept offering — Bia eventually asked them to stop, which was logged)"
+        ],
+        "memory_artifact_excerpt": "Villa host note (Carlos), 2021-01-03: 'Dona Iolanda thanked me on departure in Portuguese and pressed a Saint Anthony medal into my hand. Sra. Almeida Cardoso later told me her mother-in-law does this only when she believes she will not return. I am holding the medal in the property safe in case the family returns and wishes it back.' [Note: medal returned to family at Eduardo's request, 2024 stay.]"
+      },
+      {
+        "property": "Rosewood São Paulo",
+        "dates": "2022-05-12 to 2022-05-14",
+        "occasion": "Bia's 53rd birthday — a deliberate staycation at the home-market property, two nights only",
+        "party_composition": "Eduardo + Bia only",
+        "notable_moments": [
+          "Eduardo booked the Mata Atlântica suite specifically for the view of the garden. Bia later said it was the first time in years she had felt like a 'guest' in her own city.",
+          "Dinner at Taiá — chef Pablo Pedro prepared a small tasting off-menu after Bia mentioned she had recently been to the Bienal exhibition on Amazonian foodways. The kitchen sent out a tucupi consommé and a cumaru-scented dessert; Bia asked for the kitchen team to be brought to the table to thank them by name.",
+          "Eduardo, despite being Paulistano, asked the concierge for a recommendation for a Sunday morning feijoada nearby — concierge sent them to Bolinha in Jardim Paulista; Eduardo laughed and said 'you passed the test.'"
+        ],
+        "service_choices": [
+          "Suite with garden view (Bia's preference always)",
+          "In-house dining all evenings (no nightlife requested)",
+          "Late breakfast (9:30am — they were on vacation in their own city)"
+        ],
+        "declined_or_unused": [
+          "Spa couples package (Bia took an individual treatment; Eduardo declined — 'I would rather walk in the garden')",
+          "Limousine to the Bienal (took their own driver — the family driver Wagner has been with Eduardo for 18 years)"
+        ]
+      },
+      {
+        "property": "Le Guanahani (Rosewood St Barth)",
+        "dates": "2023-02-15 to 2023-02-26",
+        "occasion": "Carnaval escape — the family explicitly left São Paulo to avoid Carnaval crowds; Brazilians-in-St-Barth season",
+        "party_composition": "Eduardo, Bia, Marina + Felipe + Théo (then 3) + Lívia (then 1), Rafael + Helena (then engaged) — 8 total, no Cleusa this trip (her own family event in Salvador)",
+        "notable_moments": [
+          "Family ran into three other São Paulo families they knew from home at Nikki Beach — a typical Brazilian-St-Barth phenomenon. Eduardo asked the concierge whether the property could arrange a private dinner at the villa for all four families on day five; concierge accommodated 24 guests with two days' notice.",
+          "Marina and Bia spent a morning at the Pati de Saint Barth boutique; the boutique director sent a follow-up note to the suite about a piece Marina had admired but not bought — Marina was touched and returned the next day. Concierge had flagged her interest to the boutique without being asked.",
+          "Felipe asked the bar to recreate a proper caipirinha (Sagatiba cachaça, lime cut in eighths not quarters, sugar not simple syrup, crushed ice not cubed). Took two attempts. By night three the bar had it dialed in and the rest of the Brazilian contingent at the property started ordering it too."
+        ],
+        "service_choices": [
+          "Beachfront villa with private pool (children-centric mornings)",
+          "Late dinners as standard (9pm+)",
+          "Espresso ritual continued",
+          "Caipirinha sundowner once the bar got it right"
+        ],
+        "declined_or_unused": [
+          "Rosé all day (the European default — family politely uninterested; preferred Italian whites Bia knew, or sparkling water)",
+          "Sunset catamaran (declined — Eduardo gets seasick, never disclosed)",
+          "Spa offers for the men (declined consistently — Eduardo and Felipe will not do spa; this is generational)"
+        ]
+      },
+      {
+        "property": "Rosewood Mayakoba",
+        "dates": "2024-07-10 to 2024-07-22",
+        "occasion": "Eduardo's first 'just because' summer stay — driven by Bia, who wanted the grandchildren to have a Mayakoba summer, not just a Réveillon",
+        "party_composition": "Eduardo, Bia, Marina + Felipe + Théo (then 5) + Lívia (then 2), Rafael + Helena (recently married), Cleusa — 9 total",
+        "notable_moments": [
+          "Chef Mauricio (still at Casa del Lago) recognized the family on day one and had picanha on the menu within 48 hours — Eduardo asked who had organized it and was told 'we keep your file, senhor.' He asked for Mauricio to be brought out and the two men spoke in a mix of Portuguese and Spanish for twenty minutes about their grandmothers.",
+          "Lívia's stuffed onça went missing on day six — housekeeping found it in the kids' club lost-and-found within four hours; villa host Carlos delivered it personally with a small handwritten card 'a sua amiga onça pediu desculpas pela aventura.' Bia kept the card.",
+          "Helena (still new to the family then) was seated next to Cleusa at the family table on the first night, by Bia's quiet arrangement — a deliberate signal to the property and to Helena both. Staff handled it without flinching.",
+          "Family did NOT do the cenote tour the property recommended — Eduardo and Felipe took the older grandkids to the beach soccer setup instead every afternoon at 4pm. The property staff joined in twice; Eduardo invited them by name."
+        ],
+        "service_choices": [
+          "Same lagoon villa compound, now expanded for nine + Cleusa",
+          "Picanha on the menu within 48h",
+          "Beach soccer at 4pm daily — staff invited",
+          "Espresso ritual: ristretto for Eduardo, doppio for Felipe, cortado-style for Bia (with foamed milk, not American latte volume)",
+          "Cleusa on the dining reservation in her own name, addressed as Dona Cleusa by all staff"
+        ],
+        "declined_or_unused": [
+          "Cenote tour (declined for the trip)",
+          "Curated tequila tasting (declined — 'cachaça next time, please')",
+          "Sunrise yoga (declined consistently)",
+          "Photographer for the family portrait (Bia declined — 'we use our own phone, obrigada')"
+        ],
+        "memory_artifact_excerpt": "Carlos (villa host) note, 2024-07-21: 'Sr. Cardoso de Almeida mentioned at departure that 2026 would be his 60th. Said he wanted to bring his mother — then corrected himself. His mother passed in 2023. He said he meant his grandchildren, and that the property should hold the lagoon compound for July 2026. Note placed in 2026 hold file.'"
+      },
+      {
+        "property": "Rosewood Castiglion del Bosco",
+        "dates": "2025-09-04 to 2025-09-14",
+        "occasion": "Bia's project — research trip for a São Paulo gallery exhibition on Tuscan landscape painting and its echoes in modernist Brazilian art",
+        "party_composition": "Eduardo + Bia only; the children stayed in São Paulo (Marina pregnant with Joaquim)",
+        "notable_moments": [
+          "Bia spent three full days at Sienese museums; the property arranged a private after-hours visit to the Pinacoteca Nazionale via a board contact. Bia later sent the property a copy of the eventual exhibition catalogue with a handwritten dedication.",
+          "Eduardo, alone for the first time at a Rosewood without children or grandchildren, took up walking the estate vineyards at 7am with the head sommelier Lorenzo — not for the wine, for the conversation. Lorenzo learned the espresso ratio Eduardo prefers (very short pull, no crema-thick foam) and produced it on the terrace every morning.",
+          "Family priest in São Paulo — Padre Henrique — had given Bia a small wooden cross to place wherever she stayed; Bia asked housekeeping for a discreet spot in the suite. Housekeeping placed it on the bedside table next to her side without comment. Bia mentioned it later to the GM as the moment she trusted the property."
+        ],
+        "service_choices": [
+          "Suite with vineyard view",
+          "Private museum access via property contacts",
+          "Espresso ritual on the terrace",
+          "Late dinners — but earlier than Brazil-default (8:30pm — adapted to Italian rhythm)"
+        ],
+        "declined_or_unused": [
+          "Wine pairings on most tasting menus (Bia drinks one glass of Brunello on principle; Eduardo politely declines — he is not a wine drinker, prefers a single whisky after dinner)",
+          "Cooking class offered to the couple (declined — 'we are here for art, not pasta')",
+          "Truffle hunt (declined — Eduardo dislikes the performance of it)"
+        ]
+      }
+    ],
+    "observed_register": [
+      "Brazilian Portuguese as household language — never assumed Spanish",
+      "calor humano: warmth as the operative posture, both expected from staff and offered to staff",
+      "família é tudo: the family is the unit, addressed as such, never fragmented in service choreography",
+      "late dinners (8:30–10:30pm start) and long after-dinner table-sitting (sobremesa, espresso, conversation that runs until midnight)",
+      "espresso as ritual punctuation — never American filter coffee, never tea after a meal",
+      "music from their own phone, not the property playlist — Chico, Caetano, Marisa Monte, Gilberto Gil",
+      "churrasco sensibility even abroad: picanha, farofa, vinagrete; the patriarch's eye on the grill",
+      "Catholic, private observance — small wooden cross placed by Bia in every suite; Saint Anthony in Dona Iolanda's memory",
+      "Cleusa as family-not-staff — the property's handling of this is the first test, every time",
+      "the children of the children are the center of the choreography (Théo, Lívia, Joaquim)",
+      "aesthetic restraint at the wealth level: chauffeured van, not helicopter; family phone, not photographer; their own cachaça, not a curated tasting"
+    ],
+    "observed_avoidances": [
+      "assumed Spanish-language welcome registers",
+      "Mexican-folk performances (mariachi) offered as cultural welcome to Brazilian guests",
+      "champagne welcome amenities (consistently redirected — Brahma long-necks or cachaça preferred)",
+      "tequila / mezcal tastings (politely declined every time)",
+      "wine pairings as the default dining ritual (Eduardo is not a wine drinker; Bia drinks selectively)",
+      "rosé-all-day European resort defaults",
+      "helicopter transfers and other visible-wealth upgrades",
+      "sunrise yoga, wellness performances, anything before 9am that isn't espresso",
+      "photographers and curated photo moments (family uses its own phone)",
+      "treating Cleusa as back-of-house or referring to her as 'the nanny' rather than by name",
+      "couples spa as default — Eduardo and Felipe will not do spa, generational",
+      "sunset catamarans / boat excursions (Eduardo gets seasick, will never disclose)",
+      "fragmenting the family across separate dinner reservations — they eat as one table"
+    ],
+    "recurring_staff_relationships": [
+      {
+        "property": "Rosewood Mayakoba",
+        "staff": "Chef Mauricio Aguilar — Casa del Lago",
+        "note": "Has cooked picanha for the family on every Mayakoba stay since 2018. Sources the cut from a specific Mexico City butcher. Speaks to Eduardo in a Portuguese-Spanish hybrid the two of them have refined over four stays. Should be on the welcome team for July 2026. Eduardo will ask for him by name within the first 24 hours."
+      },
+      {
+        "property": "Rosewood Mayakoba",
+        "staff": "Carlos Hernández — lagoon villa host",
+        "note": "Family host across 2018, 2020, 2024 stays. Knows Lívia's onça story. Knows the family eats as one table. Bia trusts him; he was the one who handled the Cleusa name correction in 2020 after the front-desk error. Should be on the 2026 welcome."
+      },
+      {
+        "property": "Rosewood Mayakoba",
+        "staff": "Luz Marina Soto — concierge",
+        "note": "Wrote the 2019 note about not assuming Spanish/mariachi welcome registers for Brazilian guests. Sourced the Cuban son ensemble when mariachi was declined. Her note should be re-read before this booking by whoever is owning arrival choreography."
+      },
+      {
+        "property": "Rosewood São Paulo",
+        "staff": "Chef Pablo Pedro — Taiá",
+        "note": "Cooked the off-menu Amazonian tasting for Bia in 2022. Bia has referenced him by name in conversation with the Mayakoba GM. If the family does another São Paulo staycation, he is the reason."
+      },
+      {
+        "property": "Rosewood Castiglion del Bosco",
+        "staff": "Lorenzo Bianchi — head sommelier (de facto morning-walk companion, not sommelier-ing for this family)",
+        "note": "Walked the vineyards with Eduardo at 7am for the full 2025 stay. Learned the espresso pull. Eduardo does not drink wine but trusts Lorenzo's company. If the family returns to Castiglion, he should be visible."
+      }
+    ],
+    "cross_property_pattern": "The Cardoso de Almeida family travels as a single warm unit and reads every property's first 48 hours for two specific signals — whether the staff will treat Cleusa as family, and whether the welcome register will assume them into a generic 'Latin American' frame (Spanish, mariachi, tequila, champagne) or recognize them as specifically Brazilian. Once those two signals land correctly, the family settles in for the long, late, music-and-espresso-fueled dinners that are the actual reason they travel. Mayakoba has become their de facto second home (four stays across eight years), and the 2026 return is the first time three generations will be present since Dona Iolanda's 2020 Réveillon — Eduardo's quiet wish, never said aloud, is that this trip do for his grandchildren what 2020 did for his mother."
+  },
+  "cultural_profile_hint": {
+    "cultural_lens": "Paulistano industrial-family patriarch in the warmth-as-primary-value register — wealth absorbed across two generations (father built the factory in Sorocaba, Eduardo industrialized and globalized it, Rafael is being prepared to inherit), held without spectacle, expressed through the size of the table at dinner and the number of people gathered around it. Bia's parallel register is paulistana cultural patronage (Bienal, MASP, the gallery world) which gives the family a public-cultural dimension Eduardo himself does not perform. The family is fluently global but linguistically and emotionally anchored in Brazilian Portuguese; their cultural recognition test for any property is whether it can see them as specifically Brazilian rather than 'Latin American' or 'Hispanic' in a North-Atlantic frame.",
+    "register": [
+      "calor humano — warmth as the operative posture, expected and reciprocated",
+      "família é tudo — the family is the unit; service choreography must honor that",
+      "late-night gathering as the day's center of gravity (the table from 9pm to midnight)",
+      "espresso ritual as continuous punctuation",
+      "churrasco sensibility — picanha, farofa, fire, the patriarch's eye",
+      "music-from-their-own-phone, never property playlist",
+      "Catholic-private (small wooden cross, no public display)",
+      "Cleusa as família — the litmus test, every property, every time",
+      "aesthetic restraint at the wealth level — no helicopters, no photographers, no champagne towers",
+      "Paulistano cosmopolitan — globally fluent but emotionally Brazilian"
+    ],
+    "current_phase": "Warmth / Calor de Casa — Eduardo at 60 is the literal center of the family, the one whose presence makes the gathering a gathering; his mother is gone (2023) and his role is now the role she held. Generosity is the operative mode of the stage: feed everyone, gather everyone, hold the long table. Succession is visible (Rafael in the business, Marina's atelier, three grandchildren) but not yet front of mind; the question of who he becomes when the gathering can no longer be held at his own table is still ten years away and intentionally out of frame for this trip. The 60th is being marked not by a party but by a presence — twelve days, three generations, one compound.",
+    "emotional_anchors": [
+      "Dona Iolanda's absence — this is the first major family gathering since her death; the empty chair is unspoken but felt, and Eduardo's wish that the grandchildren remember Mayakoba the way she remembered 2020 is the trip's quiet engine",
+      "Marina's recovery — getting her out of São Paulo and her atelier for twelve full days; she will not say she needs rest; the property's job is to read it",
+      "Helena (newer daughter-in-law) feeling fully held by Bia and by the property — Bia is warm with her but the warmth is also the test, and the property should be the easier register where Helena can simply relax",
+      "Cleusa addressed as Dona Cleusa from the first interaction at the front desk — the family will register this within the first ten minutes and it will color the entire stay",
+      "the three grandchildren in the lagoon before 11am every day — the simple image that is the actual content of Eduardo's stay_intent",
+      "the long table at sundown — espresso, conversation, Marisa Monte from someone's phone, the children asleep, the adults still talking; this is the day's center"
+    ],
+    "avoid": [
+      "Spanish-language welcome materials, signage, or scripts for this family — Portuguese welcome, Brazilian Portuguese specifically, no Iberian construction",
+      "mariachi, folklórico, or any Mexican-folk performance offered as cultural welcome — they are not the right register and the family has declined this every time it was offered",
+      "tequila or mezcal tastings as a 'cultural experience' — offer cachaça or do not offer at all; Eduardo will laugh politely once and remember if it happens twice",
+      "champagne welcome amenities, champagne towers, sparkling-wine sabering displays — redirect to Brahma long-necks on ice with limes and salt, or to a discreet bottle of Yaguara cachaça",
+      "wine-pairing-as-default dining choreography — Eduardo is not a wine drinker; offer espresso flights, single whiskies, or sparkling water with the same care",
+      "helicopter transfers, photographer sessions, drone footage of the family villa — Eduardo finds the entire register gauche and Bia will quietly veto any of it",
+      "treating Cleusa as 'the help,' 'the nanny,' or back-of-house in any way; she is on the reservation in her own name, addressed as Dona Cleusa, eats at the family table when she chooses, has her own guest room (not staff quarters), and the front desk's handling of her arrival is the first test of the stay",
+      "sunrise yoga, 7am breakfast service push, wellness performances before 9am — the family is not awake; espresso on the terrace from 9:30am onward",
+      "couples spa packages for Eduardo (or Felipe) — they will not do spa, this is generational, do not push",
+      "any reference to the 60th as a 'celebration' that requires a party, a cake, a public toast, or a property-curated milestone moment — the milestone is the gathering itself; the property's job is to hold the container, not to perform the event",
+      "fragmenting the family across multiple dinner reservations or seating arrangements — they eat as one table, always, and seat assignments should accommodate nine plus Cleusa, never split",
+      "any sentence containing 'your beautiful family from Latin America' — they are Brazilian, paulistano, and specifically not the Spanish-speaking Americas; the distinction matters to them more than the property may initially understand"
+    ]
+  }
+}

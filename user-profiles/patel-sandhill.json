@@ -1,0 +1,367 @@
+{
+  "id": "patel-sandhill-2026-05",
+  "display_name": "Arjun Patel",
+  "archetype_tag": "second-gen founder / Sand Hill regular / post-acquisition family stay",
+  "direct_input": {
+    "birth_date": "1984-09-12",
+    "origin": "Edison, NJ, USA",
+    "stay_intent": "The deal closed Tuesday and I haven't been a father in eighteen months — let this weekend be the off-ramp.",
+    "languages": ["English", "Gujarati (conversational)", "Hindi (passive)"],
+    "booking_window": "Friday–Monday, 3 nights"
+  },
+  "family": [
+    {
+      "relation": "spouse",
+      "name": "Priya Desai-Patel",
+      "birth_date": "1986-03-04",
+      "origin": "Sunnyvale, CA, USA",
+      "languages": ["English", "Gujarati (fluent)"],
+      "notes": "Pediatric oncologist at Lucile Packard. Vegetarian (eggs OK). Took the week off — first time in two years. Carries the family's social calendar; quietly steers Arjun toward rest he won't book for himself.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "child",
+      "name": "Anaya Patel",
+      "birth_date": "2015-06-22",
+      "origin": "Palo Alto, CA, USA",
+      "languages": ["English", "Spanish (school)"],
+      "notes": "10, fifth grade at Castilleja Lower. Reader; brought three books. Asks adult questions and is watching her father closely this trip.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "child",
+      "name": "Rohan Patel",
+      "birth_date": "2018-11-08",
+      "origin": "Palo Alto, CA, USA",
+      "languages": ["English"],
+      "notes": "7, second grade. Pool kid. Mild peanut allergy (epi-pen with parents, not life-threatening). Will treat the property like a playground; needs eye-line, not supervision.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "parent",
+      "name": "Bharat Patel",
+      "origin": "Edison, NJ, USA (b. Anand, Gujarat)",
+      "languages": ["Gujarati", "English"],
+      "notes": "Father. Retired motel operator (ran a Days Inn off Route 1 for 32 years). Not traveling. Sends Arjun a WhatsApp every Sunday morning at 7am PT — Arjun answers within the hour, always.",
+      "traveling_on_this_stay": false
+    },
+    {
+      "relation": "parent",
+      "name": "Hansa Patel",
+      "origin": "Edison, NJ, USA (b. Vadodara, Gujarat)",
+      "languages": ["Gujarati", "Hindi", "English"],
+      "notes": "Mother. Health declining (Parkinson's, early). Arjun visits NJ quarterly; the unspoken weight of this stay sits partly here. Not traveling.",
+      "traveling_on_this_stay": false
+    }
+  ],
+  "derived_from_history": {
+    "stays": [
+      {
+        "property": "Rosewood Sand Hill",
+        "dates": "2022-03-10 to 2022-03-11",
+        "occasion": "Series B partner meetings (Sequoia, Founders Fund)",
+        "party_composition": "Solo",
+        "notable_moments": [
+          "First Sand Hill stay. Asked at check-in whether the room had a desk facing a window — switched from 214 to 308 when staff offered.",
+          "Took every meal at Madera. Same table (14, banquette, sightline to entrance, no center-of-room exposure)."
+        ],
+        "service_choices": [
+          "Early breakfast 6:15am, masala chai + dry toast + cut fruit",
+          "Late dinner 9:30pm after meetings, always alone, always table 14"
+        ],
+        "declined_or_unused": [
+          "Spa welcome (untouched)",
+          "Turn-down chocolate (left on pillow nightly)"
+        ]
+      },
+      {
+        "property": "Rosewood Sand Hill",
+        "dates": "2022-09-08 to 2022-09-09",
+        "occasion": "Series C kickoff, partner meetings",
+        "party_composition": "Solo",
+        "notable_moments": [
+          "Maya (Madera) remembered the chai order without prompting. Arjun noticed and tipped 40%.",
+          "Requested room 308 by name at booking."
+        ],
+        "service_choices": [
+          "Same chai/breakfast pattern",
+          "Table 14 standing hold for both nights"
+        ],
+        "declined_or_unused": ["Wine pairing offered with both dinners — declined both nights"]
+      },
+      {
+        "property": "Rosewood Mayakoba",
+        "dates": "2022-12-26 to 2023-01-02",
+        "occasion": "Family vacation (first real PTO in 18 months)",
+        "party_composition": "Arjun + Priya + Anaya (then 7) + Rohan (then 4)",
+        "notable_moments": [
+          "Booked the Lagoon villa. Spent most days at the pool with kids; Priya did spa twice.",
+          "Asked concierge to NOT schedule a New Year's Eve dinner at the main restaurant — wanted in-villa food so kids could sleep on their own clock.",
+          "Took a 6am kayak alone on Dec 31. Returned visibly emotional. Staff noted it; nothing said."
+        ],
+        "service_choices": [
+          "In-villa dinners 4 of 7 nights",
+          "Kids' club mornings only, never afternoons (family time)",
+          "One couples spa booking, Dec 30 evening"
+        ],
+        "declined_or_unused": [
+          "Tequila tasting (declined, no reason given)",
+          "Photographer session offered for NYE (declined politely)"
+        ],
+        "memory_artifact_excerpt": "Guest declined NYE main dining; explicit preference for in-villa so children could keep bedtime. Father took early solo kayak Dec 31; appeared moved on return."
+      },
+      {
+        "property": "Rosewood Sand Hill",
+        "dates": "2023-04-19 to 2023-04-21",
+        "occasion": "Board offsite (his own company)",
+        "party_composition": "Arjun + 4 board members",
+        "notable_moments": [
+          "Hosted the offsite dinner at Madera private room. Maya pre-coordinated a vegetarian-first menu without being asked — Arjun mentioned in thank-you that it was 'the first board dinner I didn't have to pre-negotiate.'",
+          "Stayed in 308. Used the room's desk for 5am calls to India ops team."
+        ],
+        "service_choices": [
+          "Private dining room, vegetarian-led tasting menu",
+          "Room 308",
+          "Pre-dawn coffee service to room (5am)"
+        ],
+        "declined_or_unused": [
+          "Standard meat-forward board menu (Maya rebuilt the menu off-script)",
+          "Champagne toast offered for board — accepted glass, did not drink"
+        ]
+      },
+      {
+        "property": "Rosewood Hong Kong",
+        "dates": "2023-06-12 to 2023-06-15",
+        "occasion": "Asia investor roadshow",
+        "party_composition": "Solo",
+        "notable_moments": [
+          "Asked specifically about vegetarian dim sum options at check-in. Concierge arranged a private tasting at a nearby restaurant; Arjun went alone and stayed two hours.",
+          "Worked from the room most of the trip. Asked for the desk to be moved to face the harbor."
+        ],
+        "service_choices": [
+          "Vegetarian-only room service all three days",
+          "Harbor-facing desk arrangement"
+        ],
+        "declined_or_unused": [
+          "Rooftop bar invite (declined)",
+          "Curated whiskey tasting in-room (declined)"
+        ]
+      },
+      {
+        "property": "Rosewood Sand Hill",
+        "dates": "2023-09-14 to 2023-09-15",
+        "occasion": "Series D close celebration dinner",
+        "party_composition": "Arjun + co-founder Vikram + Priya (one night only)",
+        "notable_moments": [
+          "Priya flew down for the dinner only — drove home same night to relieve nanny. Arjun stayed second night solo.",
+          "Veuve was sent to the table; Arjun touched the glass to Vikram's, did not drink. Maya quietly swapped his glass for sparkling water by course two — no one at the table noticed except him. He nodded at her on the way out."
+        ],
+        "service_choices": [
+          "Table 14, 3-top",
+          "Sparkling water substitution mid-course (Maya, unprompted)"
+        ],
+        "declined_or_unused": [
+          "Cigar lounge offered post-dinner (declined)",
+          "Limo to airport (drove rental himself)"
+        ]
+      },
+      {
+        "property": "Rosewood Sand Hill",
+        "dates": "2024-01-25 to 2024-01-26",
+        "occasion": "Emergency board meeting (co-founder departure)",
+        "party_composition": "Solo",
+        "notable_moments": [
+          "Last-minute booking, arrived 11pm. Did not eat at Madera either night — first time in 8 stays. Took granola bar and tea to room both nights.",
+          "Staff noted withdrawal; no probing. Housekeeping left an extra carafe of hot water and lemon, no note."
+        ],
+        "service_choices": [
+          "Room 308 (last-minute, held by Sand Hill GM)",
+          "Hot water carafe service"
+        ],
+        "declined_or_unused": [
+          "Madera reservations both nights (cancelled within an hour of arrival)",
+          "Spa offered as decompression (declined)"
+        ]
+      },
+      {
+        "property": "Rosewood Castiglion del Bosco",
+        "dates": "2024-07-20 to 2024-07-27",
+        "occasion": "Attempted family sabbatical week",
+        "party_composition": "Arjun + Priya + Anaya + Rohan",
+        "notable_moments": [
+          "Arjun took 4 work calls in first 48 hours; Priya intervened, asked concierge to remove the in-villa desk chair. Concierge complied without comment.",
+          "Family did a pasta-making class on day 3 — Arjun was fully present, photos from staff log show him laughing with Rohan covered in flour.",
+          "Left two days early citing a 'board thing.' Staff log notes: 'Departure felt unfinished. Spouse visibly disappointed; guest apologetic.'"
+        ],
+        "service_choices": [
+          "Family pasta class (booked by Priya)",
+          "One couples dinner at Osteria (Priya booked)"
+        ],
+        "declined_or_unused": [
+          "Wine tour at Tenuta di Castiglion (declined — Arjun mentioned 'not a wine drinker' for the first time on record)",
+          "Truffle hunt (declined — kids would have been bored, his reason)"
+        ],
+        "memory_artifact_excerpt": "Cut sabbatical short. Spouse disappointed but composed. Guest apologized to concierge personally on departure — unusual. Note: guest does not drink alcohol — first explicit confirmation."
+      },
+      {
+        "property": "Rosewood Sand Hill",
+        "dates": "2024-09-30 to 2024-10-01",
+        "occasion": "Partner meeting (M&A discussions begin)",
+        "party_composition": "Solo",
+        "notable_moments": [
+          "Room 308. Maya at Madera now defaults to chai + dry toast + cut fruit without asking; she greeted him by name and asked about Anaya's reading list (he'd mentioned it last visit).",
+          "Stayed late at Madera bar (water only) talking to Maya for 40 minutes after kitchen closed. Topic: his mother's diagnosis."
+        ],
+        "service_choices": [
+          "Standard chai/breakfast pattern",
+          "Late bar seat, sparkling water"
+        ],
+        "declined_or_unused": ["In-room massage offered (declined)"]
+      },
+      {
+        "property": "Rosewood Phuket",
+        "dates": "2024-12-22 to 2024-12-29",
+        "occasion": "Family holiday — explicit 'no laptops' rule (Priya's)",
+        "party_composition": "Arjun + Priya + Anaya + Rohan",
+        "notable_moments": [
+          "Priya requested in advance: no newspapers in villa, no TV in main room, no Wi-Fi password given to Arjun for 48 hours. Concierge honored quietly.",
+          "Arjun read three novels — first fiction in years per his own comment to butler.",
+          "Family did a Diwali-style lantern release on the beach on Dec 27 (mid-vacation, off-season for Diwali — they did it because they'd missed actual Diwali in November during deal heat). Butler arranged lanterns without question."
+        ],
+        "service_choices": [
+          "Wi-Fi blackout first 48h (Priya's request, Arjun consented)",
+          "Off-calendar lantern ceremony, beach"
+        ],
+        "declined_or_unused": [
+          "Sundowner cocktail service (declined nightly — alternative mocktails arranged)",
+          "Couples massage offered to mark anniversary — Priya took it solo; Arjun stayed with kids"
+        ],
+        "memory_artifact_excerpt": "Family observed off-calendar Diwali lantern release Dec 27 — guest mentioned having 'missed it for the deal.' Staff note: not just a vacation, a recalibration."
+      },
+      {
+        "property": "Rosewood Sand Hill",
+        "dates": "2025-02-11 to 2025-02-12",
+        "occasion": "M&A diligence sessions",
+        "party_composition": "Solo",
+        "notable_moments": [
+          "Room 308. Asked GM Daniel for a quiet adjacent room to use as a war-room (302 held for him next day).",
+          "Took a 5am walk on the Sharon Heights trail behind the property both mornings. Returned to room before breakfast service."
+        ],
+        "service_choices": ["Room 308 + 302 as war-room", "Pre-dawn coffee, 5am"],
+        "declined_or_unused": ["Spa decompression offered (declined)"]
+      },
+      {
+        "property": "Rosewood Sand Hill",
+        "dates": "2025-06-04 to 2025-06-05",
+        "occasion": "Final acquirer negotiation",
+        "party_composition": "Arjun + general counsel",
+        "notable_moments": [
+          "Tense stay. Maya at Madera noticed he ordered chai but did not drink it — sent fresh after 20 minutes without being asked. He thanked her by name in front of his GC.",
+          "Slept under 4 hours both nights per housekeeping note (bed turned, untouched at 6am housekeeping check)."
+        ],
+        "service_choices": ["Standard chai/breakfast — second pot unprompted"],
+        "declined_or_unused": ["Spa, room service dinner both nights (skipped)"]
+      },
+      {
+        "property": "Rosewood Sand Hill",
+        "dates": "2025-11-18 to 2025-11-19",
+        "occasion": "Post-LOI signing, 24h decompression",
+        "party_composition": "Solo",
+        "notable_moments": [
+          "First time he booked the spa at Sand Hill in 30+ stays. 90-minute massage. Therapist log noted he fell asleep on the table — rare for him."
+        ],
+        "service_choices": ["Spa booking (first time at this property)", "Madera dinner, Maya's section"],
+        "declined_or_unused": ["Champagne offered at check-in by GM as celebration — declined, accepted a pot of chai sent to room instead"]
+      },
+      {
+        "property": "Rosewood Sand Hill",
+        "dates": "2026-02-23 to 2026-02-24",
+        "occasion": "Acquisition close prep",
+        "party_composition": "Solo",
+        "notable_moments": [
+          "Maya was on maternity leave (per staff records, due April). Arjun asked after her by name and left a handwritten card at the host stand — 'Tell her thank you for ten years of getting it right.'",
+          "Madera GM Theo seated him at table 14 as default, no ask needed."
+        ],
+        "service_choices": ["Table 14", "Standard breakfast pattern"],
+        "declined_or_unused": ["Dessert course offered at Madera (declined — 'saving room for next time')"]
+      }
+    ],
+    "observed_register": [
+      "vegetarian (eggs sometimes, dairy yes)",
+      "no alcohol (confirmed across 5+ years, never explicitly explained)",
+      "chai over coffee, mornings",
+      "early riser (5am-6am movement)",
+      "table 14 at Madera — sightline to entrance, banquette, no center exposure",
+      "room 308 at Sand Hill — desk faces window",
+      "handwritten thank-you notes to staff",
+      "tips 35-40% consistently",
+      "prefers being known by staff but never name-drops back",
+      "fiction reading on real vacations only"
+    ],
+    "observed_avoidances": [
+      "alcohol in all forms (champagne, wine pairings, sundowners, cigar lounge)",
+      "center-of-room dining tables",
+      "photographers / curated photo moments",
+      "rushed celebration moments (champagne at check-in, NYE dinners, anniversary set-pieces)",
+      "spa as 'decompression' framing — only accepted spa when it was post-milestone, never offered as fix",
+      "limo / car service (drives himself)",
+      "any service that requires him to perform leisure"
+    ],
+    "recurring_staff_relationships": [
+      {
+        "property": "Rosewood Sand Hill",
+        "staff": "Maya Hernandez, Madera senior server",
+        "note": "10-year relationship. Knows his chai order, his table, his no-alcohol pattern (never asked why, never made it awkward). Quietly substituted sparkling water for champagne at Series D dinner. He asked after her during her maternity leave by name. This is the single deepest staff relationship in his Rosewood history."
+      },
+      {
+        "property": "Rosewood Sand Hill",
+        "staff": "Daniel Okafor, GM",
+        "note": "Holds room 308 for him on short notice. Arranged adjacent war-room during M&A. Never offers champagne anymore — learned. Sent the chai pot at LOI signing instead."
+      },
+      {
+        "property": "Rosewood Sand Hill",
+        "staff": "Theo Lin, Madera GM",
+        "note": "Newer (joined 2024). Has absorbed the table 14 / vegetarian-first defaults from Maya's handoff notes. Seats him without asking."
+      },
+      {
+        "property": "Rosewood Mayakoba",
+        "staff": "Carlos Mendoza, butler (Lagoon villas)",
+        "note": "Family's Mayakoba butler both stays. Knows Rohan's pool routine and Anaya's reading nooks. Honored the 'no NYE main dining' request without push-back."
+      },
+      {
+        "property": "Rosewood Phuket",
+        "staff": "Khun Anong, villa hostess",
+        "note": "Arranged the off-calendar Diwali lantern release without question — Arjun has mentioned this story to Priya more than once."
+      }
+    ],
+    "cross_property_pattern": "Sand Hill is a workplace that has slowly become a confidant — solo stays patterned around partner meetings, board work, deal stress, with staff (especially Maya) holding the through-line of a life that few people outside the family see. The vacation properties (Mayakoba, Phuket, Castiglion) tell the opposite story: he arrives as a father, struggles to stay one, and the staff who have stayed in his memory are those who created room for the father he wants to be rather than the founder he is. This stay is the first time the two registers collide on the same property."
+  },
+  "cultural_profile_hint": {
+    "cultural_lens": "Second-generation Gujarati-American navigating a triangulated identity — immigrant parents' frame of arrival and sacrifice, his own constructed Silicon Valley founder frame, and a third frame his children are growing into that he does not yet have a name for. Cultural reasoning here is not about Indian-ness as decoration (rangoli, tabla, paneer on menu) but about the specific weight of a son who has 'made it' beyond his parents' frame of reference and is now trying to translate that into something his kids can inherit without inheriting the cost.",
+    "register": [
+      "restraint over display (his father ran a motel for 32 years — celebration is suspect)",
+      "vegetarian / no-alcohol as quiet inheritance, not statement",
+      "early-morning solitude as the only consistent personal ritual",
+      "presence-with-children over experiences-for-children",
+      "deep loyalty to people who 'get it right without being told' (Maya)",
+      "language of arrival, threshold, off-ramp — not of achievement"
+    ],
+    "current_phase": "Inheritance — reckoning with what was carried across an ocean by his parents, what he has built that they cannot quite see, and what he is now responsible for passing forward without breaking either lineage.",
+    "emotional_anchors": [
+      "His mother's declining health and the unspoken pressure of a Sunday 7am call",
+      "The 18 months of absence from his children's daily lives during the M&A",
+      "Priya's quiet authority and the marriage's accumulated unsaid",
+      "Maya at Madera as the staff face of a decade of his hardest hours",
+      "The unresolved question of what he does Monday morning when there is no deal to run"
+    ],
+    "avoid": [
+      "any framing that calls this stay a 'celebration' — he will resist it",
+      "alcohol of any kind in welcome amenities (decade of evidence)",
+      "performative or photographed family moments — Priya has flagged this twice across properties",
+      "treating him as a VIP in front of his children (he has worked to keep the kids unaware of staff deference)",
+      "'congratulations on the acquisition' as small talk — he will deflect",
+      "scheduling that fragments mornings (5am-9am is his and the kids')",
+      "introducing Indian-themed amenities as cultural recognition — read the family, not the surname"
+    ]
+  }
+}

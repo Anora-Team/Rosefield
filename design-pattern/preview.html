@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cultural Resonance — Design Tokens</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <style>
+    /* -----------------------------------------------------------------------
+     * Inlined for standalone viewing — mirrors tokens.css without @tailwind.
+     * ----------------------------------------------------------------------- */
+    :root {
+      --primitive-parchment-50:  #FBF8F1;
+      --primitive-parchment-100: #F5F1E8;
+      --primitive-parchment-200: #ECE6D6;
+      --primitive-sand-300:      #D8D2C1;
+      --primitive-sand-400:      #B8AE96;
+      --primitive-ink-900: #1A1A1A;
+      --primitive-ink-800: #2D2D2D;
+      --primitive-ink-600: #4A4A48;
+      --primitive-ink-400: #6E6B62;
+      --primitive-discovery-900: #1F362C;
+      --primitive-discovery-700: #2C4A3E;
+      --primitive-discovery-300: #7A968A;
+      --primitive-gilt-600: #B5985A;
+      --primitive-gilt-300: #D9C896;
+      --primitive-terracotta-600: #A56A4C;
+
+      --color-surface-canvas:  var(--primitive-parchment-100);
+      --color-surface-raised:  var(--primitive-parchment-50);
+      --color-surface-sunken:  var(--primitive-parchment-200);
+      --color-surface-ink:     var(--primitive-ink-900);
+      --color-content-primary:   var(--primitive-ink-800);
+      --color-content-secondary: var(--primitive-ink-600);
+      --color-content-tertiary:  var(--primitive-ink-400);
+      --color-content-inverse:   var(--primitive-parchment-50);
+      --color-accent-signature:  var(--primitive-discovery-700);
+      --color-accent-gilt:       var(--primitive-gilt-600);
+      --color-line-hairline:     var(--primitive-sand-300);
+
+      --font-serif: "Cormorant Garamond", "EB Garamond", Georgia, serif;
+
+      --space-2: 0.5rem;
+      --space-3: 0.75rem;
+      --space-4: 1rem;
+      --space-5: 1.25rem;
+      --space-6: 1.5rem;
+      --space-8: 2rem;
+      --space-10: 2.5rem;
+      --space-12: 3rem;
+      --space-16: 4rem;
+      --space-20: 5rem;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { background: var(--color-surface-canvas); }
+    body {
+      background: var(--color-surface-canvas);
+      color: var(--color-content-primary);
+      font-family: var(--font-serif);
+      font-size: 16px;
+      line-height: 1.55;
+      font-weight: 400;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-feature-settings: "kern" 1, "liga" 1, "tnum" 1;
+    }
+
+    .container {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: var(--space-20) var(--space-12);
+    }
+
+    /* Editorial header */
+    .masthead {
+      border-bottom: 1px solid var(--color-line-hairline);
+      padding-bottom: var(--space-10);
+      margin-bottom: var(--space-16);
+    }
+    .masthead .eyebrow {
+      font-size: 11px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--color-content-tertiary);
+      font-weight: 500;
+    }
+    .masthead h1 {
+      font-size: 56px;
+      line-height: 1.05;
+      letter-spacing: -0.02em;
+      font-weight: 300;
+      margin-top: var(--space-4);
+      max-width: 18ch;
+    }
+    .masthead .meta {
+      margin-top: var(--space-6);
+      color: var(--color-content-secondary);
+      font-size: 18px;
+      line-height: 1.6;
+      max-width: 60ch;
+    }
+
+    /* Section frames */
+    section { margin-bottom: var(--space-20); }
+    section > h2 {
+      font-size: 11px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--color-content-tertiary);
+      font-weight: 500;
+      margin-bottom: var(--space-2);
+    }
+    section > h2 + .lede {
+      font-size: 28px;
+      line-height: 1.2;
+      font-weight: 600;
+      margin-bottom: var(--space-8);
+      max-width: 28ch;
+    }
+
+    /* --- Palette --- */
+    .palette-group { margin-bottom: var(--space-8); }
+    .palette-group h3 {
+      font-size: 13px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-weight: 500;
+      color: var(--color-content-secondary);
+      margin-bottom: var(--space-4);
+      padding-bottom: var(--space-2);
+      border-bottom: 1px solid var(--color-line-hairline);
+    }
+    .swatches {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: var(--space-4);
+    }
+    .swatch {
+      border: 1px solid var(--color-line-hairline);
+      background: var(--color-surface-raised);
+    }
+    .swatch .chip {
+      height: 96px;
+      border-bottom: 1px solid var(--color-line-hairline);
+    }
+    .swatch .label {
+      padding: var(--space-3) var(--space-4);
+    }
+    .swatch .label .name {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--color-content-primary);
+    }
+    .swatch .label .hex {
+      font-size: 13px;
+      color: var(--color-content-tertiary);
+      letter-spacing: 0.04em;
+      margin-top: 2px;
+    }
+
+    /* --- Type specimen --- */
+    .type-row {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      gap: var(--space-6);
+      padding: var(--space-5) 0;
+      border-bottom: 1px solid var(--color-line-hairline);
+      align-items: baseline;
+    }
+    .type-row:last-child { border-bottom: none; }
+    .type-row .meta {
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--color-content-tertiary);
+      font-weight: 500;
+      padding-top: 8px;
+    }
+    .type-row .meta .size {
+      display: block;
+      color: var(--color-content-secondary);
+      margin-top: 2px;
+    }
+
+    .t-display-xl { font-size: 56px; line-height: 1.05; letter-spacing: -0.02em; font-weight: 300; }
+    .t-display-lg { font-size: 40px; line-height: 1.1;  letter-spacing: -0.02em; font-weight: 300; }
+    .t-heading-xl { font-size: 28px; line-height: 1.2;  font-weight: 600; }
+    .t-heading-lg { font-size: 22px; line-height: 1.25; font-weight: 600; }
+    .t-heading-md { font-size: 19px; line-height: 1.3;  font-weight: 600; }
+    .t-body-lg    { font-size: 18px; line-height: 1.6;  font-weight: 400; }
+    .t-body       { font-size: 16px; line-height: 1.55; font-weight: 400; }
+    .t-body-sm    { font-size: 14px; line-height: 1.5;  font-weight: 400; }
+    .t-caption    { font-size: 13px; line-height: 1.45; font-weight: 400; color: var(--color-content-secondary); }
+    .t-micro      { font-size: 11px; line-height: 1.4;  font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-content-tertiary); }
+
+    /* --- Mock surfaces --- */
+    .mocks {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-8);
+    }
+    @media (max-width: 860px) {
+      .mocks { grid-template-columns: 1fr; }
+    }
+    .mock {
+      border: 1px solid var(--color-line-hairline);
+      background: var(--color-surface-raised);
+    }
+    .mock-label {
+      padding: var(--space-3) var(--space-5);
+      border-bottom: 1px solid var(--color-line-hairline);
+      background: var(--color-surface-sunken);
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--color-content-tertiary);
+      font-weight: 500;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    /* Staff cockpit — dense */
+    .mock-staff .body {
+      padding: var(--space-5);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .mock-staff .arrange-title {
+      font-size: 19px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      padding-bottom: var(--space-3);
+      border-bottom: 1px solid var(--color-line-hairline);
+      margin-bottom: var(--space-5);
+    }
+    .mock-staff .block { margin-bottom: var(--space-5); }
+    .mock-staff .block:last-child { margin-bottom: 0; }
+    .mock-staff .block h4 {
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-weight: 500;
+      color: var(--color-content-tertiary);
+      margin-bottom: var(--space-2);
+    }
+    .mock-staff .block p { color: var(--color-content-primary); }
+    .mock-staff .block ol {
+      list-style: none;
+      counter-reset: arrange;
+    }
+    .mock-staff .block ol li {
+      counter-increment: arrange;
+      padding-left: var(--space-5);
+      position: relative;
+      margin-top: var(--space-2);
+    }
+    .mock-staff .block ol li::before {
+      content: counter(arrange) ".";
+      position: absolute;
+      left: 0;
+      color: var(--color-content-tertiary);
+      font-variant-numeric: tabular-nums;
+    }
+    .mock-staff .actions {
+      margin-top: var(--space-6);
+      padding-top: var(--space-4);
+      border-top: 1px solid var(--color-line-hairline);
+      display: flex;
+      gap: var(--space-4);
+    }
+    .btn {
+      background: transparent;
+      border: 1px solid var(--color-line-hairline);
+      padding: var(--space-2) var(--space-5);
+      font-family: var(--font-serif);
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--color-content-primary);
+      cursor: pointer;
+    }
+    .btn-primary {
+      border-color: var(--color-accent-signature);
+      color: var(--color-accent-signature);
+    }
+
+    /* Guest tablet — restrained */
+    .mock-guest .body {
+      padding: var(--space-16) var(--space-10);
+      text-align: center;
+      min-height: 280px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .mock-guest .greeting {
+      font-size: 18px;
+      line-height: 1.6;
+      color: var(--color-content-primary);
+      max-width: 28ch;
+      font-style: italic;
+    }
+    .mock-guest .when {
+      margin-top: var(--space-8);
+      font-size: 11px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--color-content-tertiary);
+    }
+
+    /* --- Memory Artifact showcase --- */
+    .artifact {
+      background: var(--color-surface-ink);
+      color: var(--color-content-inverse);
+      padding: var(--space-20) var(--space-16);
+      border: 1px solid var(--color-line-hairline);
+    }
+    .artifact .imprint {
+      font-size: 11px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--primitive-gilt-300);
+      margin-bottom: var(--space-10);
+    }
+    .artifact .body-text {
+      font-size: 22px;
+      line-height: 1.7;
+      font-weight: 300;
+      max-width: 48ch;
+      margin: 0 auto;
+    }
+    .artifact .body-text + .body-text { margin-top: var(--space-6); }
+    .artifact .divider {
+      width: 24px;
+      height: 1px;
+      background: var(--primitive-gilt-600);
+      margin: var(--space-10) auto;
+    }
+    .artifact .footer {
+      text-align: center;
+      font-size: 11px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: rgba(217, 200, 150, 0.6);
+    }
+
+    /* --- Spacing visualiser --- */
+    .spacing-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .spacing-table th, .spacing-table td {
+      text-align: left;
+      padding: var(--space-3) var(--space-4);
+      border-bottom: 1px solid var(--color-line-hairline);
+      font-size: 14px;
+    }
+    .spacing-table th {
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--color-content-tertiary);
+      font-weight: 500;
+    }
+    .spacing-table .bar {
+      height: 8px;
+      background: var(--color-accent-signature);
+      opacity: 0.85;
+    }
+    .spacing-table td:first-child { font-weight: 500; }
+    .spacing-table td:nth-child(2),
+    .spacing-table td:nth-child(3) {
+      color: var(--color-content-secondary);
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* --- Motion --- */
+    .motion-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: var(--space-4);
+    }
+    .motion-card {
+      border: 1px solid var(--color-line-hairline);
+      padding: var(--space-5);
+    }
+    .motion-card .name {
+      font-size: 16px;
+      font-weight: 500;
+      margin-bottom: var(--space-2);
+    }
+    .motion-card .value {
+      font-size: 13px;
+      color: var(--color-content-tertiary);
+      font-variant-numeric: tabular-nums;
+    }
+    .motion-card .demo {
+      margin-top: var(--space-4);
+      height: 4px;
+      background: var(--color-surface-sunken);
+      position: relative;
+      overflow: hidden;
+    }
+    .motion-card .demo::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      height: 100%;
+      width: 32px;
+      background: var(--color-accent-signature);
+      animation: slide var(--dur) var(--ease) infinite alternate;
+    }
+    @keyframes slide {
+      from { transform: translateX(0); }
+      to   { transform: translateX(calc(100% + 188px)); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- ============================================================ -->
+    <header class="masthead">
+      <p class="eyebrow">Cultural Resonance · Design Language v0.1</p>
+      <h1>One voice. Two breaths.</h1>
+      <p class="meta">
+        A token system for Rosewood Sand Hill's Cultural Resonance product. Same colour, same family, same line — guest surfaces breathe wide and quiet; staff surfaces compress dense and decisional. Asymmetry expressed in a single attribute toggle.
+      </p>
+    </header>
+
+    <!-- ============================================================ -->
+    <section>
+      <h2>01 · Palette</h2>
+      <p class="lede">Earth, ink, and a single line of dark green.</p>
+
+      <div class="palette-group">
+        <h3>Parchment & Sand — the warm-neutral spine</h3>
+        <div class="swatches">
+          <div class="swatch"><div class="chip" style="background:#FBF8F1"></div><div class="label"><div class="name">parchment-50</div><div class="hex">#FBF8F1 · raised</div></div></div>
+          <div class="swatch"><div class="chip" style="background:#F5F1E8"></div><div class="label"><div class="name">parchment-100</div><div class="hex">#F5F1E8 · canvas</div></div></div>
+          <div class="swatch"><div class="chip" style="background:#ECE6D6"></div><div class="label"><div class="name">parchment-200</div><div class="hex">#ECE6D6 · sunken</div></div></div>
+          <div class="swatch"><div class="chip" style="background:#D8D2C1"></div><div class="label"><div class="name">sand-300</div><div class="hex">#D8D2C1 · hairline</div></div></div>
+          <div class="swatch"><div class="chip" style="background:#B8AE96"></div><div class="label"><div class="name">sand-400</div><div class="hex">#B8AE96 · disabled</div></div></div>
+        </div>
+      </div>
+
+      <div class="palette-group">
+        <h3>Ink — warm charcoal, never #000</h3>
+        <div class="swatches">
+          <div class="swatch"><div class="chip" style="background:#1A1A1A"></div><div class="label"><div class="name">ink-900</div><div class="hex">#1A1A1A · dark surface</div></div></div>
+          <div class="swatch"><div class="chip" style="background:#2D2D2D"></div><div class="label"><div class="name">ink-800</div><div class="hex">#2D2D2D · body text</div></div></div>
+          <div class="swatch"><div class="chip" style="background:#4A4A48"></div><div class="label"><div class="name">ink-600</div><div class="hex">#4A4A48 · secondary</div></div></div>
+          <div class="swatch"><div class="chip" style="background:#6E6B62"></div><div class="label"><div class="name">ink-400</div><div class="hex">#6E6B62 · tertiary</div></div></div>
+        </div>
+      </div>
+
+      <div class="palette-group">
+        <h3>Discovery — the Rosewood signature</h3>
+        <div class="swatches">
+          <div class="swatch"><div class="chip" style="background:#1F362C"></div><div class="label"><div class="name">discovery-900</div><div class="hex">#1F362C · maximum depth</div></div></div>
+          <div class="swatch"><div class="chip" style="background:#2C4A3E"></div><div class="label"><div class="name">discovery-700</div><div class="hex">#2C4A3E · the signature</div></div></div>
+          <div class="swatch"><div class="chip" style="background:#7A968A"></div><div class="label"><div class="name">discovery-300</div><div class="hex">#7A968A · soft, sparing</div></div></div>
+        </div>
+      </div>
+
+      <div class="palette-group">
+        <h3>Gilt & Terracotta — held in reserve</h3>
+        <div class="swatches">
+          <div class="swatch"><div class="chip" style="background:#B5985A"></div><div class="label"><div class="name">gilt-600</div><div class="hex">#B5985A · line emphasis</div></div></div>
+          <div class="swatch"><div class="chip" style="background:#D9C896"></div><div class="label"><div class="name">gilt-300</div><div class="hex">#D9C896 · on dark only</div></div></div>
+          <div class="swatch"><div class="chip" style="background:#A56A4C"></div><div class="label"><div class="name">terracotta-600</div><div class="hex">#A56A4C · property accent</div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <section>
+      <h2>02 · Typography</h2>
+      <p class="lede">A single family does all the work.</p>
+      <p style="color: var(--color-content-secondary); max-width: 60ch; margin-bottom: var(--space-8); font-size: 18px; line-height: 1.6;">
+        Cormorant Garamond, weights 300 – 600. Italics reserved for cultural-register switches (Mandarin lines, art titles) and quoted guest words — never for emphasis.
+      </p>
+
+      <div class="type-row">
+        <div class="meta">display-xl<span class="size">56 / 1.05</span></div>
+        <div class="t-display-xl">Sand Hill remembers a Saturday that began in mist.</div>
+      </div>
+      <div class="type-row">
+        <div class="meta">display-lg<span class="size">40 / 1.1</span></div>
+        <div class="t-display-lg">A morning the fog never lifted.</div>
+      </div>
+      <div class="type-row">
+        <div class="meta">heading-xl<span class="size">28 / 1.2</span></div>
+        <div class="t-heading-xl">Arrange · Mrs. Liu · Saturday Breakfast</div>
+      </div>
+      <div class="type-row">
+        <div class="meta">heading-lg<span class="size">22 / 1.25</span></div>
+        <div class="t-heading-lg">Suggested Arrangement</div>
+      </div>
+      <div class="type-row">
+        <div class="meta">heading-md<span class="size">19 / 1.3</span></div>
+        <div class="t-heading-md">Availability — next 90 minutes</div>
+      </div>
+      <div class="type-row">
+        <div class="meta">body-lg<span class="size">18 / 1.6 · guest</span></div>
+        <div class="t-body-lg">Pu-erh on your terrace at 8:15, when you're ready. The garden water feature catches first light around nine — you'd have it to yourselves.</div>
+      </div>
+      <div class="type-row">
+        <div class="meta">body<span class="size">16 / 1.55</span></div>
+        <div class="t-body">Anniversary morning. Foggy. Water phase suggests stillness over stimulation. Garden is empty until 9; pu-erh is in stock; Madera private terrace is open.</div>
+      </div>
+      <div class="type-row">
+        <div class="meta">body-sm<span class="size">14 / 1.5 · staff</span></div>
+        <div class="t-body-sm">In-room tea service: 12 min lead time. Garden water feature cleaned at 7:30, walkable now. Hold Madera private terrace for tomorrow night's anniversary dinner.</div>
+      </div>
+      <div class="type-row">
+        <div class="meta">caption<span class="size">13 / 1.45</span></div>
+        <div class="t-caption">Sources: stated intent, origin, phase profile · last updated 07:42</div>
+      </div>
+      <div class="type-row">
+        <div class="meta">micro<span class="size">11 / 1.4 · +8%</span></div>
+        <div class="t-micro">Why · Availability · Suggested Arrangement</div>
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <section>
+      <h2>03 · Surfaces in use</h2>
+      <p class="lede">Same engine. Same renderer rules. Different density.</p>
+      <p style="color: var(--color-content-secondary); max-width: 60ch; margin-bottom: var(--space-8); font-size: 18px; line-height: 1.6;">
+        Both panels render from one Cultural Reasoning call. The staff cockpit applies the dense renderer (WHY visible, availability visible, alternatives visible). The guest tablet applies the restraint renderer — one line, no reasoning, no alternatives.
+      </p>
+
+      <div class="mocks">
+
+        <!-- Staff cockpit mock -->
+        <div class="mock mock-staff" data-density="staff">
+          <div class="mock-label">
+            <span>Staff cockpit · dense</span>
+            <span>data-density="staff"</span>
+          </div>
+          <div class="body">
+            <div class="arrange-title">Arrange · Mrs. Liu · Sat 8:00am</div>
+
+            <div class="block">
+              <h4>Why</h4>
+              <p>Anniversary morning. Foggy. Water phase — stillness over stimulation. Garden quiet until 9. Pu-erh in stock.</p>
+            </div>
+
+            <div class="block">
+              <h4>Availability</h4>
+              <p>Madera private terrace: open<br />In-room tea service: 12 min lead<br />Garden water feature: walkable</p>
+            </div>
+
+            <div class="block">
+              <h4>Suggested arrangement</h4>
+              <ol>
+                <li>In-room pu-erh tea service on terrace, 8:15</li>
+                <li>Quiet garden walk option, 9:00 — no escort needed</li>
+                <li>Hold Madera for tomorrow's anniversary dinner</li>
+              </ol>
+            </div>
+
+            <div class="actions">
+              <button class="btn btn-primary">Accept</button>
+              <button class="btn">Edit</button>
+              <button class="btn">Pass</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Guest tablet mock -->
+        <div class="mock mock-guest" data-density="guest">
+          <div class="mock-label">
+            <span>Guest tablet · room 412</span>
+            <span>data-density="guest"</span>
+          </div>
+          <div class="body">
+            <p class="greeting">Pu-erh on your terrace at 8:15, when you're ready.</p>
+            <p class="when">Saturday morning</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <section>
+      <h2>04 · The Memory Artifact</h2>
+      <p class="lede">Where the system speaks at full voice.</p>
+
+      <div class="artifact">
+        <p class="imprint">Rosewood Sand Hill · remembers</p>
+        <p class="body-text">Sand Hill remembers a Saturday that began in mist. The fog sat low over the oaks that morning — the kind of stillness that doesn't ask to be broken. You took your tea on the terrace while the garden was still yours alone, and the pu-erh carried something of West Lake across the Pacific.</p>
+        <p class="body-text" style="font-style: italic;">那个周六的雾气，和杭州清晨的一样轻。你们在雾里重新找到了"回家"的节奏——不是探索，不是抵达，只是回到彼此身边。这是 Sand Hill 记得的。</p>
+        <div class="divider"></div>
+        <p class="footer">Two weeks after departure · in the place's voice</p>
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <section>
+      <h2>05 · Spacing — density at a glance</h2>
+      <p class="lede">One attribute, twice the rhythm.</p>
+
+      <table class="spacing-table">
+        <thead>
+          <tr>
+            <th>Semantic token</th>
+            <th>Guest mode</th>
+            <th>Staff mode</th>
+            <th style="width: 40%;">Visual</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>space-canvas-x</td><td>64px</td><td>32px</td><td><div class="bar" style="width: 64px;"></div></td></tr>
+          <tr><td>space-canvas-y</td><td>80px</td><td>32px</td><td><div class="bar" style="width: 80px;"></div></td></tr>
+          <tr><td>space-section</td><td>48px</td><td>20px</td><td><div class="bar" style="width: 48px;"></div></td></tr>
+          <tr><td>space-stack</td><td>24px</td><td>12px</td><td><div class="bar" style="width: 24px;"></div></td></tr>
+          <tr><td>space-inline</td><td>16px</td><td>8px</td><td><div class="bar" style="width: 16px;"></div></td></tr>
+          <tr><td>space-hairline-gap</td><td>12px</td><td>8px</td><td><div class="bar" style="width: 12px;"></div></td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ============================================================ -->
+    <section>
+      <h2>06 · Motion — settling, not flourishing</h2>
+      <p class="lede">Quiet easings. No bounce.</p>
+
+      <div class="motion-grid">
+        <div class="motion-card" style="--dur: 120ms; --ease: cubic-bezier(0.22, 1, 0.36, 1);">
+          <div class="name">duration-quick</div>
+          <div class="value">120ms · ease-quiet</div>
+          <div class="demo"></div>
+        </div>
+        <div class="motion-card" style="--dur: 200ms; --ease: cubic-bezier(0.22, 1, 0.36, 1);">
+          <div class="name">duration-base</div>
+          <div class="value">200ms · default fade</div>
+          <div class="demo"></div>
+        </div>
+        <div class="motion-card" style="--dur: 400ms; --ease: cubic-bezier(0.22, 1, 0.36, 1);">
+          <div class="name">duration-settle</div>
+          <div class="value">400ms · panel re-paint</div>
+          <div class="demo"></div>
+        </div>
+        <div class="motion-card" style="--dur: 600ms; --ease: cubic-bezier(0.22, 1, 0.36, 1);">
+          <div class="name">duration-arrive</div>
+          <div class="value">600ms · artifact reveal</div>
+          <div class="demo"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer style="border-top: 1px solid var(--color-line-hairline); padding-top: var(--space-8); margin-top: var(--space-16); color: var(--color-content-tertiary); font-size: 13px;">
+      Cultural Resonance · v0.1 design language · 2026-05-16. Tokens canonical in <code style="font-family: var(--font-serif); font-style: italic;">design-pattern/tokens.css</code>.
+    </footer>
+
+  </div>
+</body>
+</html>

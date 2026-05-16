@@ -1,0 +1,207 @@
+{
+  "id": "inoue-retired",
+  "display_name": "Inoue Haruki (井上 春樹) & Inoue Setsuko (井上 節子)",
+  "archetype_tag": "japanese-retired-couple-quiet-threshold-banshu",
+  "direct_input": {
+    "birth_date": "1962-10-21",
+    "origin": "Kanazawa, Ishikawa, Japan",
+    "stay_intent": "I would like a few mornings where nothing is asked of me, and to see my daughter without making it into an occasion.",
+    "languages": ["Japanese", "limited English"],
+    "booking_window": "Sunday–Friday, 5 nights"
+  },
+  "family": [
+    {
+      "relation": "spouse",
+      "name": "Inoue Setsuko (井上 節子)",
+      "birth_date": "1963-04-09",
+      "origin": "Kanazawa, Ishikawa, Japan",
+      "languages": ["Japanese", "English (fluent, conversational)", "reading French"],
+      "notes": "Wife. Recently retired curator of ceramics at the Ishikawa Prefectural Museum of Art; taught Sōgetsu-school ikebana on weekends for two decades. Handles all foreign-travel logistics for the couple; will speak with staff on her husband's behalf without making it visible. Mild lactose intolerance — avoids butter and cream but does not flag it as an allergy. Brings her own small pair of scissors and a folded furoshiki for stems she may trim from arrangements in the room.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "child",
+      "name": "Inoue Aoi (井上 葵)",
+      "birth_date": "1992-07-14",
+      "origin": "Palo Alto, California, USA (formerly Tokyo)",
+      "languages": ["Japanese", "English"],
+      "notes": "Daughter, 33. Senior research scientist at a Bay Area biotech (protein design). Lives in Palo Alto with her American partner of four years; not yet married, the parents have never met him in person. She made this reservation and is paying for it as a gift; she will join her parents for two dinners at the property but is not staying on-site. Asked the concierge in advance, in writing, that her parents not be made to feel hosted by her — 'they should feel they are the guests of Rosewood, not of their daughter.'",
+      "traveling_on_this_stay": false
+    },
+    {
+      "relation": "child",
+      "name": "Inoue Ren (井上 蓮)",
+      "birth_date": "1995-02-28",
+      "origin": "Tokyo, Japan",
+      "notes": "Son, 31. Architect at a mid-size Tokyo firm (residential, wood structures). Not on this trip. Calls his mother on Sundays; the couple may take a brief video call from the room on Sunday evening Pacific time. He sent his father a small ceramic sake cup as a retirement gift the week before the trip; the cup travels with them.",
+      "traveling_on_this_stay": false
+    }
+  ],
+  "derived_from_history": {
+    "stays": [
+      {
+        "property": "Rosewood Kyoto",
+        "dates": "2024-11-18 to 2024-11-21",
+        "occasion": "Three-night stay arranged by Setsuko around the late-autumn momiji season; framed by her as a small thank-you to Haruki for a difficult work year, not labeled as anniversary",
+        "party_composition": "Couple, no family",
+        "notable_moments": [
+          "On arrival Setsuko declined the welcome matcha service in the lounge and asked instead whether they could take tea in their room once luggage was settled; she specified usucha (thin tea), not koicha, and asked that the wagashi be a seasonal nerikiri rather than a higashi",
+          "Haruki spent forty minutes on the engawa of the suite the first evening watching the maple in the inner garden without speaking; housekeeping noted he had not opened his suitcase yet",
+          "Couple ate dinner in the room two of three nights; on the third night they took the kaiseki counter at the property's restaurant and Setsuko asked the chef, by name, whether the hassun could lean toward Hokuriku produce — kabura turnip, jibu-style duck reduction — rather than the standard Kyoto register",
+          "Asked the front desk for a taxi to Daitoku-ji at 6:40am on the second morning; returned by 9am, neither of them mentioned where they had gone but the bellman noted Haruki was carrying a small bundle of incense from the temple shop"
+        ],
+        "service_choices": [
+          "Tatami room, futon bedding requested rather than the optional Western bed",
+          "In-room breakfast both first mornings — small wooden tray, rice, miso, grilled fish, no juice, no coffee",
+          "Bathroom amenities replaced with the property's unscented line on Setsuko's quiet request at turndown"
+        ],
+        "declined_or_unused": [
+          "Welcome sake flight",
+          "The garden tour with the resident landscape designer (Setsuko thanked the concierge and said they would simply sit in it)",
+          "Spa treatments of any kind",
+          "The property's photographer offer for an autumn-leaves portrait"
+        ],
+        "memory_artifact_excerpt": "Couple from Kanazawa. The wife handles all logistics in a low register; husband speaks little, observes much. They read the room — literally, sat with it for forty minutes — before unpacking. Tea register is Urasenke-adjacent but not formal. Future note: do not perform Kyoto at them; they live close enough that the city is not exotic, and the wife's curatorial eye will notice a staged moment immediately."
+      },
+      {
+        "property": "Rosewood Kyoto",
+        "dates": "2022-03-26 to 2022-03-29",
+        "occasion": "Three-night stay timed to cherry blossom — booked by Setsuko as a gift to her husband after his elder sister's death the previous winter; nothing said aloud about the occasion at check-in",
+        "party_composition": "Couple, no family",
+        "notable_moments": [
+          "Setsuko quietly asked the concierge on arrival whether a small white chrysanthemum could be placed in the room — single stem, no arrangement, no card — and on the second day asked that it be removed without comment, which it was",
+          "Haruki took all his meals in the room for the first two days; on the third he ate breakfast on the engawa and the housekeeping lead noted he had begun reading a novel he had brought with him (Kawabata, Yama no Oto)",
+          "Couple walked to Kennin-ji together each morning and returned for late breakfast around 10am; the front desk learned by day two not to greet them on return, only to nod"
+        ],
+        "service_choices": [
+          "Same tatami suite as a later 2024 stay; Setsuko remembered the room number and asked for it",
+          "Hot water in a thermos kept in the room from 6am; their own small chawan and chasen brought from home",
+          "Single futon arrangement, side by side, no bolsters"
+        ],
+        "declined_or_unused": [
+          "All restaurant reservations beyond breakfast",
+          "Concierge-arranged temple visits (they chose their own, on foot)",
+          "Newspaper delivery",
+          "Turndown chocolates"
+        ],
+        "memory_artifact_excerpt": "Mourning stay, not named as one. The white chrysanthemum request was the only signal and the wife removed even that on day two. Staff should understand: this couple grieves by walking, by reading, by sitting on an engawa. Do not interrupt that with care."
+      },
+      {
+        "property": "Rosewood Hong Kong",
+        "dates": "2019-05-08 to 2019-05-11",
+        "occasion": "Business trip — Haruki's firm hosted a senior management offsite at the property; Setsuko joined for the two evenings after the meetings ended",
+        "party_composition": "Couple (Setsuko joined mid-stay), part of a corporate group of twelve",
+        "notable_moments": [
+          "Setsuko declined every group dinner and ate alone in the lounge with a book both evenings; the lounge captain learned to seat her at a corner banquette facing away from the harbor view, with a small reading light",
+          "Haruki asked the floor butler on the final morning whether there was a place nearby to buy good Chinese tea for a colleague in Kanazawa; was directed to a Lock Cha shop in Sheung Wan and returned with two small tins which he wrapped himself in tissue from his suitcase",
+          "Couple requested the in-room minibar be emptied of all alcohol and replaced with hot water service on Setsuko's arrival"
+        ],
+        "service_choices": [
+          "Pressing service used heavily by Haruki; Setsuko did not use it once",
+          "Quiet floor requested",
+          "Late checkout declined — they left precisely at 11am"
+        ],
+        "declined_or_unused": [
+          "Spa access included in the corporate package",
+          "Welcome fruit basket (returned to staff with a handwritten thank-you note on hotel stationery)",
+          "All chauffeur offers — they took taxis or walked"
+        ],
+        "memory_artifact_excerpt": "Husband is the corporate guest, wife is the private one; the property handled them as two distinct profiles within one room and both were grateful for it. Setsuko's English is well above her husband's but she will not speak it in front of him to staff. Address logistics to her in writing or out of his earshot."
+      },
+      {
+        "property": "Rosewood Sand Hill",
+        "dates": "2018-09-14 to 2018-09-19",
+        "occasion": "First visit to daughter Aoi during her postdoctoral year at Stanford; couple's first time in California",
+        "party_composition": "Couple, daughter visiting from off-site",
+        "notable_moments": [
+          "Couple asked the concierge for a quiet garden bench where they could sit in the afternoon without other guests passing — were directed to the bench near the Japanese maples by the lower terrace, which they used every afternoon between 3 and 5pm",
+          "Setsuko asked at breakfast on day two whether the kitchen could prepare plain okayu (rice porridge) with umeboshi for her husband, who was sleeping poorly with jet lag; this was done without it being added to the menu and continued for three further mornings unprompted",
+          "On the last evening Aoi joined them for dinner at Madera; the couple asked the maître d' in advance that no champagne or special gesture mark the meal, and that the bill be handled in advance so Aoi would not see it",
+          "Haruki left a small folded paper crane on the pillow on departure — housekeeping kept it; it is in the guest file"
+        ],
+        "service_choices": [
+          "Ground-floor room with garden access on Setsuko's request — Haruki dislikes elevators when tired",
+          "Daily Japanese-style breakfast quietly arranged off-menu after day two",
+          "Town car to Stanford campus once, otherwise the couple walked or Aoi drove them"
+        ],
+        "declined_or_unused": [
+          "Wine pairing at Madera",
+          "Spa services",
+          "The wine country day-trip package the concierge suggested for their free day",
+          "In-room flowers (Setsuko thanked the housekeeper and asked for them to be moved to the lounge)"
+        ],
+        "memory_artifact_excerpt": "Parents visiting an adult child. The mother arranges everything so the daughter never feels she is hosting. The father is reserved, possibly limited English, but warm — left a paper crane. Off-menu okayu with umeboshi was the right call; do it again without asking next time."
+      }
+    ],
+    "observed_register": [
+      "seasonal — kisetsu (季節) attentiveness, with awareness of the 72 microseasons",
+      "tea as quiet ritual, not performance (matcha; usucha preferred; own chawan travels with them)",
+      "engawa / threshold spaces — sitting at the edge of inside and outside",
+      "wood, paper, unfired clay, raw linen; nothing high-gloss",
+      "ma (間) — pauses in service, untouched empty surfaces, silence between sentences",
+      "indirect care — the wife arranges, the husband notices later without comment",
+      "handwritten over printed; ink over screen",
+      "early mornings; the day's center of gravity before 10am"
+    ],
+    "observed_avoidances": [
+      "Champagne and welcome alcohol of any kind",
+      "Western breakfast defaults (juice, coffee, pastry) unless asked for",
+      "Surprise floral arrangements — especially scented or large",
+      "Spa treatments and any service involving touch by a stranger",
+      "Photography, portraiture, 'memory-making' framings",
+      "Being addressed primarily to the husband on logistics in front of him in English he cannot fully follow",
+      "Performative Japanese references by non-Japanese staff (bowing too deeply, forced keigo, 'arigatou gozaimasu' as a flourish)",
+      "Curated experiences in their own cultural register when at home properties (do not perform Kyoto at Kyoto guests)"
+    ],
+    "recurring_staff_relationships": [
+      {
+        "property": "Rosewood Kyoto",
+        "staff": "In-room dining lead, Kawabata-san (河端)",
+        "note": "Across both Kyoto stays handled the couple's in-room kaiseki and breakfast; learned by the second stay that Setsuko prefers the tray placed and then for staff to withdraw entirely rather than narrate the dishes. She referenced him by name when booking the 2024 stay and asked whether he was still on the property."
+      },
+      {
+        "property": "Rosewood Sand Hill",
+        "staff": "Breakfast chef de partie, Marco",
+        "note": "Quietly prepared the off-menu okayu with umeboshi during the 2018 stay after day two and continued it without it ever being formally added to the room file; Setsuko sent a handwritten thank-you note in Japanese on departure which the concierge translated and gave him."
+      },
+      {
+        "property": "Rosewood Hong Kong",
+        "staff": "Lounge captain, Vincent Cheung",
+        "note": "Recognized that Setsuko, as the trailing spouse of a corporate group, needed a separate register from the group; created her corner banquette without being asked twice and never offered her the group menu."
+      }
+    ],
+    "cross_property_pattern": "Across four stays the couple consistently arrange the room before the room arranges them — they sit, they look, they unpack last. Setsuko handles every interaction with staff in a low, precise register and protects her husband's quiet; Haruki notices the small things days later (a chef's name, a bench, a chrysanthemum that was and then wasn't). They decline almost every offered amenity and accept exactly two things in every property: hot water at dawn, and one staff member who has learned not to narrate. Their gratitude arrives after departure, by post, on paper."
+  },
+  "cultural_profile_hint": {
+    "cultural_lens": "Hokuriku-inflected Japanese sensibility — Kanazawa craft and tea culture filtered through a museum curator's restraint and a 老舗-trained executive's reserve; reads luxury as the absence of imposition, holds wabi-sabi (侘寂) and mono no aware (物の哀れ) as lived defaults rather than aesthetic choices",
+    "register": [
+      "matcha, not gongfu — usucha preferred, own chawan and chasen travel with them",
+      "the 72 microseasons (七十二候) — late-spring stay falls around 牡丹華 (peonies bloom); seasonal acknowledgments land if they are precise and never if they are decorative",
+      "ma (間) — silence, untouched surfaces, pauses in service; staff withdrawal after delivery is the gesture",
+      "engawa thinking — favor rooms or seats at the threshold of inside and outside, garden-adjacent over view-dominant",
+      "wood, paper (washi), low-fire ceramic, unbleached linen; nothing lacquered to a mirror",
+      "indirect gratitude — gifts and notes sent after the fact rather than thanks in the moment",
+      "the wife as the logistical voice; the husband as the slow noticer"
+    ],
+    "current_phase": "Late Autumn / 晩秋 (banshū) — the quiet richness of a working chapter completing; not yet old age, no longer striving. Haruki retired from his firm three months before this trip; the couple are crossing a threshold they will not name aloud, and the visit to their daughter is a way of looking at the next phase obliquely. The register is mono no aware — gentle awareness of passage, gratitude without celebration",
+    "emotional_anchors": [
+      "Being able to be quiet together in a foreign place without that quiet being read as a problem",
+      "Seeing their daughter as an adult in her own life — not as a daughter hosting them",
+      "Continuity with home rituals (their own teaware, Haruki's son-gifted sake cup, Setsuko's small scissors) far from Kanazawa",
+      "Setsuko's curator's eye — she registers material quality, joinery, ceramic provenance, ikebana competence; clumsy touches in those registers will quietly disappoint her without her saying so",
+      "Haruki's threshold — the unspoken weight of having ended a forty-year working life; the trip is partly a sounding of what comes next",
+      "The dignity of being addressed in a register he can follow without being condescended to in English he cannot"
+    ],
+    "avoid": [
+      "Performing Japan at Japanese guests — no folded-crane turndowns, no calligraphy-themed amenities, no 'omotenashi' invoked aloud by non-Japanese staff",
+      "Anniversary framing of any kind — they are not formally marking the 35th, and naming it will retire the trip's quietness",
+      "Retirement framing toward Haruki — congratulations, 'enjoy your new chapter', any toast",
+      "Champagne, sparkling welcome, in-room flowers larger than a single stem",
+      "Spa offers, couples treatments, any service involving touch",
+      "Photography, portraiture, family-portrait-with-daughter staging",
+      "Defaulting to the husband on logistics in front of him in English; default to Setsuko, and if she is not present, write rather than speak",
+      "Over-explaining dishes, narrating courses, lingering after delivery — ma is the service",
+      "Treating the daughter's reservation as a 'gift from family' in any guest-facing communication; her explicit request is that her parents feel they are Rosewood's guests, not hers"
+    ]
+  }
+}

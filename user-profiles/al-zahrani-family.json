@@ -1,0 +1,302 @@
+{
+  "id": "guest_al_zahrani_family_2026",
+  "display_name": "Khalid bin Sulaiman Al Zahrani",
+  "archetype_tag": "Hejazi multi-generational summer escape — patriarch-led",
+  "direct_input": {
+    "birth_date": "1968-03-14",
+    "origin": "Jeddah, Saudi Arabia",
+    "stay_intent": "I want the whole family under one roof for three weeks — the grandchildren old enough to remember it, and my mother well enough to enjoy it, inshallah.",
+    "languages": ["Arabic", "English"],
+    "booking_window": "Saturday 11 July 2026 – Saturday 1 August 2026, 21 nights"
+  },
+  "family": [
+    {
+      "relation": "spouse",
+      "name": "Hanan bint Abdulrahman Al Zahrani",
+      "birth_date": "1972-09-02",
+      "origin": "Jeddah, Saudi Arabia",
+      "languages": ["Arabic", "English", "some French"],
+      "notes": "Quietly runs the household logistics on every stay. Prefers women's-only spa hours. Trained as an interior architect before marriage; notices fabric, light, and proportion before the patriarch does, and her approval is the real signal.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "parent",
+      "name": "Umm Sulaiman (Fatima bint Omar)",
+      "birth_date": "1941-11-20",
+      "origin": "Mecca, Saudi Arabia",
+      "languages": ["Arabic"],
+      "notes": "Patriarch's mother, 84. Mobility-limited (uses a wheelchair for distances >50m, walks short hallways with a cane). Performs all five prayers; needs a quiet, clean-floored prayer space near her room and a qibla indicator. No English. Diabetic — sugar-free dates and unsweetened Arabic coffee in-room. The matriarch of the matriarch; her presence shapes the whole stay.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "child",
+      "name": "Sulaiman bin Khalid Al Zahrani",
+      "birth_date": "1995-06-18",
+      "origin": "Jeddah, Saudi Arabia",
+      "languages": ["Arabic", "English"],
+      "notes": "Eldest son, 30. Works in the family logistics business. Travels with wife Noor and two children. Observant but easygoing; the patriarch's deputy on day-to-day decisions during the stay.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "in-law",
+      "name": "Noor bint Tariq Al Sharif",
+      "birth_date": "1997-02-11",
+      "origin": "Jeddah, Saudi Arabia",
+      "languages": ["Arabic", "English"],
+      "notes": "Sulaiman's wife. Wears hijab; uses women's pool hours with the daughters and grandchildren. Mother of Sara (4) and Omar (2).",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "child",
+      "name": "Reem bint Khalid Al Zahrani",
+      "birth_date": "1997-10-04",
+      "origin": "Jeddah, Saudi Arabia",
+      "languages": ["Arabic", "English", "French"],
+      "notes": "Daughter, 28. Architect, Paris-educated. Single. Drives the family's aesthetic choices on trip (restaurants, day excursions). Does not drink alcohol; will sometimes accept a mocktail if it's thoughtfully made and not pink-and-novelty.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "child",
+      "name": "Yousef bin Khalid Al Zahrani",
+      "birth_date": "2000-12-22",
+      "origin": "Jeddah, Saudi Arabia",
+      "languages": ["Arabic", "English"],
+      "notes": "Son, 25. Recently married to Lamia. No children yet. Quietest of the siblings; the patriarch worries about him without ever saying so.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "in-law",
+      "name": "Lamia bint Faisal Al Ghamdi",
+      "birth_date": "2001-05-30",
+      "origin": "Taif, Saudi Arabia",
+      "languages": ["Arabic", "English"],
+      "notes": "Yousef's wife, married late 2025. First long trip with the in-laws. Will be watching Hanan closely for cues; staff should treat her with the same warmth as the established daughters-in-law without singling her out.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "child",
+      "name": "Mariam bint Khalid Al Zahrani",
+      "birth_date": "2003-08-09",
+      "origin": "Jeddah, Saudi Arabia",
+      "languages": ["Arabic", "English"],
+      "notes": "Youngest daughter, 22. University student (medicine, KAU). Closest to grandmother Umm Sulaiman — often the one pushing her chair through the gardens.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "grandchild",
+      "name": "Sara bint Sulaiman",
+      "birth_date": "2022-01-15",
+      "origin": "Jeddah, Saudi Arabia",
+      "languages": ["Arabic", "some English"],
+      "notes": "4 years old. Mild lactose intolerance — almond milk in the children's breakfast service.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "grandchild",
+      "name": "Omar bin Sulaiman",
+      "birth_date": "2024-03-28",
+      "origin": "Jeddah, Saudi Arabia",
+      "languages": ["Arabic"],
+      "notes": "2 years old. Travels with a Filipino nanny, Marites, who has her own room adjacent and joins family meals only when invited.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "extended",
+      "name": "Marites Dela Cruz (nanny)",
+      "origin": "Manila, Philippines",
+      "languages": ["English", "Tagalog", "conversational Arabic"],
+      "notes": "Long-term household nanny, 8 years with the family. Eats halal in the family rotation. Staff should address her by name and not as 'the help.' Hanan is particular about this.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "sibling",
+      "name": "Abdullah bin Sulaiman Al Zahrani",
+      "birth_date": "1971-07-05",
+      "origin": "Jeddah, Saudi Arabia",
+      "notes": "Patriarch's younger brother. Joined the family for the London 2023 stay and the Castiglion 2024 stay. Not on this booking — handling business in Jeddah this summer.",
+      "traveling_on_this_stay": false
+    }
+  ],
+  "derived_from_history": {
+    "stays": [
+      {
+        "property": "Rosewood London",
+        "dates": "2019-07-20 to 2019-08-10",
+        "occasion": "Summer escape, first long Rosewood stay",
+        "party_composition": "Patriarch, Hanan, four children (then 24, 21, 19, 16) — no grandchildren yet, no grandmother",
+        "notable_moments": [
+          "Patriarch requested the breakfast kitchen prepare ful medames Egyptian-style (slow-cooked, cumin-forward, finished with olive oil and lemon) rather than the Levantine version on the menu — Anwar on the breakfast team made the adjustment from day three onward and it became standard for every subsequent London stay.",
+          "Asked the bar to remove the welcome champagne flutes from the suite before the family entered; replaced with a tray of Arabic coffee and Khlas dates.",
+          "Family used the Mirror Room for a private iftar one evening when a business associate from Riyadh joined them — the maghrib timing was tight and the kitchen turned the table in 35 minutes."
+        ],
+        "service_choices": [
+          "Arabic coffee + dates ritual on arrival, repeated daily at 5pm",
+          "In-room prayer mats positioned toward qibla in every bedroom (housekeeping confirmed direction)",
+          "Daily English-language papers (FT, The National) plus Asharq Al-Awsat sourced from a Mayfair newsagent"
+        ],
+        "declined_or_unused": [
+          "Welcome champagne service",
+          "Mini-bar alcohol (asked to be emptied and replaced with juices, laban, and sparkling water)",
+          "Theatre concierge offerings — family preferred Hyde Park walks and Harrods/Bond Street days"
+        ],
+        "memory_artifact_excerpt": "Holland-Wright (Guest Relations) note, 2019-08-09: 'Mr. Al Zahrani thanked the breakfast team personally on departure — specifically Anwar, by name. Said he had not eaten ful prepared this way outside of his mother's kitchen. Recommend flagging Anwar's name on any future Al Zahrani booking.'"
+      },
+      {
+        "property": "Hotel Bayerischer Hof, Munich (Rosewood partner)",
+        "dates": "2021-08-02 to 2021-08-16",
+        "occasion": "Summer escape post-pandemic; first stay with eldest son's then-fiancée Noor",
+        "party_composition": "Patriarch, Hanan, four children, Noor (engaged to Sulaiman) — 7 adults",
+        "notable_moments": [
+          "Hanan asked the spa to designate a women's-only hour at the pool from 4–5pm so Noor and the daughters could swim without male staff or guests present; spa manager Frau Huber arranged it for the full two weeks.",
+          "Patriarch declined the rooftop bar reservation gifted by the GM and asked instead for a private dinner in the family's suite the same evening — diplomatic; the GM took the cue.",
+          "On the day of Eid al-Adha (which fell during the stay), the kitchen prepared a lamb mansaf at the family's request; the head chef called Jeddah to verify the rice variety (Mazza, not basmati) and sourced it from a Turkish grocer in Schwabing."
+        ],
+        "service_choices": [
+          "Women's-only pool hour (4–5pm daily)",
+          "Halal kitchen protocol — separate prep surfaces, confirmed in writing before arrival",
+          "Late dinners (9:30pm earliest), family-style service, single large round table"
+        ],
+        "declined_or_unused": [
+          "Wine pairings on every tasting menu",
+          "Pork-inclusive breakfast charcuterie (asked to be removed from the buffet view, not just from the family's plates)",
+          "Sunday brunch with live jazz — too loud for Hanan and the grandmother had she been present"
+        ]
+      },
+      {
+        "property": "Rosewood London",
+        "dates": "2023-07-15 to 2023-08-05",
+        "occasion": "Summer escape, first stay with grandchild (Sara, then 18 months) and patriarch's brother Abdullah",
+        "party_composition": "Patriarch, Hanan, Sulaiman + Noor + baby Sara, Reem, Yousef, Mariam, Abdullah, nanny Marites — 10 total",
+        "notable_moments": [
+          "Anwar (breakfast) recognized the family on day one and had ful medames Egyptian-style ready without being asked — the patriarch was visibly moved and asked the GM to commend him formally.",
+          "Housekeeping noted the family's salat schedule (printed Jeddah times adjusted for London) was taped inside the patriarch's suite door by Hanan on day one; the suite turndown was rescheduled to avoid maghrib and isha windows.",
+          "Nanny Marites was given a proper room key and dining credentials in her own name (not 'guest of Al Zahrani'), at Hanan's specific request relayed through the concierge."
+        ],
+        "service_choices": [
+          "Suite + adjoining rooms configuration (patriarch's suite as the gathering room)",
+          "Daily 5pm Arabic coffee + dates in the patriarch's suite — became the family's gathering time",
+          "Baby Sara's almond-milk-based breakfast prepared by the kitchen, not from a packaged source"
+        ],
+        "declined_or_unused": [
+          "Champagne afternoon tea (replaced with a non-alcoholic tea service, kitchen prepared a date-and-rose pastry not on the standard menu)",
+          "Spa's mixed-gender Friday evening hammam ritual"
+        ],
+        "memory_artifact_excerpt": "Concierge note (Mei-Lin), 2023-07-16: 'Mrs. Al Zahrani asked that Marites (nanny) be addressed by name by all staff and not referred to as the family's helper. She was specific and quiet about it. Please brief incoming shifts.'"
+      },
+      {
+        "property": "Rosewood Castiglion del Bosco",
+        "dates": "2024-07-13 to 2024-08-03",
+        "occasion": "Summer escape — first stay at the Tuscan property; family wanted countryside instead of city",
+        "party_composition": "Patriarch, Hanan, three children + Noor + two grandchildren (Sara 2, Omar 4mo), Abdullah, Marites — 9 total (Mariam joined the family in Jeddah for late July)",
+        "notable_moments": [
+          "Patriarch asked the estate to identify the qibla from the villa terrace — the head sommelier, Lorenzo, did so personally with a compass app and marked a small spot on the terrace tile with chalk; Hanan asked that the mark be left for the duration of the stay.",
+          "Family declined the property's celebrated wine cellar tour but asked for a private olive-oil pressing demonstration and a tour of the kitchen garden with the chef — became the highlight of the trip; Reem photographed everything.",
+          "The villa pool was reserved for the family exclusively from 3–5pm daily so Hanan, Noor and the children could swim privately; arranged by Beatrice (villa host).",
+          "Grandmother Umm Sulaiman did NOT travel on this stay — first time she had declined a summer trip; patriarch was visibly preoccupied and asked the concierge to arrange a video call setup in the suite for daily check-ins with Jeddah."
+        ],
+        "service_choices": [
+          "Private villa with adjoining staff quarters for Marites",
+          "Halal kitchen protocol pre-arranged via the GM 6 weeks before arrival",
+          "Daily Arabic coffee + dates at 5pm on the terrace (Lorenzo learned to prepare it; the patriarch corrected his cardamom ratio gently on day two and Lorenzo got it right thereafter)",
+          "Olive-oil and kitchen-garden focused excursions on the estate; no winery tours"
+        ],
+        "declined_or_unused": [
+          "Wine cellar tour and pairings (politely declined for the whole stay)",
+          "Cinghiale (wild boar) tasting menu specials",
+          "Spa's couples treatments (booked individual treatments with same-gender therapists only)",
+          "Helicopter transfer to Florence (patriarch found it ostentatious; preferred the chauffeured car)"
+        ],
+        "memory_artifact_excerpt": "Beatrice (villa host) note, 2024-07-30: 'Mr. Al Zahrani asked, near the end of the stay, whether the property could accommodate his mother on a future visit — wheelchair access on terraces, prayer space, dietary needs. I walked him through every path and door personally. He said inshallah, next summer. Flag this for 2026 planning.'"
+      },
+      {
+        "property": "Rosewood London",
+        "dates": "2025-04-08 to 2025-04-15",
+        "occasion": "Short Ramadan-adjacent stay (post-Eid al-Fitr); patriarch + Hanan only, business + shopping",
+        "party_composition": "Patriarch + Hanan, 2 adults",
+        "notable_moments": [
+          "Anwar prepared ful medames on day one without prompting; the patriarch laughed and asked if Anwar had set a calendar reminder for the family's arrivals.",
+          "Hanan met with a Mayfair gallerist about commissioning artwork for the renovated family majlis in Jeddah — concierge arranged a private after-hours viewing at the gallery."
+        ],
+        "service_choices": [
+          "Suite-only booking, no entourage",
+          "Late-evening room-service dinners (post-isha)",
+          "Daily papers continued; Arabic coffee continued"
+        ],
+        "declined_or_unused": [
+          "All bar and lounge offerings"
+        ]
+      }
+    ],
+    "observed_register": [
+      "family-as-center",
+      "patriarch-led but matriarch-calibrated",
+      "observant-quiet (not performative)",
+      "Hejazi cosmopolitan (open to non-Saudi staff, multilingual, but anchored at home)",
+      "countryside-over-city in recent years",
+      "names matter (staff addressed by name; help addressed by name)",
+      "ritual continuity (5pm coffee, qibla, late dinners)",
+      "aesthetic restraint (declines ostentation: helicopters, pink mocktails, rooftop spectacles)"
+    ],
+    "observed_avoidances": [
+      "alcohol in all forms, including in cooking and in plain view in the suite",
+      "pork in all forms, including on shared buffet sightlines",
+      "mixed-gender pool/spa time for the women of the family",
+      "loud public spaces during meal hours",
+      "ostentatious upgrades (helicopters, celebrity-chef showpieces, pink-and-novelty mocktails)",
+      "staff treating household members (nanny, eventual future caregivers for grandmother) as invisible"
+    ],
+    "recurring_staff_relationships": [
+      {
+        "property": "Rosewood London",
+        "staff": "Anwar — breakfast team",
+        "note": "Prepares ful medames Egyptian-style for the patriarch. Recognized by name; the family asks after him on arrival. Flag him on every London booking."
+      },
+      {
+        "property": "Rosewood London",
+        "staff": "Mei-Lin — concierge",
+        "note": "Handled the 2023 nanny-name request and the 2025 gallery viewing. Hanan trusts her with discreet asks."
+      },
+      {
+        "property": "Hotel Bayerischer Hof, Munich",
+        "staff": "Frau Huber — spa manager",
+        "note": "Arranged women's-only pool hours in 2021 without requiring a renewed ask each day. Hanan referenced her by name in a 2023 conversation with the London concierge."
+      },
+      {
+        "property": "Rosewood Castiglion del Bosco",
+        "staff": "Beatrice — villa host; Lorenzo — head sommelier (de facto family host, not sommelier-ing for this family)",
+        "note": "Beatrice walked the patriarch through accessibility for the grandmother in 2024. Lorenzo learned the cardamom-coffee ratio and the qibla mark on the terrace. Both should be on the welcome team for July 2026."
+      }
+    ],
+    "cross_property_pattern": "The Al Zahrani family travels every summer for 2-3 weeks to escape Jeddah heat; the trip is the year's central family ritual and grows by one or two people each year as children marry and grandchildren arrive. They've moved progressively from cities (London 2019, Munich 2021, London 2023) to countryside (Castiglion del Bosco 2024) as the party grew, and now return to Castiglion in 2026 specifically because the patriarch wants his 84-year-old mother to be present — every accessibility, dietary, and prayer-space ask on this booking should be read against that intention."
+  },
+  "cultural_profile_hint": {
+    "cultural_lens": "Hejazi Saudi affluent — multi-generational patriarch-led household with matriarch-calibrated execution; observant Islamic practice integrated quietly into daily rhythm rather than declared; aesthetic preference for restraint over spectacle; deep loyalty to staff who remember names and details across years.",
+    "register": [
+      "family-gathering",
+      "ritual-continuity",
+      "quiet-observance",
+      "name-recognition",
+      "intergenerational-care",
+      "Hejazi-cosmopolitan",
+      "countryside-over-city",
+      "restraint-over-display"
+    ],
+    "current_phase": "Harvest / Al-Hasād — the patriarch is at the stage of gathering: four adult children launched, two daughters-in-law incorporated, grandchildren beginning to remember, and the matriarch (his mother) still present but not for many more summers. This stay is a deliberate act of gathering the harvest under one roof while it is still whole.",
+    "emotional_anchors": [
+      "his mother's presence, fragile and finite — the unspoken organizing principle of the entire trip",
+      "grandchildren old enough to remember Tuscany — Sara at 4 is the threshold",
+      "the daughters-in-law (Noor established, Lamia new) feeling fully held by Hanan and by the property",
+      "the 5pm Arabic coffee ritual as the daily heartbeat that signals 'we are all here, together'",
+      "Yousef (quiet middle son) being seen without being singled out"
+    ],
+    "avoid": [
+      "any staff scripting that frames Islamic practice as a 'special requirement' rather than the household's normal",
+      "treating Marites (nanny) or any future caregiver for the grandmother as back-of-house",
+      "wine-forward or alcohol-forward suggestions of any kind, including 'just a taste'",
+      "mixed-gender pool/spa scheduling for the women without a proactive alternative offered first",
+      "ostentatious upgrades (helicopter transfers, celebrity-chef showpieces, novelty welcome cocktails)",
+      "any framing of the patriarch as 'Mr. Al Zahrani and party' — the family is the unit, and the matriarch (Hanan) and great-grandmother (Umm Sulaiman) deserve direct acknowledgement in arrival choreography",
+      "scheduling the welcome ritual or any major service moment across maghrib prayer window without checking the day's salat times"
+    ]
+  }
+}

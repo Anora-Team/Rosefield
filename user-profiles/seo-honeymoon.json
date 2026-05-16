@@ -1,0 +1,180 @@
+{
+  "id": "seo-honeymoon",
+  "display_name": "Seo Ji-won (서지원) & Han Yu-jin (한유진)",
+  "archetype_tag": "korean-honeymoon-young-professionals-quiet-luxury",
+  "direct_input": {
+    "birth_date": "1994-11-08",
+    "origin": "Seoul, South Korea",
+    "stay_intent": "We've been moving so fast for two years — I just want a few mornings where neither of us has to perform anything, even joy.",
+    "languages": ["Korean", "English"],
+    "booking_window": "Thursday–Sunday, 3 nights"
+  },
+  "family": [
+    {
+      "relation": "spouse",
+      "name": "Han Yu-jin (한유진)",
+      "birth_date": "1992-03-22",
+      "origin": "Daegu, South Korea",
+      "languages": ["Korean", "English", "conversational Japanese"],
+      "notes": "Husband. Furniture and lighting designer, runs a small studio in Seongsu-dong. Lacto-vegetarian most days for personal reasons (not religious); will eat fish on travel. Mild tinnitus, sensitive to background music in enclosed spaces.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "parent",
+      "name": "Seo Kyung-ho (서경호)",
+      "origin": "Seoul, South Korea",
+      "notes": "Bride's father. Pediatric cardiologist, semi-retired. Reserved, formal; co-funded the honeymoon as a wedding gift alongside Yu-jin's mother. Has himself stayed at Rosewood Hong Kong twice for medical conferences (separate guest record).",
+      "traveling_on_this_stay": false
+    },
+    {
+      "relation": "parent",
+      "name": "Lee Mi-sook (이미숙)",
+      "origin": "Seoul, South Korea",
+      "notes": "Bride's mother. Retired classical pianist. Sent a handwritten note ahead via the bride's assistant asking that no surprise flowers be sent to the room — Ji-won finds public romantic gestures uncomfortable.",
+      "traveling_on_this_stay": false
+    },
+    {
+      "relation": "in-law",
+      "name": "Han Sung-min (한성민)",
+      "origin": "Daegu, South Korea",
+      "notes": "Groom's mother. Runs a small hanbok atelier; gifted the couple a custom silk bojagi (wrapping cloth) they brought with them and use as a tea-tray cover.",
+      "traveling_on_this_stay": false
+    },
+    {
+      "relation": "sibling",
+      "name": "Seo Ji-hoon (서지훈)",
+      "origin": "Brooklyn, New York, USA",
+      "notes": "Bride's younger brother, 28, MFA student at Pratt. Was the only family member at the small Seoul wedding ceremony other than parents. They'll meet him in San Francisco for one dinner after Sand Hill.",
+      "traveling_on_this_stay": false
+    }
+  ],
+  "derived_from_history": {
+    "stays": [
+      {
+        "property": "Rosewood Hong Kong",
+        "dates": "2024-10-11 to 2024-10-14",
+        "occasion": "Engagement trip, self-booked, first travel together after engagement announcement",
+        "party_composition": "Couple, no family",
+        "notable_moments": [
+          "Requested the in-room welcome amenity be removed and replaced with hot water and a Korean ceramic teapot they had brought in their luggage; staff sourced a low wooden tray within the hour",
+          "Asked the Asaya spa to perform their couple's treatment in silence — no music, no aromatherapy diffusion — Yu-jin disclosed tinnitus quietly to the therapist, asked it not be flagged on the room file",
+          "Skipped the harbour-view dinner reservation the concierge had pre-arranged and walked to a small noodle shop in Sheung Wan; came back and asked the night concierge for hot honey-ginger tea, not room service"
+        ],
+        "service_choices": [
+          "In-room breakfast both mornings, served on the balcony, no service staff lingering",
+          "Used the library lounge twice in late afternoon — Yu-jin sketched, Ji-won read",
+          "Requested unscented bath products"
+        ],
+        "declined_or_unused": [
+          "Welcome champagne (replaced with sparkling water and yuzu)",
+          "Pillow menu",
+          "Turndown service after the first night — asked for 'do not disturb after 9pm' as a standing instruction",
+          "Photography concierge for the engagement"
+        ],
+        "memory_artifact_excerpt": "Guest brought own teaware. Couple speaks in low register even between themselves. Yu-jin (partner) thanked housekeeping in Cantonese on departure — had clearly looked it up. Note for future stays: silence is the amenity."
+      },
+      {
+        "property": "Rosewood Phuket",
+        "dates": "2025-01-03 to 2025-01-07",
+        "occasion": "New Year family gathering, booked and paid by bride's parents (Dr. Seo Kyung-ho on the reservation)",
+        "party_composition": "Bride, groom-to-be, bride's parents, bride's brother — two villas",
+        "notable_moments": [
+          "Couple consistently took the earliest breakfast slot to avoid overlapping with parents at the main villa",
+          "Ji-won asked the villa host whether there was a quiet corner of the beach not used for yoga or guest activities — was directed to the south rocks; went there alone every morning for ~40 minutes",
+          "On the third evening the couple arranged a private dinner for the bride's parents at the parents' villa as a thank-you — couple did not attend, sent a handwritten card instead"
+        ],
+        "service_choices": [
+          "Private villa pool used heavily; main pool not used",
+          "Thai massage booked for the mother, not the couple",
+          "Late checkout requested only on departure day, framed as 'so my parents don't have to wait on us'"
+        ],
+        "declined_or_unused": [
+          "Sunset cruise (booked by parents, couple opted out citing seasickness — staff noted this was likely diplomatic)",
+          "Couple's photoshoot offered as compliment of the property",
+          "All in-villa floral refresh after first day"
+        ],
+        "memory_artifact_excerpt": "Young couple navigating a family-hosted stay with visible care for the parents' experience over their own. They create distance gently, never coldly. Parents seem to expect this and respect it."
+      },
+      {
+        "property": "Rosewood London",
+        "dates": "2023-06-18 to 2023-06-21",
+        "occasion": "Solo business trip — bride only, before engagement (corporate strategy offsite hosted by her firm)",
+        "party_composition": "Solo",
+        "notable_moments": [
+          "Requested the room farthest from the elevator on a high floor; stayed in every evening after the offsite ended, did not use the bar or restaurant",
+          "Used the Sense spa once for a 60-minute scalp treatment, booked at 6:45am before the conference day"
+        ],
+        "service_choices": [
+          "Standing pot of hot water in the room from 6am, refreshed twice daily",
+          "Pressing service used heavily"
+        ],
+        "declined_or_unused": [
+          "All restaurant recommendations",
+          "Concierge offers for theatre / cultural bookings"
+        ],
+        "memory_artifact_excerpt": "Quiet business guest. Reads in the room. No complaints, no asks beyond hot water and pressing. Tipped housekeeping in cash on departure with a Korean thank-you note."
+      }
+    ],
+    "observed_register": [
+      "stillness",
+      "tea",
+      "low light",
+      "handwritten over digital",
+      "thank-you-by-deflection (gifts the experience to others rather than receiving)",
+      "unscented",
+      "early mornings",
+      "modern Korean restraint (단아 / dan-a — graceful simplicity)"
+    ],
+    "observed_avoidances": [
+      "Background music in enclosed spaces",
+      "Photography and 'photo moment' framings",
+      "Surprise floral arrangements in the room",
+      "Champagne / loud welcome amenities",
+      "Romantic narration by staff ('your special night', 'lovebirds', etc.)",
+      "Public/lobby seating for couple time",
+      "Strong fragrances in toiletries and turndown"
+    ],
+    "recurring_staff_relationships": [
+      {
+        "property": "Rosewood Hong Kong",
+        "staff": "Asaya therapist, Mei-ling",
+        "note": "Performed the silent couple's treatment in 2024 and personally walked them out a back corridor to avoid the spa lobby; couple asked for her by name when booking the engagement trip's second spa visit and tipped her directly"
+      },
+      {
+        "property": "Rosewood Phuket",
+        "staff": "Villa host, Anan",
+        "note": "Quietly handled the couple's distancing from the family dinner without making it visible to the parents; remembered Ji-won's south-rocks morning walk and had hot water and a single towel waiting on a small table by the path on day three"
+      }
+    ],
+    "cross_property_pattern": "Across three properties the couple — and the bride individually — consistently strip away anything performative: no champagne, no flowers, no music, no photographer, no narration. What they keep is hot water, silence, an early hour, and one staff member who learned not to fill the air. The pattern is not minimalism for taste; it's a request to not be witnessed while resting."
+  },
+  "cultural_profile_hint": {
+    "cultural_lens": "Contemporary Korean restraint — 단아 (dan-a, graceful simplicity) and 정갈 (jeong-gal, neat clarity) — held by a generation that grew up between Confucian family duty and global design literacy; reads luxury through quietness, not display",
+    "register": [
+      "still rooms over scenic rooms",
+      "hot water as ceremony (다도, dado — tea way)",
+      "handwritten notes; no in-app push notifications",
+      "service that withdraws after delivery",
+      "natural materials — paper, wood, unbleached linen, low-fire ceramic",
+      "early morning as private time",
+      "indirect gratitude (gifting the experience back to family / staff)"
+    ],
+    "current_phase": "Threshold / 첫 걸음 (first step) — the beginning of a shared life, which in this lens calls for stillness and small rituals, not celebration; the work of marriage is understood as something that starts in quiet, not in spectacle",
+    "emotional_anchors": [
+      "Being unobserved together",
+      "Continuity with home rituals (their own teaware, their own pace) even far from Seoul",
+      "Gratitude toward parents expressed through care rather than words — they'll likely want to send something home from the stay",
+      "Yu-jin's creative eye: he notices materials, joinery, light temperature; small craft details register more than grand gestures",
+      "The dignity of refusal — being allowed to decline without explanation"
+    ],
+    "avoid": [
+      "Honeymoon framing in any staff-facing language audible to them ('Mr. and Mrs.', 'newlyweds', 'your special stay')",
+      "Surprise gestures of any kind — even tasteful ones",
+      "Rose petals, candles, in-room music, scented diffusers",
+      "Photography offers, social-media-friendly setups, 'shareable moments'",
+      "Loud or chatty service style; over-explanation of dishes or amenities",
+      "Pressuring upgrades or add-ons; the bride reads this as a loss of face for the staff and will quietly disengage",
+      "Assuming the husband is the decision-maker — Ji-won books and pays; address either equally or default to her on logistics"
+    ]
+  }
+}

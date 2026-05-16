@@ -1,0 +1,260 @@
+{
+  "id": "shen-family",
+  "display_name": "Mrs. Shen Yuwen (沈玉雯)",
+  "archetype_tag": "Suzhou matriarch · three-generation 60th-birthday stay",
+  "direct_input": {
+    "birth_date": "1966-03-21",
+    "origin": "Suzhou, China",
+    "stay_intent": "我想一家人安安静静地在一起,不要太热闹,但是要让小辈记得这次过生日。",
+    "languages": ["Mandarin", "Wu (Suzhou dialect)", "basic English"],
+    "booking_window": "Friday–Tuesday, 4 nights"
+  },
+  "family": [
+    {
+      "relation": "spouse",
+      "name": "Mr. Gu Jianping (顾建平)",
+      "birth_date": "1961-08-09",
+      "origin": "Suzhou, China",
+      "languages": ["Mandarin", "Wu (Suzhou dialect)", "conversational English"],
+      "notes": "Retired civil engineer; mild hypertension, prefers low-sodium; quiet, defers to Mrs. Shen on all hospitality decisions; takes an early walk every morning.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "child",
+      "name": "Gu Wenqian (顾文倩)",
+      "birth_date": "1992-11-04",
+      "origin": "Suzhou, China; lives in Shanghai",
+      "languages": ["Mandarin", "Wu", "fluent English"],
+      "notes": "Daughter; Shanghai-based brand strategist; the family's logistical anchor and English-language interface with staff; gluten-sensitive.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "in-law",
+      "name": "Lin Hao (林昊)",
+      "birth_date": "1989-06-17",
+      "origin": "Qingdao, China; lives in Shanghai",
+      "languages": ["Mandarin", "fluent English"],
+      "notes": "Son-in-law; works in finance; northern Chinese background — slightly outside the Jiangnan register, conscious of getting the in-law role right; lactose-intolerant.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "grandchild",
+      "name": "Lin Yuyao (林雨瑶) — called Yaoyao (瑶瑶)",
+      "birth_date": "2023-04-02",
+      "origin": "Shanghai, China",
+      "languages": ["Mandarin (early speech)"],
+      "notes": "Granddaughter, age 3; naps 13:00–15:00; first international trip; the emotional center of the entire stay — every arrangement should quietly accommodate her without making her the announced subject.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "child",
+      "name": "Gu Wenbo (顾文博)",
+      "birth_date": "1996-07-12",
+      "origin": "Suzhou, China; lives in Singapore",
+      "languages": ["Mandarin", "fluent English"],
+      "notes": "Son; based in Singapore for work, cannot attend this stay; sending a separate birthday gift to the suite — coordination already underway with concierge.",
+      "traveling_on_this_stay": false
+    }
+  ],
+  "derived_from_history": {
+    "stays": [
+      {
+        "property": "Rosewood Beijing",
+        "dates": "2019-10-03 to 2019-10-07",
+        "occasion": "National Day holiday, couple's trip",
+        "party_composition": "Mrs. Shen + Mr. Gu",
+        "notable_moments": [
+          "Asked the concierge for a tea master who could speak to Suzhou-style green tea preparation, not just generic Chinese tea service",
+          "Spent an unhurried afternoon at the courtyard rather than the Summer Palace excursion she had pre-booked; politely cancelled day-of",
+          "Wrote a short note in semi-cursive (行书) on the in-suite stationery thanking the housekeeper by name"
+        ],
+        "service_choices": [
+          "In-suite Longjing and Biluochun on arrival",
+          "Light congee breakfast served at 07:30 in-suite, not the buffet",
+          "Quiet table at Country Kitchen, away from the open-fire counter"
+        ],
+        "declined_or_unused": [
+          "Pre-booked Summer Palace private tour (cancelled day-of, no rebooking)",
+          "Champagne welcome amenity (untouched; replaced with osmanthus tea on request)",
+          "Spa couples package (politely declined — 'another time')"
+        ],
+        "memory_artifact_excerpt": "Guest preferred to shape her own pace. Cancellations were never about the offering — about the energy of the day. Read the weather and her morning posture before suggesting anything outdoors."
+      },
+      {
+        "property": "Rosewood Sanya",
+        "dates": "2021-02-11 to 2021-02-16",
+        "occasion": "Lunar New Year family escape",
+        "party_composition": "Mrs. Shen + Mr. Gu + daughter Wenqian + son Wenbo",
+        "notable_moments": [
+          "Requested a round table (not a long table) for the New Year's Eve dinner so the family could face each other; specifically asked that the 鱼 (fish) course be plated whole and served last, head pointing toward Mr. Gu as eldest male",
+          "Daughter Wenqian quietly arranged a small calligraphy set in the suite as a surprise; Mrs. Shen used it every morning of the stay",
+          "Declined the property's lion dance performance schedule for their floor — preferred to watch from a distance on the lawn"
+        ],
+        "service_choices": [
+          "Round-table family dining, indoor private room",
+          "Spring couplets (春联) and 福 character placed on suite door without being asked twice",
+          "Early-morning beach walks before 07:00, before other guests"
+        ],
+        "declined_or_unused": [
+          "In-suite lion dance visit (declined — 'too loud for the suite, we'll watch from outside')",
+          "Western New Year countdown package",
+          "Kids' club for Wenbo's then-25-year-old age bracket (not applicable, but offered)"
+        ],
+        "memory_artifact_excerpt": "The family's center of gravity is Mrs. Shen, but she never asks for anything in her own name — always framed as 'for my husband' or 'for the children.' Anticipate; do not ask twice."
+      },
+      {
+        "property": "Rosewood Hong Kong",
+        "dates": "2022-12-20 to 2022-12-23",
+        "occasion": "Pre-Christmas couple's trip, gift shopping for daughter's wedding",
+        "party_composition": "Mrs. Shen + Mr. Gu",
+        "notable_moments": [
+          "Spent two unhurried afternoons at The Butterfly Room; ordered the same osmanthus-jasmine pairing both days and asked the name of the tea sommelier",
+          "Requested the harbour-view suite be set with curtains half-drawn on arrival — 'the view is too much all at once'",
+          "Made a quiet inquiry at the concierge about a Suzhou-embroidery atelier in Sheung Wan; staff arranged a private viewing"
+        ],
+        "service_choices": [
+          "Butterfly Room afternoon tea, corner seating both days",
+          "In-suite breakfast: congee, youtiao, soy milk — never the Western set",
+          "Private car for the embroidery atelier visit, no tour guide"
+        ],
+        "declined_or_unused": [
+          "Concierge-suggested Peak Tram excursion (politely declined)",
+          "Asaya spa hammam — only Mr. Gu used the gym; Mrs. Shen used the suite bath only",
+          "Christmas afternoon tea theme menu (asked for the standard menu instead — 'we are not celebrating that holiday')"
+        ],
+        "memory_artifact_excerpt": "Reads light very carefully. Half-drawn curtains is not a preference — it is a way of entering a place. Lead with restraint; the depth comes later."
+      },
+      {
+        "property": "Rosewood Hong Kong",
+        "dates": "2023-09-29 to 2023-10-03",
+        "occasion": "Mid-Autumn Festival, first stay as expanded family (daughter newly married, son-in-law joining for the first time)",
+        "party_composition": "Mrs. Shen + Mr. Gu + Wenqian + Lin Hao",
+        "notable_moments": [
+          "Concierge sent moon cakes from a small Wan Chai bakery (not the hotel's branded box) on Mrs. Shen's standing request — she gifted one set to son-in-law Lin Hao's parents in Qingdao via Rosewood's shipping",
+          "Mrs. Shen requested the Mid-Autumn dinner be served at 18:30 sharp so they could move to the rooftop for moon-viewing at 19:45 — timing matched the actual moonrise, which she had checked herself",
+          "Lin Hao was seated to Mr. Gu's left at dinner; Mrs. Shen quietly confirmed the seating chart with the maître d' beforehand"
+        ],
+        "service_choices": [
+          "Moon-viewing arrangement on Asaya terrace, tea service only (no alcohol)",
+          "Round private dining room for the family dinner",
+          "Pomelo and traditional mooncakes — not the chocolate or ice-cream variants"
+        ],
+        "declined_or_unused": [
+          "Hotel-branded Mid-Autumn gift box (declined — sourced her own from Wan Chai)",
+          "Champagne pairing with dinner (replaced with aged pu-erh)",
+          "Rooftop bar music programming (asked for it to be lowered during their moon-viewing window)"
+        ],
+        "memory_artifact_excerpt": "She is teaching the new son-in-law the family's rhythm without ever saying so. Seating, timing, and the choice of bakery are all instructions. Notice them; do not name them."
+      },
+      {
+        "property": "Rosewood Phuket",
+        "dates": "2024-01-26 to 2024-02-01",
+        "occasion": "Lunar New Year, daughter pregnant (second trimester)",
+        "party_composition": "Mrs. Shen + Mr. Gu + Wenqian (pregnant) + Lin Hao",
+        "notable_moments": [
+          "Asked for the villa with the shortest, flattest walk from the buggy drop-off to the entrance — pregnancy not stated, inferred from the request",
+          "Pre-ordered a thermos of ginger-and-red-date tea (姜枣茶) to be in the villa each morning before the daughter woke",
+          "Politely asked staff to never offer raw fish, sashimi, or unpasteurized cheese to the daughter — without explanation; staff inferred and complied across all outlets"
+        ],
+        "service_choices": [
+          "Two-bedroom pool villa, ground level",
+          "Cantonese-leaning menu at Ta Khai instead of the seafood-forward set",
+          "Late-morning rather than dawn beach time — adjusted for daughter's nausea window"
+        ],
+        "declined_or_unused": [
+          "Spa pregnancy massage menu (Mrs. Shen declined on her daughter's behalf — 'not yet')",
+          "Sunset cocktail experience",
+          "Long-tail boat excursion to nearby islands"
+        ],
+        "memory_artifact_excerpt": "Mrs. Shen protects without announcing. The ginger tea, the menu adjustments, the villa choice — none were ever explained, all were correct. The family operates on inference; staff who can match that earn trust quickly."
+      },
+      {
+        "property": "Rosewood Guangzhou",
+        "dates": "2025-04-04 to 2025-04-07",
+        "occasion": "Qingming festival short stay; first trip with grandchild (then 12 months)",
+        "party_composition": "Mrs. Shen + Mr. Gu + Wenqian + Lin Hao + Yaoyao (infant)",
+        "notable_moments": [
+          "Asked Madera-style restaurant Xi Yan to plate the grandchild's congee in a small ceramic bowl — 'not the plastic one, please' — and to serve it before the adult courses",
+          "Mrs. Shen never once requested a high chair to be placed at the table — she held Yaoyao through most meals; staff quietly kept a high chair within reach but unobtrusive",
+          "Requested the in-suite floral arrangement be removed on day 2 — 'the lilies are a bit strong for the baby'"
+        ],
+        "service_choices": [
+          "Connecting rooms, not a single large suite — privacy for the young family at night",
+          "Quiet corner table at every meal, always near a wall not a window (less distraction for the baby)",
+          "Stroller storage and discreet daily cleaning without being asked"
+        ],
+        "declined_or_unused": [
+          "Kids' welcome amenity (stuffed bear, branded — politely set aside)",
+          "In-room dining children's menu (Mrs. Shen prepared the baby's food herself from ingredients she brought)",
+          "Photographer for the baby's first hotel stay (declined — 'we have our own photos')"
+        ],
+        "memory_artifact_excerpt": "The grandchild is the center of every arrangement but is never the announced subject. Mrs. Shen's care is exercised through the room, the table, the flowers — not through requests about the child directly. Read the environment, not the child."
+      }
+    ],
+    "observed_register": [
+      "tea (Suzhou green, aged pu-erh, osmanthus)",
+      "seasonal (24 solar terms, festival timing)",
+      "Jiangnan classical (gardens, embroidery, calligraphy)",
+      "Wu sensibility (softness, indirection, restraint)",
+      "family ritual (round table, seating order, whole-fish symbolism)",
+      "quiet (curtains half-drawn, music lowered, corner tables)"
+    ],
+    "observed_avoidances": [
+      "Western holiday theming (Christmas, Western New Year)",
+      "branded gift boxes and corporate amenities",
+      "strong florals near the grandchild",
+      "raw or unpasteurized foods for the family",
+      "high-volume entertainment (lion dance in-suite, rooftop music during family moments)",
+      "champagne and alcohol pairings (replaced with tea)",
+      "being addressed as the subject of celebration — prefers attention on husband, daughter, grandchild",
+      "tourist-facing excursions (Peak Tram, Summer Palace tour, island-hopping)"
+    ],
+    "recurring_staff_relationships": [
+      {
+        "property": "Rosewood Hong Kong",
+        "staff": "Mr. Chan, Head Concierge",
+        "note": "Has handled three of her Hong Kong-area stays; trusted to source off-property items (Wan Chai bakery moon cakes, Sheung Wan embroidery atelier) without prompting. Mrs. Shen addresses him as 陈先生 and remembers his children's names."
+      },
+      {
+        "property": "Rosewood Hong Kong",
+        "staff": "Ms. Wong, Butterfly Room tea sommelier",
+        "note": "Mrs. Shen specifically asked for her by name during the 2022 stay; the osmanthus-jasmine pairing is her recommendation and has become Mrs. Shen's standing tea on property."
+      },
+      {
+        "property": "Rosewood Phuket",
+        "staff": "Khun Praew, Villa Host",
+        "note": "Anticipated the daughter's pregnancy without being told — arranged the ginger-and-red-date tea and the flat-walk villa. Mrs. Shen sent a hand-written thank-you card from Suzhou after the stay, which is unusual for her."
+      }
+    ],
+    "cross_property_pattern": "Across six years and four properties, Mrs. Shen's stays show a slow widening of the circle — from a quiet couple's trip, to family gatherings around festivals, to the first trip with the grandchild. The constants are: she chooses the rhythm, never announces it; she protects the youngest and the eldest at the table without naming the protection; and she rewards staff who infer rather than ask. Her trust is earned by what is *not* offered: branded amenities, loud experiences, and direct attention to her as celebrant."
+  },
+  "cultural_profile_hint": {
+    "cultural_lens": "East Asian Jiangnan classical · Wu literati matriarch",
+    "register": [
+      "tea (specific cultivars, not generic)",
+      "seasonal and festival timing (real moonrise, solar terms)",
+      "Suzhou garden aesthetics (restraint, framed views, half-revealed)",
+      "family ritual (seating order, whole-course symbolism, round tables)",
+      "calligraphy and embroidery as quiet markers",
+      "indirection — care expressed through environment, not language"
+    ],
+    "current_phase": "Earth — the matriarchal grounding phase; centered on family continuity, the transmission of rhythm to the next generation, and the quiet authorship of the gathering rather than its celebration of self",
+    "emotional_anchors": [
+      "the grandchild's first international memory — to be felt, not photographed",
+      "the husband's milestone-eve composure (his own 65th approaches next year)",
+      "the daughter as the bridge generation, learning to host her own family",
+      "the son-in-law's inclusion — making him belong without making him perform",
+      "her own 60th as a hinge, not a peak — a turning toward the role of elder"
+    ],
+    "avoid": [
+      "addressing her as the celebrant; route felicitations through husband or daughter",
+      "branded or themed birthday production (cake parade, staff song, signage)",
+      "Western luxury markers (champagne towers, rose petal turn-downs)",
+      "loud or high-stimulation experiences anywhere near nap time (13:00–15:00)",
+      "strong florals in family spaces — favor osmanthus, jasmine, or none",
+      "asking the family to articulate preferences in advance — read and offer instead",
+      "naming the grandchild as the subject of any arrangement, even when she is",
+      "tourist itineraries; the city is backdrop, the suite and the table are the stage"
+    ]
+  }
+}

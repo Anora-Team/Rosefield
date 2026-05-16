@@ -1,0 +1,260 @@
+{
+  "id": "ellsworth-vaughan",
+  "display_name": "Daniel Ellsworth & Marcus Vaughan",
+  "archetype_tag": "long-partnered-gay-couple-anniversary-art-world-intimate-dignity",
+  "direct_input": {
+    "birth_date": "1969-04-17",
+    "origin": "New York, NY, USA",
+    "stay_intent": "We just want a quiet week somewhere we don't have to explain ourselves, the way we used to plan around.",
+    "languages": ["English", "French (Marcus, fluent; Daniel, functional)"],
+    "booking_window": "Saturday–Friday, 6 nights — three at Rosewood London, three at Hôtel de Crillon, Paris"
+  },
+  "family": [
+    {
+      "relation": "spouse",
+      "name": "Marcus Vaughan",
+      "birth_date": "1967-09-02",
+      "origin": "London, United Kingdom",
+      "languages": ["English", "French"],
+      "notes": "Husband. Senior curator of post-war European drawings at a major London institution; previously at the Courtauld. Together with Daniel since 1999 (met in Venice during the Biennale install); legally married on 2015-07-04 at New York City Hall after the Obergefell ruling, two weeks after the decision came down. Holds dual UK/US tax residency. Mild rosacea — flushes visibly with hot rooms or strong wine, prefers his face not be commented on. Reads on paper, not screens.",
+      "traveling_on_this_stay": true
+    },
+    {
+      "relation": "parent",
+      "name": "Eleanor Ellsworth",
+      "origin": "Greenwich, CT, USA",
+      "notes": "Daniel's mother, 88. Widow of a Wall Street partner. Took fifteen years to use the word 'husband' for Marcus and now uses it without fanfare; sent the couple a handwritten note before the trip enclosed with a 1972 photograph of Daniel at age three. Does not travel anymore. Care home in Greenwich.",
+      "traveling_on_this_stay": false
+    },
+    {
+      "relation": "sibling",
+      "name": "Catherine Ellsworth Mori",
+      "origin": "Brooklyn, NY, USA",
+      "notes": "Daniel's younger sister, 53. Architect. Was the witness at the 2015 City Hall marriage along with Marcus's brother. The couple stops in to see her and her family every NY visit; she handles their mother's care.",
+      "traveling_on_this_stay": false
+    },
+    {
+      "relation": "sibling",
+      "name": "James Vaughan",
+      "origin": "Bath, United Kingdom",
+      "notes": "Marcus's older brother, 61. Retired GP. Hosted the couple's small private dinner in Bath on their 10th anniversary in 2009; quietly took on the family explaining when their father (deceased 2011) was still working things out. The other 2015 witness.",
+      "traveling_on_this_stay": false
+    },
+    {
+      "relation": "extended",
+      "name": "Henry Auerbach",
+      "origin": "San Francisco, CA, USA",
+      "notes": "Closest chosen-family. Painter, 71, widower (his husband Theo died of complications from long-term HIV in 2018). Was the older couple who modeled long partnership for Daniel and Marcus in the early 2000s; godfather-figure to no one because they don't have children, but the closest thing. Daniel calls him every Sunday. Not on this trip but a postcard will be sent.",
+      "traveling_on_this_stay": false
+    }
+  ],
+  "derived_from_history": {
+    "stays": [
+      {
+        "property": "Rosewood London",
+        "dates": "2022-10-13 to 2022-10-16",
+        "occasion": "Frieze London week — Marcus institutional attendance, Daniel accompanying",
+        "party_composition": "Couple",
+        "notable_moments": [
+          "On arrival the night manager addressed them as 'Mr. Ellsworth and Mr. Vaughan' once at the desk and never again unless directly necessary; both men relaxed visibly — the front-of-house team had been briefed by Marcus's PA but the brief was 'normal, not warm'",
+          "Requested a single king bed in the Garden Suite without it being noted on any printed welcome card; declined the standard pre-printed amenity card entirely on the second visit going forward",
+          "Marcus took breakfast in the room at 7:15 each morning with the Financial Times on paper; Daniel went down to the Mirror Room alone at 8:30 and read the LRB — staff learned by the second morning to seat him at the same corner banquette and not ask whether his partner would be joining"
+        ],
+        "service_choices": [
+          "Garden Suite, king bed configuration, second pillow set removed",
+          "Print newspapers — FT and Guardian on weekdays, NYT Sunday edition on Sundays, delivered to the door silently before 6:45",
+          "Scenes ironing service used heavily — they brought four jackets each",
+          "Late dinner at Holborn Dining Room booked under 'Vaughan, table for two, corner if possible' — staff seated them at the same back banquette three nights running without prompting"
+        ],
+        "declined_or_unused": [
+          "Welcome amenity card (declined for all subsequent stays)",
+          "Concierge offers of 'special touches' for the anniversary that fell during the trip — politely refused twice; the third time the concierge did not offer",
+          "Spa treatments (Marcus does not undress for staff)",
+          "Any in-room flowers beyond what the suite already had as standard"
+        ],
+        "memory_artifact_excerpt": "Couple. Long-partnered. Read print, not phones. Want the room arranged once, correctly, and then left alone. Mr. Vaughan signs; Mr. Ellsworth pays. Either is the decision-maker depending on the question — read the room. Do not refer to the relationship unless they do."
+      },
+      {
+        "property": "Hôtel de Crillon, A Rosewood Hotel",
+        "dates": "2023-06-22 to 2023-06-26",
+        "occasion": "Annual Paris week — they go every June, has predated their marriage",
+        "party_composition": "Couple",
+        "notable_moments": [
+          "Asked for the same suite as the prior year (Suite Marie-Antoinette adjacent corridor, specific room number on file); when it was unavailable the GM personally walked Marcus through three alternates at 11pm without apology theatre, and Marcus chose one quietly",
+          "Took an early walk to the Musée de l'Orangerie alone on the second morning while Daniel slept in; the concierge had arranged a private 8am access through a curator contact without being asked — Marcus declined the private access and went in with the general public when it opened, which the concierge logged as a preference, not a slight",
+          "Dined at Les Ambassadeurs once during the stay, at a corner table at 9:30pm; left after the main course and had dessert sent up — staff did not mark this as a complaint, correctly read it as the room being more intimate than the dining room"
+        ],
+        "service_choices": [
+          "Same suite year over year when available; otherwise a quiet alternate, not an 'upgrade'",
+          "Bath products: their own — they travel with a Santa Maria Novella kit; housekeeping leaves the hotel products in the cupboard, not the counter",
+          "Espresso machine and a small kettle in the room; tea tray with Mariage Frères 'Marco Polo' kept stocked",
+          "Florist brief on file: a single low arrangement of garden roses or peonies on the writing desk, no lilies (Daniel's mother's funeral flowers, though no one was told this), no orchids"
+        ],
+        "declined_or_unused": [
+          "Couples' spa package offered as a returning-guest courtesy",
+          "Bastille Day fireworks viewing setup on a private terrace (they leave Paris before the 14th deliberately)",
+          "Any reference to their being a couple in the printed in-room welcome — the GM removed it from their profile after the first stay",
+          "Photography by the in-house team on any occasion, ever"
+        ],
+        "memory_artifact_excerpt": "Returning June guests. Treat as régulier, not as VIP. The suite, the paper, the florist note, the corner table at Les Ambassadeurs — they want continuity, not surprise. Mr. Vaughan reads French press; Mr. Ellsworth orders in English and tips in cash. Do not announce them in the lobby."
+      },
+      {
+        "property": "Rosewood Castiglion del Bosco",
+        "dates": "2019-09-08 to 2019-09-15",
+        "occasion": "Marcus's 50th birthday — week-long private stay, villa booking",
+        "party_composition": "Couple plus Marcus's brother James and his wife (separate villa for three of the seven nights, couple alone for four)",
+        "notable_moments": [
+          "No party. No cake brought out by staff. Marcus's actual birthday dinner was at the villa — Daniel cooked pasta himself in the villa kitchen and the housekeeper Beatrice left a hand-written card and a single bottle of 2010 Brunello on the counter and then left the property by 6pm; the couple ate alone on the terrace",
+          "James and his wife arrived day four; for those three nights the brothers walked the estate in the early mornings while Daniel and James's wife had coffee — a pattern Beatrice noted and reinforced by setting two separate breakfast trays in two separate locations without asking",
+          "Daniel asked the estate's wine director for a private tasting on day six, framed as 'a gift for Marcus' — the tasting was held in the cellar with no staff narration beyond the technical, no toasts proposed, no birthday mentioned"
+        ],
+        "service_choices": [
+          "Villa with private kitchen, fully stocked but unattended after 6pm",
+          "Daily Italian newspaper (La Repubblica) and the FT international edition",
+          "Bicycles, used heavily by Marcus alone in the mornings",
+          "Wine cellar visit, technical register"
+        ],
+        "declined_or_unused": [
+          "Birthday cake and any kitchen-staff acknowledgment of the occasion",
+          "In-villa massage / spa package included with the villa booking",
+          "Cooking class with the estate's chef (Daniel cooks; he does not want to be taught)",
+          "Truffle hunt excursion (offered twice, declined both times — 'we'll just walk')"
+        ],
+        "memory_artifact_excerpt": "Mr. Vaughan turned 50 here. The property was instructed in advance: no cake, no song, no fuss. Held the line. Couple cooked themselves on the night itself. Brother and sister-in-law joined midway and the rhythm absorbed them without changing. Note for anniversary trips: the milestone is real to them; the marking is small."
+      },
+      {
+        "property": "Rosewood London",
+        "dates": "2024-04-19 to 2024-04-22",
+        "occasion": "Long weekend, no occasion stated",
+        "party_composition": "Couple",
+        "notable_moments": [
+          "Booked under Marcus's name only, paid on Daniel's card on arrival — the front desk processed this without comment, which the couple noticed and Marcus mentioned to the GM by name on departure ('thank you for not making a thing of it')",
+          "Daniel had a bad cold on the second day; the concierge sent up a kettle, fresh ginger, lemons, raw honey, and a single paper bag of Throat Coat tea with a typed note that said only 'feel better' — no doctor offered, no fuss; Daniel later told Marcus it was the kindest thing anyone at a hotel had done for him",
+          "Couple cancelled their Friday dinner reservation at the last minute and ate room-service shepherd's pie in robes watching a BBC documentary on Cy Twombly — front desk did not call to check in"
+        ],
+        "service_choices": [
+          "Same Garden Suite as 2022",
+          "Print papers as standing order",
+          "Robes left out, turndown skipped",
+          "Standing 'do not disturb after 8pm' instruction"
+        ],
+        "declined_or_unused": [
+          "All restaurant outreach beyond the original booking",
+          "Welcome amenity (removed from profile)",
+          "Housekeeping evening service the night of the cold"
+        ],
+        "memory_artifact_excerpt": "Returning. Garden Suite. Print papers. They run their own stay. The ginger-and-lemon for Mr. Ellsworth's cold landed — keep that instinct on the profile but do not script it. Treat as locals who chose to be guests."
+      },
+      {
+        "property": "Hôtel de Crillon, A Rosewood Hotel",
+        "dates": "2025-06-19 to 2025-06-23",
+        "occasion": "Annual June Paris week, 10th legal-marriage anniversary fell during the trip",
+        "party_composition": "Couple",
+        "notable_moments": [
+          "On the 4th of July — actual marriage anniversary — they were not in Paris (they had left on the 23rd), but on the morning of the 22nd a hand-written note appeared with their breakfast tray from the maître d'hôtel Olivier, who had been at the hotel since their first visit: just 'Pour célébrer dix années — discrètement, comme vous préférez. — O.' No flowers, no champagne, no acknowledgment in person; Marcus put the note in his book as a marker and the couple did not mention it that day",
+          "Daniel asked Olivier privately, on departure, how he had known — Olivier said 'Monsieur Vaughan mentioned it in passing in 2017'; this was the kind of memory that defined the relationship for them",
+          "Couple took a long walk in the Tuileries on the morning of the 22nd, came back, made love (housekeeping found the door-tag at noon and rebooked the room for 4pm without comment), then went to a small lunch alone at a bistro they have been going to since 2001"
+        ],
+        "service_choices": [
+          "Same suite as 2023",
+          "Olivier's section at breakfast every morning",
+          "Florist note unchanged",
+          "Standing room-service breakfast at 7:30"
+        ],
+        "declined_or_unused": [
+          "Anniversary package offered through the booking channel — declined at booking, not at the hotel",
+          "Couples' Sense spa booking auto-suggested by the booking platform",
+          "Any in-room mention of the anniversary by housekeeping, room service, or front desk",
+          "The Eiffel Tower view table at the Brasserie d'Aumont (they prefer the inside corner)"
+        ],
+        "memory_artifact_excerpt": "Olivier's note was the right amount. One sentence, in his hand, on a tray that was coming anyway. The men did not discuss it but Mr. Vaughan kept it. This is what 'celebration' means for them: a witness who knows, who marks it once, and then withdraws. Pattern is replicable. Do not formalize it."
+      }
+    ],
+    "observed_register": [
+      "continuity over surprise — same suite, same banquette, same florist note, year after year",
+      "print over digital — newspapers in hand, books on bedside, notes hand-written",
+      "addressed correctly once, then not foregrounded",
+      "separate morning rhythms inside a shared room — they do not require synchronized service",
+      "withdrawal as care — staff that leave the room cleanly are read as competent",
+      "art-world fluency without name-dropping (Marcus is a curator; staff should not ask what he does)",
+      "single-witness intimacy (Olivier, Beatrice) over plural attention",
+      "the marriage date matters; the marking does not need to be visible"
+    ],
+    "observed_avoidances": [
+      "Any printed reference to the relationship on welcome cards or in-room collateral",
+      "'Mr. & Mr.' as a phrase spoken aloud — once at check-in is plenty; not at every interaction",
+      "Champagne sent unprompted",
+      "Flowers beyond the standing florist brief — especially lilies (Daniel) and orchids",
+      "Spa treatments requiring undressing in front of staff (Marcus)",
+      "Photography of any kind by hotel staff",
+      "Pride-month decoration, rainbow welcome cards, allyship messaging, 'love is love' verbiage in any form audible to them",
+      "Surprise gestures, even tasteful ones — they read these as a loss of control over their own stay",
+      "Being introduced to other guests, especially other couples, by management",
+      "Lilies in any arrangement, anywhere they will see them",
+      "Being asked whether they are celebrating something",
+      "Anyone narrating their relationship to them ('what a wonderful partnership', 'lucky to have each other', etc.)"
+    ],
+    "recurring_staff_relationships": [
+      {
+        "property": "Hôtel de Crillon, A Rosewood Hotel",
+        "staff": "Maître d'hôtel breakfast service, Olivier",
+        "note": "Has served their breakfast every Paris visit since 2017. Remembered the marriage date from a single passing mention in 2017 and acted on it once, in 2025, with a one-sentence handwritten note on a tray that was coming anyway. This is the single most important staff relationship in the couple's Rosewood history — and the model for how acknowledgment should work for them everywhere."
+      },
+      {
+        "property": "Rosewood London",
+        "staff": "Concierge, Priya Shah",
+        "note": "Sent up ginger, lemons, honey and Throat Coat tea with a two-word typed note when Daniel had a cold in April 2024 — did not offer a doctor, did not call to check in. Couple asks for her by initial only on arrival ('is P. on this week?')."
+      },
+      {
+        "property": "Rosewood Castiglion del Bosco",
+        "staff": "Villa housekeeper, Beatrice",
+        "note": "Held the no-fuss instruction on Marcus's 50th birthday villa stay without slippage. Left the Brunello on the counter with a card and was gone before sundown. Couple asks after her by name when they consider returning."
+      },
+      {
+        "property": "Rosewood London",
+        "staff": "Holborn Dining Room head waiter, Stefan",
+        "note": "Seats them at the same back banquette unprompted; never offers the wine list to one over the other — places it equidistant on the table."
+      }
+    ],
+    "cross_property_pattern": "Across five stays at three properties over six years the couple has trained a small set of staff to do one thing: address them correctly once, set the room exactly as they like it, and then leave. The acknowledgment of their relationship that lands is the kind they did not ask for, delivered by a named person who has known them for years, in a single discreet gesture (Olivier's note, Beatrice's Brunello, Priya's ginger). The acknowledgment that fails is generic warmth from someone who just read their profile — they can hear the difference inside one sentence. They are marking, on this trip, their 11th legal-marriage anniversary (the 2015 City Hall date), which to them is the date their relationship was finally permitted to exist in legal language — sixteen years after it began. They want this trip to feel like the Olivier note, not like a package."
+  },
+  "cultural_profile_hint": {
+    "cultural_lens": "Long-partnered gay men, 50s, transatlantic art-world — a register built on decades of having had to negotiate visibility carefully and now choosing, in a different era, to remain quiet anyway; their privacy is not closeted, it is curated. They came of age before Stonewall was history and married each other the moment the law allowed; the law mattering means the date matters; the date mattering does not mean it should be performed. Cultural fluency runs through European post-war art, English print journalism, French restraint, American Jewish-and-Episcopalian family architecture — none of which they will name and all of which structure the room",
+    "register": [
+      "continuity (same suite, same table, same florist note) read as care",
+      "single-witness intimacy — one named staff member per property who knows, rather than a team that has been briefed",
+      "print materials, physical objects, hand-written notes, things that take a person to make",
+      "separate-but-together morning rhythms — they have lived together long enough that synchronized service insults them",
+      "the dignity of the un-special — being treated as régulier, not as event",
+      "art and architectural references handled by them, not introduced to them",
+      "French and English code-switching at Crillon, English-with-restraint at London",
+      "anniversary marking via the absence of fuss, not the presence of it"
+    ],
+    "current_phase": "Witnessed / Long-Companionship — the phase of having built, with one specific other person over more than two decades, a life that was once not legally allowed to exist; in which the relationship is no longer an event but the architecture itself, and what is being marked is not the romance but the duration, the fact of having been seen by each other every day for that long. The phase calls for staff who can hold the weight of the date (2015-07-04) without announcing it, the way a good witness in a courtroom answers the question and stops talking",
+    "emotional_anchors": [
+      "Olivier's 2025 note as the template: a single sentence, in someone's own hand, from someone who has known them long enough to have earned the right to mark it",
+      "The 2015 marriage date as a hinge — sixteen years of shared life before it, eleven after, and an awareness that earlier generations of gay couples (Henry and Theo, Daniel's friend David who died in 1994, the men Marcus came up under at the Courtauld) did not get either side of that line",
+      "Daniel's mother's slow arrival at the word 'husband' — they do not need it from strangers, having waited for it from her",
+      "Withdrawal as the gesture of respect — a staff member who leaves the room well is read as having paid attention",
+      "Continuity of small physical things — the same banquette, the same paper, the same florist note — as the felt fabric of long partnership",
+      "Each other's quiet (Marcus's rosacea, Daniel's tendency to read alone in the mornings) — staff who don't comment on either are doing the work"
+    ],
+    "avoid": [
+      "Any pride-marketing aesthetic — rainbow flags, 'love is love' anywhere in the room, June-specific welcome cards, allyship language of any era",
+      "'Mr. & Mr.' deployed warmly or repeatedly — the phrase is fine once at check-in if it's accurate; saying it three times signals performance and they will hear it",
+      "'Celebrate love' / 'celebrate your special bond' / any verbiage that makes the relationship visible-as-novelty",
+      "Champagne, rose petals, candles, in-room music, balloons, cake — all of it, regardless of taste level",
+      "Photography of any kind, with or without consent asked",
+      "Surprise gestures — the entire category, including discreet ones; if it is a surprise it is wrong",
+      "Anniversary-package framing in any channel they can see",
+      "Asking whether they are celebrating something",
+      "Pairing them at events with other gay couples on the assumption of shared interest",
+      "Mentioning Marcus's institution, public role, or curatorial work unless he raises it",
+      "Mentioning Daniel's family name (it carries financial-services associations he does not invite)",
+      "Lilies, orchids, anything heavily scented in the suite",
+      "Treating the older man (Marcus, 58) as primary or the American (Daniel) as the spender; the booking pattern shows they alternate signature and payment deliberately",
+      "Briefed warmth from staff who have just read the profile and want to demonstrate they have read it — they would rather be slightly under-noticed than over-known",
+      "Any framing that positions the property as 'safe' or 'welcoming' for them; the implication that this would otherwise be in question is itself the insult"
+    ]
+  }
+}
