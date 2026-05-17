@@ -127,15 +127,15 @@ Frontend only. Build against **hand-written mock JSON** that matches the agent s
 
 ---
 
-## Side-track V — Voice (optional, ~1.5 hours, can start after 1B.4)
+## Side-track V — Voice (restored 2026-05-16)
 
-Cut first if behind. None of the demo's thesis depends on voice.
+Originally cut per cut-order §1; restored on demo day per Zephyr request.
 
 | ID | Task | Status | Artifacts | Acceptance |
 |----|------|--------|-----------|------------|
-| V.1 | ElevenLabs TTS for Companion replies | ✂ | — | Cut per cut-order §1. |
-| V.2 | Web Speech API STT for user voice input | ✂ | — | Cut per cut-order §1. |
-| V.3 | Voice/text toggle in `CompanionInput` | ✂ | — | Cut per cut-order §1. (Voice toggle rendered ghosted in CompanionInput so the affordance still reads on screen.) |
+| V.1 | ElevenLabs TTS for Companion replies | ☑ | `web-app/src/lib/voice/elevenlabs.ts`, `web-app/src/app/api/voice/tts/route.ts`, `web-app/src/lib/voice/use-tts.ts` | POST `/api/voice/tts {text, voice_id?, model_id?, language_code?}` streams `audio/mpeg`. Server keeps `ELEVENLABS_API_KEY` private. Defaults: voice Charlotte (`XB0fDUnXU5powFXDhCwa`), model `eleven_turbo_v2_5` — both overridable via env (`ELEVENLABS_VOICE_ID`, `ELEVENLABS_MODEL_ID`). Per-message Play/Stop button on every Companion bubble (`CompanionThread`); single-utterance policy (new Play cancels prior). |
+| V.2 | Web Speech API STT for user voice input | ☑ | `web-app/src/lib/voice/use-speech-recognition.ts` | Browser-native `SpeechRecognition` (no API key). Click-to-start/stop in `CompanionInput`; interim transcript streams into the text input; auto-submits on the final transcript when the user committed via second tap. Falls back to disabled affordance + tooltip in unsupported browsers. |
+| V.3 | Voice/text toggle in `CompanionInput` | ☑ | `web-app/src/components/companion/CompanionInput.tsx` | Voice pill is the toggle: idle → "Voice", recording → "Listening…" with `border-line-emphasis`. Text input remains the primary path; voice is additive. |
 
 ---
 

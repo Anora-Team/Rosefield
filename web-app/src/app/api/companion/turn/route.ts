@@ -58,7 +58,7 @@ export async function POST(request: Request) {
   let pipelineError: Error | null = null;
 
   if (!pipeline) {
-    const deadlineMs = Number(process.env.PIPELINE_DEADLINE_MS ?? 45000);
+    const deadlineMs = Number(process.env.PIPELINE_DEADLINE_MS ?? 120_000);
     try {
       pipeline = await Promise.race([
         runPipeline(body),
@@ -71,12 +71,18 @@ export async function POST(request: Request) {
       ]);
     } catch (err) {
       pipelineError = err as Error;
-      console.warn(
-        "[companion/turn] live pipeline failed; attempting fallback.",
+      const inner =
+        err instanceof PipelineError ? (err.cause as { raw?: string; kind?: string } | undefined) : undefined;
+      const detail =
         err instanceof PipelineError
-          ? { stage: err.stage, message: err.message }
-          : { message: (err as Error).message },
-      );
+          ? {
+              stage: err.stage,
+              message: err.message,
+              kind: inner?.kind,
+              rawSnippet: inner?.raw?.slice(0, 400),
+            }
+          : { message: (err as Error)?.message ?? String(err), name: (err as Error)?.name };
+      console.warn("[companion/turn] live pipeline failed; attempting fallback.", detail);
     }
 
     // Live failed AND we hadn't tried fallback yet — try it now.

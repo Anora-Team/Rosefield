@@ -13,11 +13,11 @@ import type {
 
 import { CompanionThread } from "@/components/companion/CompanionThread";
 import { CompanionInput } from "@/components/companion/CompanionInput";
-import { ProfileGlimpse } from "@/components/companion/ProfileGlimpse";
 import { MemoryArtifact } from "@/components/companion/MemoryArtifact";
 import { TheaterStack } from "@/components/theater/TheaterStack";
 import { PersonaSwitcher, type PersonaId } from "@/components/controls/PersonaSwitcher";
 import { ContextControls } from "@/components/controls/ContextControls";
+import { ModeToggle, type AgentMode } from "@/components/controls/ModeToggle";
 import type { ConsentAction } from "@/components/companion/ConsentAffordance";
 
 import {
@@ -142,6 +142,8 @@ function freshState(seed: PersonaSeed): PersonaState {
 // -----------------------------------------------------------------------------
 export default function Home() {
   const [activePersona, setActivePersona] = useState<PersonaId>("liu");
+  const [agentMode, setAgentMode] = useState<AgentMode>("cached");
+  const [inFlight, setInFlight] = useState(false);
   const [byPersona, setByPersona] = useState<Record<PersonaId, PersonaState>>(() => ({
     liu: freshState(PERSONAS.liu),
     sarah: freshState(PERSONAS.sarah),
@@ -228,10 +230,15 @@ export default function Home() {
         scenario_hint: `${activePersona}-turn-${before.fallbackCursor}`,
       };
 
+      setInFlight(true);
       try {
+        const headers: Record<string, string> = {
+          "Content-Type": "application/json",
+        };
+        if (agentMode === "live") headers["x-rosefield-mode"] = "live";
         const res = await fetch("/api/companion/turn", {
           method: "POST",
-          headers: { "Content-Type": "application/json" },
+          headers,
           body: JSON.stringify(req),
         });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -252,9 +259,11 @@ export default function Home() {
           ...prev,
           [activePersona]: advanceFallback(prev[activePersona], undefined),
         }));
+      } finally {
+        setInFlight(false);
       }
     },
-    [activePersona, byPersona, buildThreadState, advanceFallback],
+    [activePersona, agentMode, byPersona, buildThreadState, advanceFallback],
   );
 
   const handleConsent = useCallback(
@@ -337,9 +346,13 @@ export default function Home() {
           scenario_hint: "liu-weather-pivot",
         };
         try {
+          const headers: Record<string, string> = {
+            "Content-Type": "application/json",
+          };
+          if (agentMode === "live") headers["x-rosefield-mode"] = "live";
           const res = await fetch("/api/companion/turn", {
             method: "POST",
-            headers: { "Content-Type": "application/json" },
+            headers,
             body: JSON.stringify(req),
           });
           if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -358,7 +371,7 @@ export default function Home() {
         }
       })();
     },
-    [activePersona, byPersona, buildThreadState, updateActive],
+    [activePersona, agentMode, byPersona, buildThreadState, updateActive],
   );
 
   const handleRevealMemory = useCallback(() => {
@@ -421,6 +434,7 @@ export default function Home() {
           </div>
           <div className="flex flex-wrap items-center gap-section">
             <PersonaSwitcher active={activePersona} onSwitch={handlePersonaSwitch} />
+            <ModeToggle mode={agentMode} onChange={setAgentMode} />
             <ContextControls context={state.context} onChange={handleContextChange} />
             {seed.memory && (
               <button
@@ -449,12 +463,26 @@ export default function Home() {
           className="relative min-h-0 overflow-y-auto border-b lg:border-b-0 lg:border-r border-line-hairline bg-surface-canvas"
         >
           <div className="px-canvas-x py-canvas-y flex flex-col gap-section min-h-full">
-            <div className="flex items-baseline justify-between">
-              <h2 className="text-heading-lg font-serif text-content-primary">
-                {seed.name}
-              </h2>
-              <span className="text-micro uppercase tracking-wide text-content-tertiary">
-                Companion
+            <div className="flex items-center justify-between border-b border-line-hairline pb-stack">
+              <div className="flex items-center gap-stack">
+                <span
+                  aria-hidden="true"
+                  className="flex h-9 w-9 items-center justify-center border border-line-hairline bg-surface-raised font-serif text-body-lg text-accent-signature"
+                >
+                  R
+                </span>
+                <div className="flex flex-col">
+                  <h2 className="text-heading-md font-serif text-content-primary leading-none">
+                    Rosewood Sand Hill
+                  </h2>
+                  <span className="mt-1 text-micro uppercase tracking-wide text-content-tertiary">
+                    Concierge
+                  </span>
+                </div>
+              </div>
+              <span className="inline-flex items-center gap-1.5 text-micro uppercase tracking-wide text-content-tertiary">
+                <span className="block h-1.5 w-1.5 rounded-full bg-accent-signature" />
+                Available
               </span>
             </div>
 
@@ -462,14 +490,11 @@ export default function Home() {
               messages={state.messages}
               onConsent={handleConsent}
               awaitingConsentId={awaitingConsentId}
+              inFlight={inFlight}
             />
 
-            <div className="mt-auto flex flex-col gap-section">
+            <div className="mt-auto">
               <CompanionInput onSubmit={handleSubmit} />
-              <ProfileGlimpse
-                profile={state.pipeline?.profile}
-                guestName={seed.name}
-              />
             </div>
           </div>
 

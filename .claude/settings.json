@@ -29,7 +29,9 @@
       "Bash(pnpm lint *)",
       "Skill(frontend-design:frontend-design)",
       "Skill(frontend-design:frontend-design:*)",
-      "Bash(open /Users/zhiruifeng/Workspace/Anora-Team/Rosefield/demo/index.html)"
+      "Bash(open /Users/zhiruifeng/Workspace/Anora-Team/Rosefield/demo/index.html)",
+      "Skill(explore-new-skills)",
+      "Skill(explore-new-skills:*)"
     ],
     "deny": [
       "Bash(rm -rf /)",

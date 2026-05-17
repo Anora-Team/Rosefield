@@ -53,6 +53,6 @@ export async function call(
 ): Promise<PropertyExperienceOutput> {
   return callJson<PropertyExperienceOutput>(systemPrompt, buildPayload(input), {
     agentName: "property-hub",
-    maxTokens: 1500,
+    maxTokens: 2500,
   });
 }
