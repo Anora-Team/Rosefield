@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type {
   CompanionTurnRequest,
@@ -436,6 +437,18 @@ export default function Home() {
             <PersonaSwitcher active={activePersona} onSwitch={handlePersonaSwitch} />
             <ModeToggle mode={agentMode} onChange={setAgentMode} />
             <ContextControls context={state.context} onChange={handleContextChange} />
+            <Link
+              href="/simulate"
+              className={[
+                "border border-line-hairline bg-transparent",
+                "px-4 py-2 text-micro uppercase tracking-wide",
+                "text-accent-signature",
+                "hover:bg-surface-sunken transition-colors duration-base ease-quiet",
+                "focus:outline-none focus-visible:border-line-emphasis",
+              ].join(" ")}
+            >
+              Simulation →
+            </Link>
             {seed.memory && (
               <button
                 type="button"

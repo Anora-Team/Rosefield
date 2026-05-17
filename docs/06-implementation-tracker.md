@@ -167,6 +167,21 @@ Replace mocked agent data in the UI with real API calls. Wire scenario by scenar
 
 ---
 
+## Side-track S — Simulation page (added 2026-05-16)
+
+Demo-day add: a `/simulate` route to stress-test the curation engine before the room. Two modes — Per-Stay (one guest × N conditions) and Property-Wide (VIP cohort × resource coverage). Cached-first; per-cell live recompute via Sonnet 4.6.
+
+| ID | Task | Status | Artifacts | Acceptance |
+|----|------|--------|-----------|------------|
+| S.1 | Simulation types + cached fixtures | ☑ | `web-app/src/lib/simulate/{types,fixtures}.ts` | 3 per-stay sims (Inoue, Al Zahrani, Rosen) with 25-cell matrix + 3–4 pivots + 3–4 surprises + 6–8 timeline touchpoints each; 10-guest × 10-resource coverage heatmap + 8 ranked curation gaps. |
+| S.2 | `/simulate` route shell + SimModeToggle | ☑ | `web-app/src/app/simulate/page.tsx`, `web-app/src/components/simulate/SimModeToggle.tsx` | Header reuses `ModeToggle` (cached/live). Density="staff" wrapper. Back-link to `/` and forward `Simulation →` from `/`. |
+| S.3 | Per-Stay view + 4 axis panels | ☑ | `web-app/src/components/simulate/per-stay/{PerStayView,GuestPicker,ConditionsMatrix,PivotsPanel,SurprisesPanel,TimelinePanel}.tsx` | Guest picker on left, axis tabs on right. Matrix highlights shifts vs baseline via 4 tone classes; click-to-detail aside renders cell rationale + Run-live affordance. |
+| S.4 | Property-Wide view + heatmap + gaps | ☑ | `web-app/src/components/simulate/property/{PropertyView,CoverageHeatmap,GapList}.tsx` | 10×10 fit grid (strong/neutral/soft-gap/hard-gap/conflict) with hover-detail aside; 8 ranked curation gaps with severity tags. |
+| S.5 | Live recompute API | ☑ | `web-app/src/app/api/simulate/run/route.ts` | POST returns `{ detail, source }` — calls `callJson` against Sonnet 4.6 with a per-cell prompt. Falls back to a stable string when `ANTHROPIC_API_KEY` is missing. Surfaces as `[live]` suffix inside the cell detail. |
+| S.6 | Header link + smoke test | ☑ | `web-app/src/app/page.tsx` (Simulation → link) | Both views load with zero console errors; per-stay axis tabs (matrix/pivots/surprises/timeline) render; property heatmap interactive; round-trip via header link works. `pnpm exec tsc --noEmit` + `pnpm lint` clean. |
+
+---
+
 ## Dependency map (explicit)
 
 ```

@@ -28,3 +28,6 @@ yarn-error.log*
 
 # Node (in case anything runs at root)
 node_modules/
+
+# Playwright MCP browser testing artifacts (page snapshots, console logs)
+.playwright-mcp/
